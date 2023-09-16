@@ -83,11 +83,11 @@ data_template={
 }
 
 parameter_template={
-    'Turn':1, #用于定位
+    'Turn':0, #用于定位
     'Group':1,
     'Number':1,
-    'Weight':1,
-    'Mark':False,
+    'Weight':1, #迭代选择pc的权重，不是pc数据
+    'Mark':False, #迭代选择pc的标记
 }
 
 pc_template={
@@ -96,6 +96,9 @@ pc_template={
 }
 
 def data_dict_to_str(data):
+    '''
+    将PC数据由字典形式转化为字符串
+    '''
     #直接列出各项属性，PC格式有变时方便检查
     '''
     ?ATK ?W=2 YA?_a ?G=3 ?M=1 850 1500 7 11
@@ -109,6 +112,7 @@ def data_dict_to_str(data):
     1 BO
     '''
     s=''
+    #第1行
     if(data['Mode']):
         s+=data['Mode']+' '
     
@@ -132,9 +136,9 @@ def data_dict_to_str(data):
     s+=f"{data['Player level']} "
     s+=f"{data['Skill slot']} "
     s+=f"{data['Quality']}\n"
-
+    #第2行
     s+=f"WISH {' '.join(map(str,data['Wish']))}\n"
-    
+    #第3行
     if(sum(data['Amulet'].values())>0):
         s+='AMULET '
 
@@ -143,14 +147,14 @@ def data_dict_to_str(data):
                 s+=item+' '+str(data['Amulet'][item])+' '
         
         s+='ENDAMULET\n'
-    
+    #第4行
     s+=f"{data['Attribute']['Str']} "
     s+=f"{data['Attribute']['Agi']} "
     s+=f"{data['Attribute']['Int']} "
     s+=f"{data['Attribute']['Vit']} "
     s+=f"{data['Attribute']['Spr']} "
     s+=f"{data['Attribute']['Mnd']} \n"
-
+    #第5-8行
     s+=f"{data['Weapon']['Type']} "
     s+=f"{data['Weapon']['Level']} "
     s+=' '.join(map(str,data['Weapon']['Percentage']))
@@ -170,14 +174,29 @@ def data_dict_to_str(data):
     s+=f"{data['Head']['Level']} "
     s+=' '.join(map(str,data['Head']['Percentage']))
     s+=f" {data['Head']['Myst']}\n"
-
+    #第9行
     s+=f"{data['Aura']['Amount']} "
     s+=f"{' '.join(data['Aura']['Skill'])}"
+
     return s
 
 def data_str_to_dict(s):
+    '''
+    将PC数据由字符串形式转化为字典
+    '''
     data=copy.deepcopy(data_template)
-
+    '''
+    ?ATK ?W=2 YA?_a ?G=3 ?M=1 850 1500 7 11
+    WISH 0*14
+    ?AMULET AAA 10 ENDAMULET
+    1 1 1 1 2837 1
+    NONE
+    NONE
+    CLOAK 300 150 150 150 150 1
+    NONE
+    1 BO
+    '''
+    #第1行
     pattern=r'(?:(?P<Mode>ATK|DEF) )?'
     pattern+=r'(?:W=(?P<Weight>\d+) )?'
     pattern+=r'(?P<Role>[A-Z]+)'
@@ -188,18 +207,18 @@ def data_str_to_dict(s):
     pattern+=r'(?P<Player_level>\d+) '
     pattern+=r'(?P<Skill_slot>\d+) '
     pattern+=r'(?P<Quality>\d+)\n'
-
+    #第2行
     pattern+=r'(?:WISH (?P<Wish>[\d ]+)\n)'
-
+    #第3行
     pattern+=r'(?:AMULET (?P<Amulet>[A-Z\d ]+) ENDAMULET\n)?'
-
+    #第4行
     pattern+=r'(?P<Attribute>[\d ]+)\n'
-
+    #第5-8行
     pattern+=r'(?P<Weapon>[A-Z]+[\d ]+)\n'
     pattern+=r'(?P<Hand>[A-Z]+[\d ]+)\n'
     pattern+=r'(?P<Body>[A-Z]+[\d ]+)\n'
     pattern+=r'(?P<Head>[A-Z]+[\d ]+)\n'
-
+    #第9行
     pattern+=r'(?P<Aura>\d+[A-Z ]+)'
 
     match=re.match(pattern,s)

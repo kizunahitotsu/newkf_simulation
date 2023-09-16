@@ -1,7 +1,3 @@
-import json
-
-Use_json=False
-
 lib={'Role':{
         'WU':{'Growth':True,'Time':False},
         'MO':{'Growth':False,'Time':False},
@@ -36,9 +32,10 @@ lib={'Role':{
         'RING':{'Position':'Hand','Myst':'WU'},
         'DEVOUR':{'Position':'Hand','Myst':'MING'},
 
-        'PLATE':{'Position':'Body','Myst':False},
-        'LEATHER':{'Position':'Body','Myst':False},
-        'CLOTH':{'Position':'Body','Myst':False},
+        #'PLATE':{'Position':'Body','Myst':False},
+        #'LEATHER':{'Position':'Body','Myst':False},
+        #'CLOTH':{'Position':'Body','Myst':False},
+        #禁用三废
         'CLOAK':{'Position':'Body','Myst':True},
         'THORN':{'Position':'Body','Myst':True},
         'WOOD':{'Position':'Body','Myst':True},
@@ -95,7 +92,7 @@ option={
         'Citest_apc':5,
         'Tests_vb':1000,
         'Citest_vb':1,
-        'Verbose':0,
+        'Verbose':1, #=1用于调试，平时=0
     },
     'Global variable':{
         'Card':{
@@ -143,8 +140,10 @@ option={
             'Myst percentage':[140,140,140,140],
         },
     },
-    #若分组内变量为空，则使用相应全局变量，支持单独设置Card Wish Amulet Gear，其中Wish应为完整14项列表
-    #800-1600的一个近似正态分布，总数为100
+    #若分组内变量为空，则使用相应全局变量
+    #支持单独设置Card Amulet Gear（会覆盖全局变量相应项），支持单独设置Wish（应为完整14项列表）
+
+    #钦定800-1600的一个近似正态分布，总数为100
     'Group':{
         1:{'Player level':800,'Aura value':270,'Size':3,
             'Card':{},'Wish':[],'Amulet':{},'Gear':{},},
@@ -167,6 +166,11 @@ option={
     },
 }
 
+'''
+import json
+
+Use_json=False
+
 if __name__ == '__main__':
     with open('lib.json',mode='w+',encoding='UTF-8') as f:
         json.dump(lib,f,separators=(',',':'),indent=4)
@@ -180,4 +184,4 @@ elif Use_json:
 
     with open('option.json',mode='w+',encoding='UTF-8') as f:
         option=json.load(f)
-
+'''

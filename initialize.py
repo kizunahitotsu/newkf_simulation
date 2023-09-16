@@ -8,7 +8,32 @@ import random
 lib=option_visual.lib
 option=option_visual.option
 
+with open('info.json',mode='r',encoding='UTF-8') as f:
+    info=json.load(f)
+
+#info={'Step':1,'Turn':0}
+
+def check_wish():
+    '''
+    检查Wish列表长度是否为14
+    '''
+    if(option['Global variable']['Wish']):
+        if(len(option['Global variable']['Wish'])!=14):
+            print('Global variable的Wish列表长度不为14，请检查！')
+            return False
+    
+    for group in option['Group']:
+        if(option['Group'][group]['Wish']):
+            if(len(option['Group'][group]['Wish'])!=14):
+                print(f"第{group}组的Wish列表长度不为14，请检查！")
+                return False
+    
+    return True
+
 def generate_data(group):
+    '''
+    随机生成第group组的pc数据
+    '''
     g=option['Group'][group]
     data=copy.deepcopy(pc_form.data_template)
 
@@ -19,11 +44,7 @@ def generate_data(group):
 
     wish=copy.deepcopy(option['Global variable']['Wish'])
     if(g['Wish']):
-        #确保Wish是14项列表，若不是则按照全局变量
-        if(len(g['Wish'])==14):
-            wish=copy.deepcopy(g['Wish'])
-        else:
-            print(f"第{group}组内Wish列表长度有误！")
+        wish=copy.deepcopy(g['Wish'])
 
     amulet=copy.deepcopy(option['Global variable']['Amulet'])
     for item in g['Amulet']:
@@ -53,30 +74,24 @@ def generate_data(group):
         data['Time']=random.choice([0,1])
     
     #生成随机Attribute
-    #并不是完全均匀的随机，不过管他呢
     point=int((3*data['Level']+6)*(1+0.01*data['Quality']))
-    point-=6 #每个属性至少分配1点
-    rand=[]
-    attribute=[]
-    for i in range(6):
-        rand.append(random.random())
+    #随机前5项，需要满足和小于总点数
+    while(True):
+        attribute=[]
+        for i in range(5):
+            attribute.append(random.randrange(1,point))
+        
+        if(sum(attribute)<point):
+            break
     
-    s=sum(rand)
-    for i in range(6):
-        rand[i]/=s
-        attribute.append(int(point*rand[i]))
-    
-    #由于取整，属性和可能比point少，随机补足
-    while(sum(attribute)<point):
-        attribute[random.randrange(0,6)]+=1
-    
-    #最后补上至少分配的1点属性
-    data['Attribute']['Str']=attribute[0]+1
-    data['Attribute']['Agi']=attribute[1]+1
-    data['Attribute']['Int']=attribute[2]+1
-    data['Attribute']['Vit']=attribute[3]+1
-    data['Attribute']['Spr']=attribute[4]+1
-    data['Attribute']['Mnd']=attribute[5]+1
+    attribute.append(point-sum(attribute))
+
+    data['Attribute']['Str']=attribute[0]
+    data['Attribute']['Agi']=attribute[1]
+    data['Attribute']['Int']=attribute[2]
+    data['Attribute']['Vit']=attribute[3]
+    data['Attribute']['Spr']=attribute[4]
+    data['Attribute']['Mnd']=attribute[5]
 
     #生成随机Gear
     #用(item,0/1)的形式记录装备名+神秘，只在模板基础上修改各装备属性
@@ -142,9 +157,46 @@ def generate_data(group):
         data['Head']['Percentage']=gear['Percentage']
     
     #生成随机Aura
+    #不考虑300光环，那么由于SHI XIN FENG的存在，非0光环最少也能选4个，于是固定7技能
+    data['Aura']['Amount']=7
+    #直接随机会得到乱序，先随机选index，排序后再选取光环
+    aura_list=list(lib['Aura'].keys())
+    while(True):
+        choice=random.sample(range(len(aura_list)),7)
+        s=0
+        for i in choice:
+            s+=lib['Aura'][aura_list[i]]
+        
+        if(s<=g['Aura value']):
+            break
+    
+    choice.sort()
+    aura=[]
+    for i in choice:
+        aura.append(aura_list[i])
+    
+    data['Aura']['Skill']=aura
     
     return data
 
+def initialize():
+    '''
+    初始化：随机生成初始data，添加参数形成pc，最后进行存储
+    '''
+    #check_wish()放到iterate中进行，方便控制流程
+    pc_list=[]
 
-#data['Name']=f"({group},{number})"
-print(pc_form.data_dict_to_str(generate_data(1)))
+    for group in option['Group']:
+        for number in range(1,option['Group'][group]['Size']+1):
+            data=generate_data(group)
+            data['Name']=f"({group},{number})"
+            
+            parameter=copy.deepcopy(pc_form.parameter_template)
+            parameter['Group']=group
+            parameter['Number']=number
+
+            pc_list.append({'Data':data,'Parameter':parameter})
+
+    with open('pc.json',mode='w+',encoding='UTF-8') as f:
+        json.dump(pc_list,f,separators=(',',':'),indent=4)
+
