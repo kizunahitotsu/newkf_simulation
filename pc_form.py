@@ -1,3 +1,5 @@
+import option_visual
+
 import re
 import copy
 
@@ -95,11 +97,11 @@ pc_template={
     'Parameter':parameter_template,
 }
 
-def data_dict_to_str(data):
+def data_dict_to_str(data:dict):
     '''
-    将PC数据由字典形式转化为字符串
+    将pc数据由字典形式转化为字符串
     '''
-    #直接列出各项属性，PC格式有变时方便检查
+    #直接列出各项属性，pc格式有变时方便检查
     '''
     ?ATK ?W=2 YA?_a ?G=3 ?M=1 850 1500 7 11
     WISH 0*14
@@ -111,78 +113,86 @@ def data_dict_to_str(data):
     NONE
     1 BO
     '''
-    s=''
+    s_list=[]
+
     #第1行
     if(data['Mode']):
-        s+=data['Mode']+' '
+        s_list.append(data['Mode']+' ')
     
     if(data['Weight']!=1):
-        s+=f"W={data['Weight']} "
+        s_list.append(f"W={data['Weight']} ")
     
-    s+=data['Role']
+    s_list.append(data['Role'])
 
     if(data['Name']):
-        s+='_'+data['Name']
+        s_list.append('_'+data['Name'])
     
-    s+=' '
+    s_list.append(' ')
 
     if(data['Growth']):
-        s+=f"G={data['Growth']} "
+        s_list.append(f"G={data['Growth']} ")
 
     if(data['Time']>-1):
-        s+=f"M={data['Time']} "
+        s_list.append(f"M={data['Time']} ")
 
-    s+=f"{data['Level']} "
-    s+=f"{data['Player level']} "
-    s+=f"{data['Skill slot']} "
-    s+=f"{data['Quality']}\n"
+    s_list.append(f"{data['Level']} ")
+    s_list.append(f"{data['Player level']} ")
+    s_list.append(f"{data['Skill slot']} ")
+    s_list.append(f"{data['Quality']}\n")
+
     #第2行
-    s+=f"WISH {' '.join(map(str,data['Wish']))}\n"
+    s_list.append(f"WISH {' '.join(map(str,data['Wish']))}\n")
+
     #第3行
     if(sum(data['Amulet'].values())>0):
-        s+='AMULET '
+        s_list.append('AMULET ')
 
         for item in data['Amulet']:
             if(data['Amulet'][item]):
-                s+=item+' '+str(data['Amulet'][item])+' '
+                s_list.append(item+' '+str(data['Amulet'][item])+' ')
         
-        s+='ENDAMULET\n'
+        s_list.append('ENDAMULET\n')
+    
     #第4行
-    s+=f"{data['Attribute']['Str']} "
-    s+=f"{data['Attribute']['Agi']} "
-    s+=f"{data['Attribute']['Int']} "
-    s+=f"{data['Attribute']['Vit']} "
-    s+=f"{data['Attribute']['Spr']} "
-    s+=f"{data['Attribute']['Mnd']} \n"
+    s_list.append(f"{data['Attribute']['Str']} ")
+    s_list.append(f"{data['Attribute']['Agi']} ")
+    s_list.append(f"{data['Attribute']['Int']} ")
+    s_list.append(f"{data['Attribute']['Vit']} ")
+    s_list.append(f"{data['Attribute']['Spr']} ")
+    s_list.append(f"{data['Attribute']['Mnd']} \n")
+
     #第5-8行
-    s+=f"{data['Weapon']['Type']} "
-    s+=f"{data['Weapon']['Level']} "
-    s+=' '.join(map(str,data['Weapon']['Percentage']))
-    s+=f" {data['Weapon']['Myst']}\n"
+    s_list.append(f"{data['Weapon']['Type']} ")
+    s_list.append(f"{data['Weapon']['Level']} ")
+    s_list.append(' '.join(map(str,data['Weapon']['Percentage'])))
+    s_list.append(f" {data['Weapon']['Myst']}\n")
     
-    s+=f"{data['Hand']['Type']} "
-    s+=f"{data['Hand']['Level']} "
-    s+=' '.join(map(str,data['Hand']['Percentage']))
-    s+=f" {data['Hand']['Myst']}\n"
+    s_list.append(f"{data['Hand']['Type']} ")
+    s_list.append(f"{data['Hand']['Level']} ")
+    s_list.append(' '.join(map(str,data['Hand']['Percentage'])))
+    s_list.append(f" {data['Hand']['Myst']}\n")
     
-    s+=f"{data['Body']['Type']} "
-    s+=f"{data['Body']['Level']} "
-    s+=' '.join(map(str,data['Body']['Percentage']))
-    s+=f" {data['Body']['Myst']}\n"
+    s_list.append(f"{data['Body']['Type']} ")
+    s_list.append(f"{data['Body']['Level']} ")
+    s_list.append(' '.join(map(str,data['Body']['Percentage'])))
+    s_list.append(f" {data['Body']['Myst']}\n")
     
-    s+=f"{data['Head']['Type']} "
-    s+=f"{data['Head']['Level']} "
-    s+=' '.join(map(str,data['Head']['Percentage']))
-    s+=f" {data['Head']['Myst']}\n"
+    s_list.append(f"{data['Head']['Type']} ")
+    s_list.append(f"{data['Head']['Level']} ")
+    s_list.append(' '.join(map(str,data['Head']['Percentage'])))
+    s_list.append(f" {data['Head']['Myst']}\n")
+
     #第9行
-    s+=f"{data['Aura']['Amount']} "
-    s+=f"{' '.join(data['Aura']['Skill'])}"
+    s_list.append(f"{data['Aura']['Amount']} ")
+    s_list.append(f"{' '.join(data['Aura']['Skill'])}")
+
+    s=''.join(s_list)
 
     return s
 
-def data_str_to_dict(s):
+def data_str_to_dict(s:str):
     '''
-    将PC数据由字符串形式转化为字典
+    将pc数据由字符串形式转化为字典
     '''
     data=copy.deepcopy(data_template)
     '''
@@ -196,31 +206,39 @@ def data_str_to_dict(s):
     NONE
     1 BO
     '''
-    #第1行
-    pattern=r'(?:(?P<Mode>ATK|DEF) )?'
-    pattern+=r'(?:W=(?P<Weight>\d+) )?'
-    pattern+=r'(?P<Role>[A-Z]+)'
-    pattern+=r'(?:_(?P<Name>[^ ]+))? '
-    pattern+=r'(?:G=(?P<Growth>\d+) )?'
-    pattern+=r'(?:M=(?P<Time>[01]) )?'
-    pattern+=r'(?P<Level>\d+) '
-    pattern+=r'(?P<Player_level>\d+) '
-    pattern+=r'(?P<Skill_slot>\d+) '
-    pattern+=r'(?P<Quality>\d+)\n'
-    #第2行
-    pattern+=r'(?:WISH (?P<Wish>[\d ]+)\n)'
-    #第3行
-    pattern+=r'(?:AMULET (?P<Amulet>[A-Z\d ]+) ENDAMULET\n)?'
-    #第4行
-    pattern+=r'(?P<Attribute>[\d ]+)\n'
-    #第5-8行
-    pattern+=r'(?P<Weapon>[A-Z]+[\d ]+)\n'
-    pattern+=r'(?P<Hand>[A-Z]+[\d ]+)\n'
-    pattern+=r'(?P<Body>[A-Z]+[\d ]+)\n'
-    pattern+=r'(?P<Head>[A-Z]+[\d ]+)\n'
-    #第9行
-    pattern+=r'(?P<Aura>\d+[A-Z ]+)'
+    pattern_list=[]
 
+    #第1行
+    pattern_list.append(r'(?:(?P<Mode>ATK|DEF) )?')
+    pattern_list.append(r'(?:W=(?P<Weight>\d+) )?')
+    pattern_list.append(r'(?P<Role>[A-Z]+)')
+    pattern_list.append(r'(?:_(?P<Name>[^ ]+))? ')
+    pattern_list.append(r'(?:G=(?P<Growth>\d+) )?')
+    pattern_list.append(r'(?:M=(?P<Time>[01]) )?')
+    pattern_list.append(r'(?P<Level>\d+) ')
+    pattern_list.append(r'(?P<Player_level>\d+) ')
+    pattern_list.append(r'(?P<Skill_slot>\d+) ')
+    pattern_list.append(r'(?P<Quality>\d+)\n')
+
+    #第2行
+    pattern_list.append(r'(?:WISH (?P<Wish>[\d ]+)\n)')
+
+    #第3行
+    pattern_list.append(r'(?:AMULET (?P<Amulet>[A-Z\d ]+) ENDAMULET\n)?')
+
+    #第4行
+    pattern_list.append(r'(?P<Attribute>[\d ]+)\n')
+
+    #第5-8行
+    pattern_list.append(r'(?P<Weapon>[A-Z]+[\d ]+)\n')
+    pattern_list.append(r'(?P<Hand>[A-Z]+[\d ]+)\n')
+    pattern_list.append(r'(?P<Body>[A-Z]+[\d ]+)\n')
+    pattern_list.append(r'(?P<Head>[A-Z]+[\d ]+)\n')
+
+    #第9行
+    pattern_list.append(r'(?P<Aura>\d+[A-Z ]+)')
+
+    pattern=''.join(pattern_list)
     match=re.match(pattern,s)
 
     if match['Mode']:
@@ -247,6 +265,8 @@ def data_str_to_dict(s):
     
     if match['Time']:
         data['Time']=int(match['Time'])
+    elif(option_visual.lib['Role'][match['Role']]['Time']): #有time的角色不显示time默认为0
+        data['Time']=0
     else:
         data['Time']=-1
     

@@ -30,9 +30,9 @@ def check_wish():
     
     return True
 
-def generate_data(group):
+def generate_data(group:int):
     '''
-    随机生成第group组的pc数据
+    随机生成第group组的pc数据，返回data
     '''
     g=option['Group'][group]
     data=copy.deepcopy(pc_form.data_template)
@@ -181,7 +181,7 @@ def generate_data(group):
 
 def initialize():
     '''
-    初始化：随机生成初始data，添加参数形成pc，最后进行存储
+    初始化：随机生成初始data，添加参数形成pc，最后存储至pc.json
     '''
     #check_wish()放到iterate中进行，方便控制流程
     pc_list=[]

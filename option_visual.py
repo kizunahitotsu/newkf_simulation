@@ -35,7 +35,7 @@ lib={'Role':{
         #'PLATE':{'Position':'Body','Myst':False},
         #'LEATHER':{'Position':'Body','Myst':False},
         #'CLOTH':{'Position':'Body','Myst':False},
-        #禁用三废
+        #禁用三废甲
         'CLOAK':{'Position':'Body','Myst':True},
         'THORN':{'Position':'Body','Myst':True},
         'WOOD':{'Position':'Body','Myst':True},
@@ -88,11 +88,11 @@ option={
         'Turns':300,
         'Threads':10,
         'Seedmax':10000,
-        'Tests_apc':10,
-        'Citest_apc':5,
+        'Tests_apc':10, #citest=0时test才生效
+        'Citest_apc':20,
         'Tests_vb':1000,
         'Citest_vb':1,
-        'Verbose':1, #=1用于调试，平时=0
+        'Verbose':1, #verbose=1用于调试，平时=0
     },
     'Global variable':{
         'Card':{
