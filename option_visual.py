@@ -92,7 +92,7 @@ option={
         'Citest_apc':20,
         'Tests_vb':1000,
         'Citest_vb':1,
-        'Verbose':1, #verbose=1用于调试，平时=0
+        'Verbose':0, #verbose=1用于调试，平时=0
     },
     'Global variable':{
         'Card':{

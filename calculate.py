@@ -12,9 +12,6 @@ option=option_visual.option
 
 Unlimited=True
 
-with open('pc.json',mode='r',encoding='UTF-8') as f:
-    pc_list=json.load(f)
-
 def get_gear_list(role):
     '''
     获取role所使用的装备列表，返回形如(item,0/1)组成的列表
@@ -103,7 +100,9 @@ def generate_newkf_in_for_apc(group,number,role,time=-1):
     citest=option['Iteration']['Citest_apc']
     verbose=option['Iteration']['Verbose']
     
-    #pc列表在全局变量里了，不用再单独获取
+    #获取pc列表
+    with open('pc.json',mode='r',encoding='UTF-8') as f:
+        pc_list=json.load(f)
 
     #填写newkf.in
     '''
@@ -299,9 +298,13 @@ def apc_all(group,number):
             result_win_rate_list.append(apc_result())
         
     result_win_rate_list.sort(key=lambda t:t[1],reverse=True) #对胜率从高到低排序
-    result=pc_form.data_str_to_dict(result_win_rate_list[0])
+    result_dict=pc_form.data_str_to_dict(result_win_rate_list[0][0])
+    result_dict['Name']=f"({group},{number})" #计算结果不包含Name，补上
     return result
 
 def vb():
+    '''
+    还没写
+    '''
     pass
 

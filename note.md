@@ -120,6 +120,7 @@
 > 如何填写newkf\.in？
 > 算完点以后怎么读取结果？
 > 该结果如何返回？
+> **更新pc的时候记得更新别名！**
 
 # 暂时不考虑分攻守
 
@@ -179,6 +180,7 @@ while
 random选择一个号位（如何random？组间是否加权？）
 将该号位的data更新为apc后的结果（如何apc？）
 该号位的mark更新为true
-if 所有号位mark均为true
+if turn=pc个数
 break
 所有号位mark更新为false
+
