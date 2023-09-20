@@ -1,0 +1,10 @@
+{
+    "Turns":300,
+    "Threads":10,
+    "Seedmax":10000,
+    "Tests_apc":10,
+    "Citest_apc":20,
+    "Tests_vb":10000,
+    "Citest_vb":1,
+    "Verbose":0
+}

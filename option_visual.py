@@ -1,3 +1,5 @@
+import json
+
 lib={'Role':{
         'WU':{'Growth':True,'Time':False},
         'MO':{'Growth':False,'Time':False},
@@ -90,7 +92,7 @@ option={
         'Seedmax':10000,
         'Tests_apc':10, #citest=0时test才生效
         'Citest_apc':20,
-        'Tests_vb':1000,
+        'Tests_vb':10000,
         'Citest_vb':1,
         'Verbose':0, #verbose=1用于调试，平时=0
     },
@@ -166,22 +168,28 @@ option={
     },
 }
 
-'''
-import json
+def iteration_save():
+    '''
+    为了迭代参数随时可修改，将iteration信息保存至json
+    '''
+    with open('iteration.json',mode='w+',encoding='UTF-8') as f:
+        json.dump(option['Iteration'],f,separators=(',',':'),indent=4)
 
-Use_json=False
+def iteration_load():
+    '''
+    读取可能被修改的iteration信息，内容更新到option中
+    '''
+    #如果iteration.json不存在，先执行一次save
+    try:
+        open('iteration.json')
+    except:
+        iteration_save()
+    
+    with open('iteration.json',mode='r',encoding='UTF-8') as f:
+        option['Iteration']=json.load(f)
 
-if __name__ == '__main__':
-    with open('lib.json',mode='w+',encoding='UTF-8') as f:
-        json.dump(lib,f,separators=(',',':'),indent=4)
+sum_size=0
+for group in option['Group']:
+    sum_size+=option['Group'][group]['Size']
 
-    with open('option.json',mode='w+',encoding='UTF-8') as f:
-        json.dump(option,f,separators=(',',':'),indent=4)
-
-elif Use_json:
-    with open('lib.json',mode='w+',encoding='UTF-8') as f:
-        lib=json.load(f)
-
-    with open('option.json',mode='w+',encoding='UTF-8') as f:
-        option=json.load(f)
-'''
+iteration_save()

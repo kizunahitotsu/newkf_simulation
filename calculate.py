@@ -94,6 +94,7 @@ def generate_newkf_in_for_apc(group,number,role,time=-1):
         maxattr=get_maxattr_limited(role)
     
     #获取算点参数
+    option_visual.iteration_load() #更新iteration信息，方便修改调试
     threads=option['Iteration']['Threads']
     seedmax=option['Iteration']['Seedmax']
     tests=option['Iteration']['Tests_apc']
@@ -243,13 +244,13 @@ def apc():
 
 def apc_result():
     '''
-    读取output.txt，返回算点结果（字符串）和胜率组成的元组
+    apc计算完成后，读取output.txt，返回算点结果（字符串）和胜率组成的元组
     '''
     with open('output.txt',mode='r',encoding='UTF-8') as f:
         output=f.readlines()
     
     #定位到'Attribute Result:'
-    while(True):
+    while True:
         output=output[1:]
         if(output[0]=='Attribute Result:\n'):
             break
@@ -259,7 +260,7 @@ def apc_result():
     result_list=[]
 
     #定位到算点结果后面的空行
-    while(True):
+    while True:
         result_list.append(output[0])
         output=output[1:]
         if(output[0]=='\n'):
@@ -269,7 +270,7 @@ def apc_result():
     result=''.join(result_list)
     
     #定位到'Average Win Rate :'
-    while(True):
+    while True:
         output=output[1:]
         if(output[0].startswith('Average Win Rate :')):
             break
@@ -302,9 +303,112 @@ def apc_all(group,number):
     result_dict['Name']=f"({group},{number})" #计算结果不包含Name，补上
     return result
 
-def vb():
+def generate_newkf_in_for_vb():
     '''
-    还没写
+    为计算vb，生成newkf.in
     '''
-    pass
+    #获取pc列表
+    with open('pc.json',mode='r',encoding='UTF-8') as f:
+        pc_list=json.load(f)
+    
+    #获取算点参数
+    option_visual.iteration_load() #更新iteration信息，方便修改调试
+    threads=option['Iteration']['Threads']
+    seedmax=option['Iteration']['Seedmax']
+    tests=option['Iteration']['Tests_vb']
+    citest=option['Iteration']['Citest_vb']
+    verbose=option['Iteration']['Verbose']
 
+    '''
+    280
+
+    YA 850 900 7 11
+    1 1 1 1 1 1 
+    NONE
+    NONE
+    NONE
+    NONE
+    0
+
+    NPC
+    ENDNPC
+
+    PC
+
+
+    ENDPC
+
+    GEAR
+    ENDGEAR
+
+    THREADS 12
+    TESTS 10000
+    CITEST 0
+    SEEDMAX 50000
+    DEFENDER 0
+    VERBOSE 0
+    '''
+    newkf_in_list=[
+        '280\n\n', #第1-2行
+        'YA 850 900 7 11\n', #第3行
+        '1 1 1 1 1 1 \n', #第4行
+        'NONE\n'*4, #第5-8行
+        '0\n\n', #第9-10行
+        'NPC\nENDNPC\n\n', #第11-13行
+        'PC\n',
+    ]
+
+    for pc in pc_list:
+        newkf_in_list.append(pc_form.data_dict_to_str(pc['Data'])+'\n\n')
+    
+    newkf_in_list.append('ENDPC\n\n')
+    newkf_in_list.append('GEAR\nENDGEAR\n\n')
+
+    #配置部分
+    newkf_in_list.append(f"THREADS {threads}\n")
+    newkf_in_list.append(f"TESTS {tests}\n")
+    newkf_in_list.append(f"CITEST {citest}\n")
+    newkf_in_list.append(f"SEEDMAX {seedmax}\n")
+    newkf_in_list.append('DEFENDER 0\n')
+    newkf_in_list.append(f"VERBOSE {verbose}\n")
+
+    newkf_in=''.join(newkf_in_list)
+    
+    with open('newkf.in',mode='w+',encoding='UTF-8') as f:
+        f.write(newkf_in)
+
+def vb(pc_name_atk:str,pc_name_def:str):
+    '''
+    进行apc算点，结果输出至output.txt
+    '''
+    with open('input.txt',mode='w+',encoding='UTF-8') as f:
+        f.write(f"vb PC {pc_name_atk} PC {pc_name_def}\nq\n")
+    
+    os.system('newkf_64.exe < input.txt > output.txt')
+
+def vb_result():
+    '''
+    vb计算完成后，读取output.txt，返回(胜场数,败场数,平场数)元组
+    '''
+    with open('output.txt',mode='r',encoding='UTF-8') as f:
+        output=f.readlines()
+    
+    #定位到'Win Rate :'
+    while True:
+        output=output[1:]
+        if(output[0].startswith('Win Rate :')):
+            break
+    
+    match=re.search(r'(\d+)/(\d+)',output[0]) #胜场数/非平场数
+    win=int(match[1])
+    lose=int(match[2])-win
+
+    match=re.search(r'D=(\d+)',output[0])
+    draw=int(match[1])
+
+    return (win,lose,draw)
+
+if __name__=='__main__':
+    generate_newkf_in_for_vb()
+    vb('(1,1)','(1,3)')
+    print(vb_result())

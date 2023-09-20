@@ -124,6 +124,10 @@
 
 # 暂时不考虑分攻守
 
+如何设置迭代权重？
+> 不妨设初始权重=100
+> 若被选中，更新为a，没被选中更新为？
+
 如何存储胜率信息？
 > 存储后，每轮只需要O(n)次bpc
 > 读取？
@@ -176,11 +180,26 @@ random生成data
 把pc存储进入pc.json
 
 #### 2.重置pc
-while
+while{
 random选择一个号位（如何random？组间是否加权？）
 将该号位的data更新为apc后的结果（如何apc？）
 该号位的mark更新为true
-if turn=pc个数
-break
-所有号位mark更新为false
 
+if turn==pc个数
+break
+}
+
+#### 3.低精度迭代
+初始化：设定权重，生成100\*100胜率表
+while{
+所有号位的mark更新为false
+random选择一个号位（根据权重）
+检查胜率，感觉不用更新就把mark更新为true，然后重新random
+将该号位的data更新为apc后的结果
+更新权重
+更新胜率表
+记录新pc
+
+if turn==预设的turn
+break
+}

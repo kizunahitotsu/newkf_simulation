@@ -71,7 +71,7 @@ def generate_data(group:int):
     #生成随机Attribute
     point=int((3*data['Level']+6)*(1+0.01*data['Quality']))
     #随机前5项，需要满足和小于总点数
-    while(True):
+    while True:
         attribute=[]
         for i in range(5):
             attribute.append(random.randrange(1,point))
@@ -156,7 +156,7 @@ def generate_data(group:int):
     data['Aura']['Amount']=7
     #直接随机会得到乱序，先随机选index，排序后再选取光环
     aura_list=list(lib['Aura'].keys())
-    while(True):
+    while True:
         choice=random.sample(range(len(aura_list)),7)
         s=0
         for i in choice:
