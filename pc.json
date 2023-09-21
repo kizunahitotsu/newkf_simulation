@@ -119,8 +119,8 @@
             "Turn":0,
             "Group":1,
             "Number":1,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -243,7 +243,7 @@
             "Turn":0,
             "Group":1,
             "Number":2,
-            "Weight":200,
+            "Weight":201,
             "Mark":true
         }
     },
@@ -367,8 +367,8 @@
             "Turn":0,
             "Group":1,
             "Number":3,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -491,8 +491,8 @@
             "Turn":0,
             "Group":2,
             "Number":1,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -615,8 +615,8 @@
             "Turn":0,
             "Group":2,
             "Number":2,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -739,8 +739,8 @@
             "Turn":0,
             "Group":2,
             "Number":3,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -863,8 +863,8 @@
             "Turn":0,
             "Group":2,
             "Number":4,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -987,8 +987,8 @@
             "Turn":0,
             "Group":2,
             "Number":5,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -1111,8 +1111,8 @@
             "Turn":0,
             "Group":2,
             "Number":6,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -1235,8 +1235,8 @@
             "Turn":0,
             "Group":2,
             "Number":7,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -1359,8 +1359,8 @@
             "Turn":0,
             "Group":3,
             "Number":1,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -1483,8 +1483,8 @@
             "Turn":0,
             "Group":3,
             "Number":2,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -1607,8 +1607,8 @@
             "Turn":0,
             "Group":3,
             "Number":3,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -1731,8 +1731,8 @@
             "Turn":0,
             "Group":3,
             "Number":4,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -1855,8 +1855,8 @@
             "Turn":0,
             "Group":3,
             "Number":5,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -1979,8 +1979,8 @@
             "Turn":0,
             "Group":3,
             "Number":6,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -2103,8 +2103,8 @@
             "Turn":0,
             "Group":3,
             "Number":7,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -2227,8 +2227,8 @@
             "Turn":0,
             "Group":3,
             "Number":8,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -2351,8 +2351,8 @@
             "Turn":0,
             "Group":3,
             "Number":9,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -2475,8 +2475,8 @@
             "Turn":0,
             "Group":3,
             "Number":10,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -2599,8 +2599,8 @@
             "Turn":0,
             "Group":3,
             "Number":11,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -2723,8 +2723,8 @@
             "Turn":0,
             "Group":3,
             "Number":12,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -2847,8 +2847,8 @@
             "Turn":0,
             "Group":4,
             "Number":1,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -2971,8 +2971,8 @@
             "Turn":0,
             "Group":4,
             "Number":2,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -3095,8 +3095,8 @@
             "Turn":0,
             "Group":4,
             "Number":3,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -3219,8 +3219,8 @@
             "Turn":0,
             "Group":4,
             "Number":4,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -3343,8 +3343,8 @@
             "Turn":0,
             "Group":4,
             "Number":5,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -3467,8 +3467,8 @@
             "Turn":0,
             "Group":4,
             "Number":6,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -3591,8 +3591,8 @@
             "Turn":0,
             "Group":4,
             "Number":7,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -3715,8 +3715,8 @@
             "Turn":0,
             "Group":4,
             "Number":8,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -3839,8 +3839,8 @@
             "Turn":0,
             "Group":4,
             "Number":9,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -3963,8 +3963,8 @@
             "Turn":0,
             "Group":4,
             "Number":10,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -4087,8 +4087,8 @@
             "Turn":0,
             "Group":4,
             "Number":11,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -4211,8 +4211,8 @@
             "Turn":0,
             "Group":4,
             "Number":12,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -4335,8 +4335,8 @@
             "Turn":0,
             "Group":4,
             "Number":13,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -4459,8 +4459,8 @@
             "Turn":0,
             "Group":4,
             "Number":14,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -4583,8 +4583,8 @@
             "Turn":0,
             "Group":4,
             "Number":15,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -4707,8 +4707,8 @@
             "Turn":0,
             "Group":4,
             "Number":16,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -4831,8 +4831,8 @@
             "Turn":0,
             "Group":4,
             "Number":17,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -4955,8 +4955,8 @@
             "Turn":0,
             "Group":4,
             "Number":18,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -5079,8 +5079,8 @@
             "Turn":0,
             "Group":5,
             "Number":1,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -5203,8 +5203,8 @@
             "Turn":0,
             "Group":5,
             "Number":2,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -5327,8 +5327,8 @@
             "Turn":0,
             "Group":5,
             "Number":3,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -5451,8 +5451,8 @@
             "Turn":0,
             "Group":5,
             "Number":4,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -5575,8 +5575,8 @@
             "Turn":0,
             "Group":5,
             "Number":5,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -5699,8 +5699,8 @@
             "Turn":0,
             "Group":5,
             "Number":6,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -5823,8 +5823,8 @@
             "Turn":0,
             "Group":5,
             "Number":7,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -5947,8 +5947,8 @@
             "Turn":0,
             "Group":5,
             "Number":8,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -6071,8 +6071,8 @@
             "Turn":0,
             "Group":5,
             "Number":9,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -6195,8 +6195,8 @@
             "Turn":0,
             "Group":5,
             "Number":10,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -6319,8 +6319,8 @@
             "Turn":0,
             "Group":5,
             "Number":11,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -6443,8 +6443,8 @@
             "Turn":0,
             "Group":5,
             "Number":12,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -6567,8 +6567,8 @@
             "Turn":0,
             "Group":5,
             "Number":13,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -6691,8 +6691,8 @@
             "Turn":0,
             "Group":5,
             "Number":14,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -6815,15 +6815,15 @@
             "Turn":0,
             "Group":5,
             "Number":15,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
         "Data":{
             "Mode":"",
             "Weight":1,
-            "Role":"MING",
+            "Role":"LIN",
             "Name":"(5,16)",
             "Growth":0,
             "Time":-1,
@@ -6871,26 +6871,26 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":6,
+                "Str":7,
                 "Agi":21,
-                "Int":1248,
-                "Vit":734,
-                "Spr":1,
-                "Mnd":993
+                "Int":1,
+                "Vit":759,
+                "Spr":5,
+                "Mnd":2210
             },
             "Weapon":{
-                "Type":"SPEAR",
+                "Type":"SHIELD",
                 "Level":300,
                 "Percentage":[
-                    140,
-                    140,
-                    140,
-                    140
+                    150,
+                    150,
+                    150,
+                    150
                 ],
-                "Myst":1
+                "Myst":0
             },
             "Hand":{
-                "Type":"DEVOUR",
+                "Type":"VULTURE",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -6904,17 +6904,6 @@
                 "Type":"THORN",
                 "Level":300,
                 "Percentage":[
-                    140,
-                    140,
-                    140,
-                    140
-                ],
-                "Myst":1
-            },
-            "Head":{
-                "Type":"RIBBON",
-                "Level":300,
-                "Percentage":[
                     150,
                     150,
                     150,
@@ -6922,25 +6911,36 @@
                 ],
                 "Myst":0
             },
+            "Head":{
+                "Type":"RIBBON",
+                "Level":300,
+                "Percentage":[
+                    140,
+                    140,
+                    140,
+                    140
+                ],
+                "Myst":1
+            },
             "Aura":{
                 "Amount":7,
                 "Skill":[
-                    "XIN",
-                    "MO",
-                    "XIAO",
+                    "SHI",
+                    "XUE",
+                    "SHENG",
                     "SHANG",
-                    "CI",
-                    "REN",
-                    "JUE"
+                    "RE",
+                    "WU",
+                    "DUNH"
                 ]
             }
         },
         "Parameter":{
-            "Turn":0,
+            "Turn":1,
             "Group":5,
             "Number":16,
-            "Weight":200,
-            "Mark":true
+            "Weight":101,
+            "Mark":false
         }
     },
     {
@@ -7063,8 +7063,8 @@
             "Turn":0,
             "Group":5,
             "Number":17,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -7187,8 +7187,8 @@
             "Turn":0,
             "Group":5,
             "Number":18,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -7311,8 +7311,8 @@
             "Turn":0,
             "Group":5,
             "Number":19,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -7435,8 +7435,8 @@
             "Turn":0,
             "Group":5,
             "Number":20,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -7559,8 +7559,8 @@
             "Turn":0,
             "Group":6,
             "Number":1,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -7683,8 +7683,8 @@
             "Turn":0,
             "Group":6,
             "Number":2,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -7807,8 +7807,8 @@
             "Turn":0,
             "Group":6,
             "Number":3,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -7931,8 +7931,8 @@
             "Turn":0,
             "Group":6,
             "Number":4,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -8055,8 +8055,8 @@
             "Turn":0,
             "Group":6,
             "Number":5,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -8179,8 +8179,8 @@
             "Turn":0,
             "Group":6,
             "Number":6,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -8303,8 +8303,8 @@
             "Turn":0,
             "Group":6,
             "Number":7,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -8427,8 +8427,8 @@
             "Turn":0,
             "Group":6,
             "Number":8,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -8551,8 +8551,8 @@
             "Turn":0,
             "Group":6,
             "Number":9,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -8675,8 +8675,8 @@
             "Turn":0,
             "Group":6,
             "Number":10,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -8799,8 +8799,8 @@
             "Turn":0,
             "Group":6,
             "Number":11,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -8923,8 +8923,8 @@
             "Turn":0,
             "Group":6,
             "Number":12,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -9047,8 +9047,8 @@
             "Turn":0,
             "Group":6,
             "Number":13,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -9171,8 +9171,8 @@
             "Turn":0,
             "Group":6,
             "Number":14,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -9295,8 +9295,8 @@
             "Turn":0,
             "Group":6,
             "Number":15,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -9419,8 +9419,8 @@
             "Turn":0,
             "Group":6,
             "Number":16,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -9543,8 +9543,8 @@
             "Turn":0,
             "Group":6,
             "Number":17,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -9667,8 +9667,8 @@
             "Turn":0,
             "Group":6,
             "Number":18,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -9791,8 +9791,8 @@
             "Turn":0,
             "Group":7,
             "Number":1,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -9915,8 +9915,8 @@
             "Turn":0,
             "Group":7,
             "Number":2,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -10039,8 +10039,8 @@
             "Turn":0,
             "Group":7,
             "Number":3,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -10163,8 +10163,8 @@
             "Turn":0,
             "Group":7,
             "Number":4,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -10287,8 +10287,8 @@
             "Turn":0,
             "Group":7,
             "Number":5,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -10411,8 +10411,8 @@
             "Turn":0,
             "Group":7,
             "Number":6,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -10535,8 +10535,8 @@
             "Turn":0,
             "Group":7,
             "Number":7,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -10659,8 +10659,8 @@
             "Turn":0,
             "Group":7,
             "Number":8,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -10783,8 +10783,8 @@
             "Turn":0,
             "Group":7,
             "Number":9,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -10907,8 +10907,8 @@
             "Turn":0,
             "Group":7,
             "Number":10,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -11031,8 +11031,8 @@
             "Turn":0,
             "Group":7,
             "Number":11,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -11155,8 +11155,8 @@
             "Turn":0,
             "Group":7,
             "Number":12,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -11279,8 +11279,8 @@
             "Turn":0,
             "Group":8,
             "Number":1,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -11403,8 +11403,8 @@
             "Turn":0,
             "Group":8,
             "Number":2,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -11527,8 +11527,8 @@
             "Turn":0,
             "Group":8,
             "Number":3,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -11651,8 +11651,8 @@
             "Turn":0,
             "Group":8,
             "Number":4,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -11775,8 +11775,8 @@
             "Turn":0,
             "Group":8,
             "Number":5,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -11899,8 +11899,8 @@
             "Turn":0,
             "Group":8,
             "Number":6,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -12023,8 +12023,8 @@
             "Turn":0,
             "Group":8,
             "Number":7,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -12147,8 +12147,8 @@
             "Turn":0,
             "Group":8,
             "Number":8,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -12271,8 +12271,8 @@
             "Turn":0,
             "Group":8,
             "Number":9,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     },
     {
@@ -12395,8 +12395,8 @@
             "Turn":0,
             "Group":8,
             "Number":10,
-            "Weight":200,
-            "Mark":true
+            "Weight":201,
+            "Mark":false
         }
     }
 ]

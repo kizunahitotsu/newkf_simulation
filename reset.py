@@ -22,6 +22,7 @@ def reset():
     group=pc_chosen['Parameter']['Group']
     number=pc_chosen['Parameter']['Number']
 
+    calculate.Unlimited=True
     new_data=calculate.apc_all(group,number)
 
     pc_chosen['Data']=new_data
