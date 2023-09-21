@@ -10,3 +10,4 @@
 只下所有的\.py和最新版本的计算器（\.json都是生成的，不用下）  
 使用文本编辑器打开option_visual.py，按python语法填写option  
 使用python运行iterate.py即可开始迭代  
+迭代过程中如需调整迭代参数，需要在生成的iteration.json里面调（option_visual.py调了没用）  
