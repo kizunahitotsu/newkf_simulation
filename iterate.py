@@ -90,6 +90,6 @@ def iterate():
             print(f"已完成Step 3 Turn {info['Turn']}，用时{end_time-start_time} s！")
 
 if __name__=='__main__':
-    iterate()
-    print()
+    #iterate()
+    input()
 

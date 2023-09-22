@@ -179,7 +179,7 @@ def iterate_simple():
     
     else:
         #否则将该权重归零，并随机分配给所有pc
-        to_distribute=random.choices(index_list,k=chosen['Parameter']['Weight'])
+        to_distribute=random.choices(index_list,k=pc_chosen['Parameter']['Weight'])
         pc_chosen['Parameter']['Weight']=0
         for i in to_distribute:
             pc_list[i]['Parameter']['Weight']+=1
