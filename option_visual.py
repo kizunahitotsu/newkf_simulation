@@ -88,7 +88,7 @@ lib={'Role':{
 option={
     'Iteration':{
         'Turns':300,
-        'Threads':10,
+        'Threads':12,
         'Seedmax':10000,
         'Tests_apc':10, #citest=0时test才生效
         'Citest_apc':20,

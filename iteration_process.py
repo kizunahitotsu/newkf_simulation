@@ -183,14 +183,15 @@ def iterate_simple():
         pc_chosen['Parameter']['Weight']=0
         for i in to_distribute:
             pc_list[i]['Parameter']['Weight']+=1
-    
-    pc_list_save()
 
     #更新胜率表
     calculate.generate_newkf_in_for_vb()
     win_rate_new={}
     for i in range(option_visual.sum_size):
-        if(i<index_chosen):
+        if(i==index_chosen):
+            continue
+
+        elif(i<index_chosen):
             name_atk=pc_list[i]['Data']['Name']
             name_def=f"({group},{number})"
         elif(i>index_chosen):
@@ -204,6 +205,7 @@ def iterate_simple():
         win_rate_new[item]=win_rate
     
     win_rate_table_save()
+    pc_list_save()
 
     #记录新胜率表
     file=info['File']

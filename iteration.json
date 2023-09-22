@@ -1,6 +1,6 @@
 {
     "Turns":300,
-    "Threads":10,
+    "Threads":12,
     "Seedmax":10000,
     "Tests_apc":10,
     "Citest_apc":20,
