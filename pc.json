@@ -3,7 +3,7 @@
         "Data":{
             "Mode":"",
             "Weight":1,
-            "Role":"WEI",
+            "Role":"MIN",
             "Name":"(1,1)",
             "Growth":0,
             "Time":-1,
@@ -51,15 +51,15 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":20,
-                "Agi":1941,
-                "Int":822,
-                "Vit":4,
-                "Spr":1,
-                "Mnd":215
+                "Str":1,
+                "Agi":500,
+                "Int":1190,
+                "Vit":323,
+                "Spr":4,
+                "Mnd":985
             },
             "Weapon":{
-                "Type":"BLADE",
+                "Type":"SHIELD",
                 "Level":300,
                 "Percentage":[
                     140,
@@ -70,29 +70,7 @@
                 "Myst":1
             },
             "Hand":{
-                "Type":"VULTURE",
-                "Level":300,
-                "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
-                ],
-                "Myst":0
-            },
-            "Body":{
-                "Type":"THORN",
-                "Level":300,
-                "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
-                ],
-                "Myst":0
-            },
-            "Head":{
-                "Type":"HUNT",
+                "Type":"BRACELET",
                 "Level":300,
                 "Percentage":[
                     140,
@@ -102,24 +80,46 @@
                 ],
                 "Myst":1
             },
+            "Body":{
+                "Type":"THORN",
+                "Level":300,
+                "Percentage":[
+                    140,
+                    140,
+                    140,
+                    140
+                ],
+                "Myst":1
+            },
+            "Head":{
+                "Type":"HUNT",
+                "Level":300,
+                "Percentage":[
+                    150,
+                    150,
+                    150,
+                    150
+                ],
+                "Myst":0
+            },
             "Aura":{
                 "Amount":7,
                 "Skill":[
                     "SHI",
-                    "XIN",
                     "MO",
+                    "XUE",
+                    "XIAO",
                     "SHENG",
-                    "RE",
-                    "JU",
-                    "HOU"
+                    "SHANG",
+                    "DUNH"
                 ]
             }
         },
         "Parameter":{
-            "Turn":95,
+            "Turn":176,
             "Group":1,
             "Number":1,
-            "Weight":200,
+            "Weight":100,
             "Mark":false
         }
     },
@@ -127,7 +127,7 @@
         "Data":{
             "Mode":"",
             "Weight":1,
-            "Role":"WEI",
+            "Role":"YI",
             "Name":"(1,2)",
             "Growth":0,
             "Time":-1,
@@ -175,15 +175,15 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":708,
-                "Agi":1658,
-                "Int":336,
-                "Vit":6,
-                "Spr":3,
-                "Mnd":292
+                "Str":4,
+                "Agi":1668,
+                "Int":33,
+                "Vit":61,
+                "Spr":5,
+                "Mnd":1232
             },
             "Weapon":{
-                "Type":"DAGGER",
+                "Type":"COLORFUL",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -194,7 +194,7 @@
                 "Myst":0
             },
             "Hand":{
-                "Type":"VULTURE",
+                "Type":"DEVOUR",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -205,45 +205,45 @@
                 "Myst":0
             },
             "Body":{
-                "Type":"CAPE",
+                "Type":"THORN",
                 "Level":300,
                 "Percentage":[
-                    140,
-                    140,
-                    140,
-                    140
+                    150,
+                    150,
+                    150,
+                    150
                 ],
-                "Myst":1
+                "Myst":0
             },
             "Head":{
                 "Type":"HUNT",
                 "Level":300,
                 "Percentage":[
-                    140,
-                    140,
-                    140,
-                    140
+                    150,
+                    150,
+                    150,
+                    150
                 ],
-                "Myst":1
+                "Myst":0
             },
             "Aura":{
                 "Amount":7,
                 "Skill":[
                     "XIN",
-                    "BI",
-                    "MO",
-                    "SHENG",
-                    "E",
+                    "XUE",
+                    "XIAO",
+                    "SHANG",
+                    "SHEN",
                     "RE",
                     "JU"
                 ]
             }
         },
         "Parameter":{
-            "Turn":100,
+            "Turn":189,
             "Group":1,
             "Number":2,
-            "Weight":99,
+            "Weight":98,
             "Mark":false
         }
     },
@@ -251,7 +251,7 @@
         "Data":{
             "Mode":"",
             "Weight":1,
-            "Role":"WEI",
+            "Role":"YI",
             "Name":"(1,3)",
             "Growth":0,
             "Time":-1,
@@ -299,26 +299,26 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":1,
-                "Agi":1283,
-                "Int":736,
-                "Vit":569,
-                "Spr":1,
-                "Mnd":413
+                "Str":2,
+                "Agi":1667,
+                "Int":38,
+                "Vit":57,
+                "Spr":9,
+                "Mnd":1230
             },
             "Weapon":{
-                "Type":"BLADE",
+                "Type":"COLORFUL",
                 "Level":300,
                 "Percentage":[
-                    140,
-                    140,
-                    140,
-                    140
+                    150,
+                    150,
+                    150,
+                    150
                 ],
-                "Myst":1
+                "Myst":0
             },
             "Hand":{
-                "Type":"VULTURE",
+                "Type":"DEVOUR",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -343,31 +343,31 @@
                 "Type":"HUNT",
                 "Level":300,
                 "Percentage":[
-                    140,
-                    140,
-                    140,
-                    140
+                    150,
+                    150,
+                    150,
+                    150
                 ],
-                "Myst":1
+                "Myst":0
             },
             "Aura":{
                 "Amount":7,
                 "Skill":[
-                    "SHI",
                     "XIN",
-                    "MO",
-                    "SHENG",
+                    "XUE",
+                    "XIAO",
+                    "SHANG",
+                    "SHEN",
                     "RE",
-                    "JU",
-                    "HOU"
+                    "JU"
                 ]
             }
         },
         "Parameter":{
-            "Turn":63,
+            "Turn":184,
             "Group":1,
             "Number":3,
-            "Weight":100,
+            "Weight":16,
             "Mark":false
         }
     },
@@ -423,12 +423,12 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":190,
-                "Agi":1,
-                "Int":3,
-                "Vit":1695,
-                "Spr":5,
-                "Mnd":1109
+                "Str":234,
+                "Agi":365,
+                "Int":64,
+                "Vit":5,
+                "Spr":1,
+                "Mnd":2334
             },
             "Weapon":{
                 "Type":"SHIELD",
@@ -442,18 +442,18 @@
                 "Myst":1
             },
             "Hand":{
-                "Type":"BRACELET",
+                "Type":"DEVOUR",
                 "Level":300,
                 "Percentage":[
-                    140,
-                    140,
-                    140,
-                    140
+                    150,
+                    150,
+                    150,
+                    150
                 ],
-                "Myst":1
+                "Myst":0
             },
             "Body":{
-                "Type":"THORN",
+                "Type":"WOOD",
                 "Level":300,
                 "Percentage":[
                     140,
@@ -464,7 +464,7 @@
                 "Myst":1
             },
             "Head":{
-                "Type":"RIBBON",
+                "Type":"HUNT",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -478,20 +478,20 @@
                 "Amount":7,
                 "Skill":[
                     "MO",
+                    "XUE",
+                    "XIAO",
                     "SHENG",
-                    "E",
                     "SHANG",
-                    "CI",
                     "ZHI",
                     "JUE"
                 ]
             }
         },
         "Parameter":{
-            "Turn":0,
+            "Turn":195,
             "Group":2,
             "Number":1,
-            "Weight":300,
+            "Weight":199,
             "Mark":false
         }
     },
@@ -499,9 +499,9 @@
         "Data":{
             "Mode":"",
             "Weight":1,
-            "Role":"WEI",
+            "Role":"XIA",
             "Name":"(2,2)",
-            "Growth":0,
+            "Growth":100000,
             "Time":-1,
             "Level":900,
             "Player level":900,
@@ -547,15 +547,15 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":75,
-                "Agi":1907,
-                "Int":826,
-                "Vit":16,
-                "Spr":1,
-                "Mnd":178
+                "Str":2,
+                "Agi":1,
+                "Int":1490,
+                "Vit":588,
+                "Spr":3,
+                "Mnd":919
             },
             "Weapon":{
-                "Type":"BLADE",
+                "Type":"LIMPIDWAND",
                 "Level":300,
                 "Percentage":[
                     140,
@@ -580,17 +580,6 @@
                 "Type":"THORN",
                 "Level":300,
                 "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
-                ],
-                "Myst":0
-            },
-            "Head":{
-                "Type":"HUNT",
-                "Level":300,
-                "Percentage":[
                     140,
                     140,
                     140,
@@ -598,24 +587,35 @@
                 ],
                 "Myst":1
             },
+            "Head":{
+                "Type":"RIBBON",
+                "Level":300,
+                "Percentage":[
+                    150,
+                    150,
+                    150,
+                    150
+                ],
+                "Myst":0
+            },
             "Aura":{
                 "Amount":7,
                 "Skill":[
-                    "SHI",
-                    "XIN",
                     "MO",
+                    "DUN",
+                    "XUE",
                     "SHENG",
-                    "RE",
-                    "JU",
-                    "HOU"
+                    "SHANG",
+                    "CI",
+                    "JUE"
                 ]
             }
         },
         "Parameter":{
-            "Turn":86,
+            "Turn":171,
             "Group":2,
             "Number":2,
-            "Weight":201,
+            "Weight":100,
             "Mark":false
         }
     },
@@ -623,7 +623,7 @@
         "Data":{
             "Mode":"",
             "Weight":1,
-            "Role":"MO",
+            "Role":"LIN",
             "Name":"(2,3)",
             "Growth":0,
             "Time":-1,
@@ -671,26 +671,15 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":6,
-                "Agi":402,
-                "Int":1565,
-                "Vit":277,
-                "Spr":1,
-                "Mnd":752
+                "Str":1,
+                "Agi":1,
+                "Int":1518,
+                "Vit":1055,
+                "Spr":2,
+                "Mnd":426
             },
             "Weapon":{
-                "Type":"LIMPIDWAND",
-                "Level":300,
-                "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
-                ],
-                "Myst":0
-            },
-            "Hand":{
-                "Type":"BRACELET",
+                "Type":"SHIELD",
                 "Level":300,
                 "Percentage":[
                     140,
@@ -700,8 +689,8 @@
                 ],
                 "Myst":1
             },
-            "Body":{
-                "Type":"WOOD",
+            "Hand":{
+                "Type":"BRACELET",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -711,8 +700,19 @@
                 ],
                 "Myst":0
             },
+            "Body":{
+                "Type":"THORN",
+                "Level":300,
+                "Percentage":[
+                    140,
+                    140,
+                    140,
+                    140
+                ],
+                "Myst":1
+            },
             "Head":{
-                "Type":"TIARA",
+                "Type":"RIBBON",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -725,21 +725,21 @@
             "Aura":{
                 "Amount":7,
                 "Skill":[
-                    "XIN",
+                    "SHI",
                     "DUN",
-                    "XIAO",
+                    "XUE",
                     "SHENG",
+                    "SHANG",
                     "CI",
-                    "WU",
-                    "JU"
+                    "DUNH"
                 ]
             }
         },
         "Parameter":{
-            "Turn":0,
+            "Turn":116,
             "Group":2,
             "Number":3,
-            "Weight":299,
+            "Weight":199,
             "Mark":false
         }
     },
@@ -863,7 +863,7 @@
             "Turn":50,
             "Group":2,
             "Number":4,
-            "Weight":199,
+            "Weight":298,
             "Mark":false
         }
     },
@@ -871,9 +871,9 @@
         "Data":{
             "Mode":"",
             "Weight":1,
-            "Role":"XI",
+            "Role":"MING",
             "Name":"(2,5)",
-            "Growth":100000,
+            "Growth":0,
             "Time":-1,
             "Level":900,
             "Player level":900,
@@ -919,26 +919,15 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":2,
-                "Agi":1157,
-                "Int":1,
-                "Vit":622,
-                "Spr":3,
-                "Mnd":1218
+                "Str":213,
+                "Agi":302,
+                "Int":97,
+                "Vit":16,
+                "Spr":1,
+                "Mnd":2374
             },
             "Weapon":{
-                "Type":"BLADE",
-                "Level":300,
-                "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
-                ],
-                "Myst":0
-            },
-            "Hand":{
-                "Type":"VULTURE",
+                "Type":"SHIELD",
                 "Level":300,
                 "Percentage":[
                     140,
@@ -948,8 +937,8 @@
                 ],
                 "Myst":1
             },
-            "Body":{
-                "Type":"THORN",
+            "Hand":{
+                "Type":"DEVOUR",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -959,8 +948,19 @@
                 ],
                 "Myst":0
             },
+            "Body":{
+                "Type":"WOOD",
+                "Level":300,
+                "Percentage":[
+                    140,
+                    140,
+                    140,
+                    140
+                ],
+                "Myst":1
+            },
             "Head":{
-                "Type":"SCARF",
+                "Type":"HUNT",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -973,21 +973,21 @@
             "Aura":{
                 "Amount":7,
                 "Skill":[
-                    "SHI",
-                    "XIN",
-                    "BI",
+                    "MO",
+                    "XUE",
+                    "XIAO",
                     "SHENG",
-                    "RE",
-                    "DIAN",
-                    "JU"
+                    "SHANG",
+                    "ZHI",
+                    "JUE"
                 ]
             }
         },
         "Parameter":{
-            "Turn":38,
+            "Turn":191,
             "Group":2,
             "Number":5,
-            "Weight":200,
+            "Weight":198,
             "Mark":false
         }
     },
@@ -995,9 +995,9 @@
         "Data":{
             "Mode":"",
             "Weight":1,
-            "Role":"XI",
+            "Role":"MIN",
             "Name":"(2,6)",
-            "Growth":100000,
+            "Growth":0,
             "Time":-1,
             "Level":900,
             "Player level":900,
@@ -1043,26 +1043,26 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":100,
-                "Agi":966,
-                "Int":1,
-                "Vit":675,
-                "Spr":32,
-                "Mnd":1229
+                "Str":4,
+                "Agi":291,
+                "Int":1048,
+                "Vit":258,
+                "Spr":6,
+                "Mnd":1396
             },
             "Weapon":{
-                "Type":"BLADE",
+                "Type":"SHIELD",
                 "Level":300,
                 "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
+                    140,
+                    140,
+                    140,
+                    140
                 ],
-                "Myst":0
+                "Myst":1
             },
             "Hand":{
-                "Type":"VULTURE",
+                "Type":"BRACELET",
                 "Level":300,
                 "Percentage":[
                     140,
@@ -1076,15 +1076,15 @@
                 "Type":"THORN",
                 "Level":300,
                 "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
+                    140,
+                    140,
+                    140,
+                    140
                 ],
-                "Myst":0
+                "Myst":1
             },
             "Head":{
-                "Type":"SCARF",
+                "Type":"HUNT",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -1098,20 +1098,20 @@
                 "Amount":7,
                 "Skill":[
                     "SHI",
-                    "XIN",
-                    "BI",
+                    "MO",
+                    "XUE",
+                    "XIAO",
                     "SHENG",
-                    "RE",
-                    "DIAN",
-                    "JU"
+                    "SHANG",
+                    "DUNH"
                 ]
             }
         },
         "Parameter":{
-            "Turn":17,
+            "Turn":165,
             "Group":2,
             "Number":6,
-            "Weight":200,
+            "Weight":99,
             "Mark":false
         }
     },
@@ -1119,7 +1119,7 @@
         "Data":{
             "Mode":"",
             "Weight":1,
-            "Role":"AI",
+            "Role":"LIN",
             "Name":"(2,7)",
             "Growth":0,
             "Time":-1,
@@ -1167,15 +1167,15 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":16,
-                "Agi":1074,
-                "Int":13,
-                "Vit":209,
+                "Str":1,
+                "Agi":2,
+                "Int":1663,
+                "Vit":1201,
                 "Spr":1,
-                "Mnd":1690
+                "Mnd":135
             },
             "Weapon":{
-                "Type":"DAGGER",
+                "Type":"SHIELD",
                 "Level":300,
                 "Percentage":[
                     140,
@@ -1186,15 +1186,15 @@
                 "Myst":1
             },
             "Hand":{
-                "Type":"VULTURE",
+                "Type":"BRACELET",
                 "Level":300,
                 "Percentage":[
-                    140,
-                    140,
-                    140,
-                    140
+                    150,
+                    150,
+                    150,
+                    150
                 ],
-                "Myst":1
+                "Myst":0
             },
             "Body":{
                 "Type":"THORN",
@@ -1208,7 +1208,7 @@
                 "Myst":1
             },
             "Head":{
-                "Type":"HUNT",
+                "Type":"RIBBON",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -1222,17 +1222,17 @@
                 "Amount":7,
                 "Skill":[
                     "SHI",
-                    "XIN",
-                    "FENG",
+                    "DUN",
+                    "XUE",
                     "SHENG",
-                    "E",
                     "SHANG",
-                    "CI"
+                    "CI",
+                    "DUNH"
                 ]
             }
         },
         "Parameter":{
-            "Turn":16,
+            "Turn":115,
             "Group":2,
             "Number":7,
             "Weight":202,
@@ -1291,15 +1291,15 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":866,
-                "Agi":397,
-                "Int":1,
-                "Vit":294,
+                "Str":23,
+                "Agi":89,
+                "Int":1001,
+                "Vit":1,
                 "Spr":1,
-                "Mnd":1444
+                "Mnd":1888
             },
             "Weapon":{
-                "Type":"BLADE",
+                "Type":"SHIELD",
                 "Level":300,
                 "Percentage":[
                     140,
@@ -1332,7 +1332,7 @@
                 "Myst":1
             },
             "Head":{
-                "Type":"SCARF",
+                "Type":"RIBBON",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -1347,16 +1347,16 @@
                 "Skill":[
                     "SHI",
                     "XIN",
-                    "XIAO",
-                    "SHENG",
+                    "BI",
+                    "DUN",
                     "SHANG",
-                    "JU",
-                    "JUE"
+                    "WU",
+                    "DUNH"
                 ]
             }
         },
         "Parameter":{
-            "Turn":13,
+            "Turn":199,
             "Group":3,
             "Number":1,
             "Weight":200,
@@ -1367,7 +1367,7 @@
         "Data":{
             "Mode":"",
             "Weight":1,
-            "Role":"YI",
+            "Role":"MING",
             "Name":"(3,2)",
             "Growth":0,
             "Time":-1,
@@ -1415,26 +1415,26 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":991,
-                "Agi":1721,
-                "Int":2,
-                "Vit":2,
+                "Str":4,
+                "Agi":310,
+                "Int":426,
+                "Vit":1,
                 "Spr":4,
-                "Mnd":283
+                "Mnd":2258
             },
             "Weapon":{
-                "Type":"COLORFUL",
+                "Type":"SPEAR",
                 "Level":300,
                 "Percentage":[
-                    140,
-                    140,
-                    140,
-                    140
+                    150,
+                    150,
+                    150,
+                    150
                 ],
-                "Myst":1
+                "Myst":0
             },
             "Hand":{
-                "Type":"GLOVES",
+                "Type":"DEVOUR",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -1445,15 +1445,15 @@
                 "Myst":0
             },
             "Body":{
-                "Type":"CAPE",
+                "Type":"THORN",
                 "Level":300,
                 "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
+                    140,
+                    140,
+                    140,
+                    140
                 ],
-                "Myst":0
+                "Myst":1
             },
             "Head":{
                 "Type":"HUNT",
@@ -1469,21 +1469,21 @@
             "Aura":{
                 "Amount":7,
                 "Skill":[
-                    "SHI",
-                    "XIN",
-                    "BI",
-                    "SHENG",
-                    "RE",
-                    "JU",
-                    "ZI"
+                    "XUE",
+                    "XIAO",
+                    "E",
+                    "SHANG",
+                    "SHEN",
+                    "ZHI",
+                    "DUNH"
                 ]
             }
         },
         "Parameter":{
-            "Turn":81,
+            "Turn":164,
             "Group":3,
             "Number":2,
-            "Weight":199,
+            "Weight":101,
             "Mark":false
         }
     },
@@ -1539,15 +1539,15 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":973,
-                "Agi":386,
-                "Int":1,
-                "Vit":333,
-                "Spr":3,
-                "Mnd":1307
+                "Str":2,
+                "Agi":99,
+                "Int":918,
+                "Vit":65,
+                "Spr":2,
+                "Mnd":1917
             },
             "Weapon":{
-                "Type":"BLADE",
+                "Type":"SHIELD",
                 "Level":300,
                 "Percentage":[
                     140,
@@ -1580,7 +1580,7 @@
                 "Myst":1
             },
             "Head":{
-                "Type":"SCARF",
+                "Type":"RIBBON",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -1595,19 +1595,19 @@
                 "Skill":[
                     "SHI",
                     "XIN",
-                    "XIAO",
-                    "SHENG",
+                    "BI",
+                    "DUN",
                     "SHANG",
-                    "JU",
-                    "JUE"
+                    "WU",
+                    "DUNH"
                 ]
             }
         },
         "Parameter":{
-            "Turn":15,
+            "Turn":182,
             "Group":3,
             "Number":3,
-            "Weight":200,
+            "Weight":199,
             "Mark":false
         }
     },
@@ -1615,10 +1615,10 @@
         "Data":{
             "Mode":"",
             "Weight":1,
-            "Role":"LIN",
+            "Role":"YA",
             "Name":"(3,4)",
             "Growth":0,
-            "Time":-1,
+            "Time":1,
             "Level":900,
             "Player level":1000,
             "Skill slot":7,
@@ -1663,15 +1663,15 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":4,
-                "Agi":1,
-                "Int":6,
-                "Vit":985,
+                "Str":1599,
+                "Agi":1391,
+                "Int":5,
+                "Vit":6,
                 "Spr":1,
-                "Mnd":2006
+                "Mnd":1
             },
             "Weapon":{
-                "Type":"SHIELD",
+                "Type":"BLADE",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -1682,7 +1682,7 @@
                 "Myst":0
             },
             "Hand":{
-                "Type":"VULTURE",
+                "Type":"BRACELET",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -1693,7 +1693,7 @@
                 "Myst":0
             },
             "Body":{
-                "Type":"THORN",
+                "Type":"CAPE",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -1704,34 +1704,34 @@
                 "Myst":0
             },
             "Head":{
-                "Type":"RIBBON",
+                "Type":"HUNT",
                 "Level":300,
                 "Percentage":[
-                    140,
-                    140,
-                    140,
-                    140
+                    150,
+                    150,
+                    150,
+                    150
                 ],
-                "Myst":1
+                "Myst":0
             },
             "Aura":{
                 "Amount":7,
                 "Skill":[
                     "SHI",
-                    "XUE",
-                    "SHENG",
-                    "SHANG",
+                    "XIN",
+                    "MO",
+                    "SHEN",
                     "RE",
-                    "WU",
-                    "DUNH"
+                    "JU",
+                    "JUE"
                 ]
             }
         },
         "Parameter":{
-            "Turn":0,
+            "Turn":107,
             "Group":3,
             "Number":4,
-            "Weight":301,
+            "Weight":300,
             "Mark":false
         }
     },
@@ -1855,7 +1855,7 @@
             "Turn":88,
             "Group":3,
             "Number":5,
-            "Weight":99,
+            "Weight":198,
             "Mark":false
         }
     },
@@ -1979,7 +1979,7 @@
             "Turn":54,
             "Group":3,
             "Number":6,
-            "Weight":199,
+            "Weight":301,
             "Mark":false
         }
     },
@@ -1987,7 +1987,7 @@
         "Data":{
             "Mode":"",
             "Weight":1,
-            "Role":"YI",
+            "Role":"LIN",
             "Name":"(3,7)",
             "Growth":0,
             "Time":-1,
@@ -2035,15 +2035,15 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":965,
-                "Agi":1717,
-                "Int":32,
-                "Vit":1,
-                "Spr":1,
-                "Mnd":287
+                "Str":3,
+                "Agi":19,
+                "Int":1490,
+                "Vit":761,
+                "Spr":2,
+                "Mnd":728
             },
             "Weapon":{
-                "Type":"COLORFUL",
+                "Type":"SHIELD",
                 "Level":300,
                 "Percentage":[
                     140,
@@ -2054,7 +2054,7 @@
                 "Myst":1
             },
             "Hand":{
-                "Type":"GLOVES",
+                "Type":"BRACELET",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -2065,18 +2065,18 @@
                 "Myst":0
             },
             "Body":{
-                "Type":"CAPE",
+                "Type":"THORN",
                 "Level":300,
                 "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
+                    140,
+                    140,
+                    140,
+                    140
                 ],
-                "Myst":0
+                "Myst":1
             },
             "Head":{
-                "Type":"HUNT",
+                "Type":"TIARA",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -2089,21 +2089,21 @@
             "Aura":{
                 "Amount":7,
                 "Skill":[
-                    "SHI",
-                    "XIN",
-                    "BI",
+                    "MO",
+                    "XUE",
                     "SHENG",
+                    "SHANG",
                     "RE",
-                    "JU",
-                    "ZI"
+                    "ZHI",
+                    "HONG"
                 ]
             }
         },
         "Parameter":{
-            "Turn":80,
+            "Turn":122,
             "Group":3,
             "Number":7,
-            "Weight":200,
+            "Weight":199,
             "Mark":false
         }
     },
@@ -2111,7 +2111,7 @@
         "Data":{
             "Mode":"",
             "Weight":1,
-            "Role":"YI",
+            "Role":"MING",
             "Name":"(3,8)",
             "Growth":0,
             "Time":-1,
@@ -2159,37 +2159,37 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":263,
-                "Agi":995,
-                "Int":13,
-                "Vit":94,
+                "Str":6,
+                "Agi":24,
+                "Int":435,
+                "Vit":646,
                 "Spr":1,
-                "Mnd":1637
+                "Mnd":1891
             },
             "Weapon":{
-                "Type":"SHIELD",
+                "Type":"SPEAR",
                 "Level":300,
                 "Percentage":[
-                    140,
-                    140,
-                    140,
-                    140
+                    150,
+                    150,
+                    150,
+                    150
                 ],
-                "Myst":1
+                "Myst":0
             },
             "Hand":{
-                "Type":"VULTURE",
+                "Type":"DEVOUR",
                 "Level":300,
                 "Percentage":[
-                    140,
-                    140,
-                    140,
-                    140
+                    150,
+                    150,
+                    150,
+                    150
                 ],
-                "Myst":1
+                "Myst":0
             },
             "Body":{
-                "Type":"WOOD",
+                "Type":"THORN",
                 "Level":300,
                 "Percentage":[
                     140,
@@ -2213,21 +2213,21 @@
             "Aura":{
                 "Amount":7,
                 "Skill":[
-                    "SHI",
-                    "XIN",
-                    "FENG",
+                    "XUE",
                     "XIAO",
+                    "E",
                     "SHANG",
-                    "CI",
-                    "ZHI"
+                    "SHEN",
+                    "ZHI",
+                    "DUNH"
                 ]
             }
         },
         "Parameter":{
-            "Turn":20,
+            "Turn":143,
             "Group":3,
             "Number":8,
-            "Weight":199,
+            "Weight":197,
             "Mark":false
         }
     },
@@ -2235,7 +2235,7 @@
         "Data":{
             "Mode":"",
             "Weight":1,
-            "Role":"WEI",
+            "Role":"LIN",
             "Name":"(3,9)",
             "Growth":0,
             "Time":-1,
@@ -2283,15 +2283,15 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":438,
-                "Agi":2042,
-                "Int":35,
-                "Vit":8,
-                "Spr":2,
-                "Mnd":478
+                "Str":1,
+                "Agi":1,
+                "Int":1490,
+                "Vit":803,
+                "Spr":6,
+                "Mnd":702
             },
             "Weapon":{
-                "Type":"BLADE",
+                "Type":"SHIELD",
                 "Level":300,
                 "Percentage":[
                     140,
@@ -2302,7 +2302,7 @@
                 "Myst":1
             },
             "Hand":{
-                "Type":"RING",
+                "Type":"BRACELET",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -2313,18 +2313,18 @@
                 "Myst":0
             },
             "Body":{
-                "Type":"CLOAK",
+                "Type":"THORN",
                 "Level":300,
                 "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
+                    140,
+                    140,
+                    140,
+                    140
                 ],
-                "Myst":0
+                "Myst":1
             },
             "Head":{
-                "Type":"HUNT",
+                "Type":"TIARA",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -2337,21 +2337,21 @@
             "Aura":{
                 "Amount":7,
                 "Skill":[
-                    "SHI",
-                    "XIN",
-                    "XIAO",
+                    "MO",
+                    "XUE",
                     "SHENG",
+                    "SHANG",
+                    "RE",
                     "ZHI",
-                    "FEI",
-                    "JU"
+                    "HONG"
                 ]
             }
         },
         "Parameter":{
-            "Turn":98,
+            "Turn":119,
             "Group":3,
             "Number":9,
-            "Weight":202,
+            "Weight":200,
             "Mark":false
         }
     },
@@ -2359,7 +2359,7 @@
         "Data":{
             "Mode":"",
             "Weight":1,
-            "Role":"MIN",
+            "Role":"MING",
             "Name":"(3,10)",
             "Growth":0,
             "Time":-1,
@@ -2407,23 +2407,23 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":1,
-                "Agi":1515,
-                "Int":1,
-                "Vit":919,
+                "Str":18,
+                "Agi":34,
+                "Int":1061,
+                "Vit":3,
                 "Spr":1,
-                "Mnd":566
+                "Mnd":1886
             },
             "Weapon":{
-                "Type":"COLORFUL",
+                "Type":"SHIELD",
                 "Level":300,
                 "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
+                    140,
+                    140,
+                    140,
+                    140
                 ],
-                "Myst":0
+                "Myst":1
             },
             "Hand":{
                 "Type":"DEVOUR",
@@ -2437,18 +2437,18 @@
                 "Myst":0
             },
             "Body":{
-                "Type":"WOOD",
+                "Type":"THORN",
                 "Level":300,
                 "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
+                    140,
+                    140,
+                    140,
+                    140
                 ],
-                "Myst":0
+                "Myst":1
             },
             "Head":{
-                "Type":"HUNT",
+                "Type":"RIBBON",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -2461,21 +2461,21 @@
             "Aura":{
                 "Amount":7,
                 "Skill":[
+                    "SHI",
+                    "XIN",
+                    "BI",
                     "DUN",
-                    "XIAO",
                     "SHANG",
-                    "CI",
-                    "REN",
-                    "RE",
-                    "JU"
+                    "WU",
+                    "DUNH"
                 ]
             }
         },
         "Parameter":{
-            "Turn":37,
+            "Turn":167,
             "Group":3,
             "Number":10,
-            "Weight":200,
+            "Weight":201,
             "Mark":false
         }
     },
@@ -2483,7 +2483,7 @@
         "Data":{
             "Mode":"",
             "Weight":1,
-            "Role":"WEI",
+            "Role":"MING",
             "Name":"(3,11)",
             "Growth":0,
             "Time":-1,
@@ -2531,15 +2531,15 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":1575,
-                "Agi":1232,
-                "Int":1,
-                "Vit":171,
-                "Spr":9,
-                "Mnd":15
+                "Str":2,
+                "Agi":117,
+                "Int":450,
+                "Vit":1827,
+                "Spr":1,
+                "Mnd":606
             },
             "Weapon":{
-                "Type":"BLADE",
+                "Type":"SHIELD",
                 "Level":300,
                 "Percentage":[
                     140,
@@ -2550,7 +2550,7 @@
                 "Myst":1
             },
             "Hand":{
-                "Type":"BRACELET",
+                "Type":"DEVOUR",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -2564,12 +2564,12 @@
                 "Type":"THORN",
                 "Level":300,
                 "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
+                    140,
+                    140,
+                    140,
+                    140
                 ],
-                "Myst":0
+                "Myst":1
             },
             "Head":{
                 "Type":"HUNT",
@@ -2587,19 +2587,19 @@
                 "Skill":[
                     "SHI",
                     "XIN",
-                    "BI",
-                    "DUN",
-                    "RE",
-                    "JU",
-                    "ZI"
+                    "XUE",
+                    "SHANG",
+                    "SHEN",
+                    "REN",
+                    "JU"
                 ]
             }
         },
         "Parameter":{
-            "Turn":75,
+            "Turn":105,
             "Group":3,
             "Number":11,
-            "Weight":199,
+            "Weight":198,
             "Mark":false
         }
     },
@@ -2607,7 +2607,7 @@
         "Data":{
             "Mode":"",
             "Weight":1,
-            "Role":"YI",
+            "Role":"MING",
             "Name":"(3,12)",
             "Growth":0,
             "Time":-1,
@@ -2655,26 +2655,15 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":2,
-                "Agi":1277,
-                "Int":3,
-                "Vit":140,
-                "Spr":6,
-                "Mnd":1575
+                "Str":16,
+                "Agi":80,
+                "Int":1036,
+                "Vit":1,
+                "Spr":4,
+                "Mnd":1866
             },
             "Weapon":{
-                "Type":"COLORFUL",
-                "Level":300,
-                "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
-                ],
-                "Myst":0
-            },
-            "Hand":{
-                "Type":"VULTURE",
+                "Type":"SHIELD",
                 "Level":300,
                 "Percentage":[
                     140,
@@ -2684,8 +2673,19 @@
                 ],
                 "Myst":1
             },
+            "Hand":{
+                "Type":"DEVOUR",
+                "Level":300,
+                "Percentage":[
+                    150,
+                    150,
+                    150,
+                    150
+                ],
+                "Myst":0
+            },
             "Body":{
-                "Type":"WOOD",
+                "Type":"THORN",
                 "Level":300,
                 "Percentage":[
                     140,
@@ -2710,17 +2710,17 @@
                 "Amount":7,
                 "Skill":[
                     "SHI",
-                    "SHENG",
+                    "XIN",
+                    "BI",
+                    "DUN",
                     "SHANG",
-                    "RE",
-                    "DIAN",
                     "WU",
-                    "HOU"
+                    "DUNH"
                 ]
             }
         },
         "Parameter":{
-            "Turn":23,
+            "Turn":172,
             "Group":3,
             "Number":12,
             "Weight":199,
@@ -2847,7 +2847,7 @@
             "Turn":96,
             "Group":4,
             "Number":1,
-            "Weight":5,
+            "Weight":107,
             "Mark":false
         }
     },
@@ -2855,7 +2855,7 @@
         "Data":{
             "Mode":"",
             "Weight":1,
-            "Role":"MIN",
+            "Role":"MING",
             "Name":"(4,2)",
             "Growth":0,
             "Time":-1,
@@ -2903,15 +2903,15 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":1521,
-                "Agi":991,
-                "Int":2,
-                "Vit":396,
-                "Spr":5,
-                "Mnd":88
+                "Str":4,
+                "Agi":49,
+                "Int":964,
+                "Vit":101,
+                "Spr":3,
+                "Mnd":1882
             },
             "Weapon":{
-                "Type":"BLADE",
+                "Type":"SHIELD",
                 "Level":300,
                 "Percentage":[
                     140,
@@ -2922,7 +2922,7 @@
                 "Myst":1
             },
             "Hand":{
-                "Type":"BRACELET",
+                "Type":"DEVOUR",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -2944,7 +2944,7 @@
                 "Myst":1
             },
             "Head":{
-                "Type":"HUNT",
+                "Type":"RIBBON",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -2960,18 +2960,18 @@
                     "SHI",
                     "XIN",
                     "BI",
-                    "XIAO",
+                    "DUN",
                     "SHANG",
-                    "CI",
-                    "JUE"
+                    "WU",
+                    "DUNH"
                 ]
             }
         },
         "Parameter":{
-            "Turn":46,
+            "Turn":170,
             "Group":4,
             "Number":2,
-            "Weight":199,
+            "Weight":200,
             "Mark":false
         }
     },
@@ -3095,8 +3095,8 @@
             "Turn":34,
             "Group":4,
             "Number":3,
-            "Weight":200,
-            "Mark":true
+            "Weight":298,
+            "Mark":false
         }
     },
     {
@@ -3151,15 +3151,15 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":2,
-                "Agi":1517,
-                "Int":1,
-                "Vit":655,
-                "Spr":1,
-                "Mnd":827
+                "Str":23,
+                "Agi":148,
+                "Int":693,
+                "Vit":25,
+                "Spr":6,
+                "Mnd":2108
             },
             "Weapon":{
-                "Type":"BLADE",
+                "Type":"SPEAR",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -3170,7 +3170,7 @@
                 "Myst":0
             },
             "Hand":{
-                "Type":"RING",
+                "Type":"DEVOUR",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -3181,15 +3181,15 @@
                 "Myst":0
             },
             "Body":{
-                "Type":"WOOD",
+                "Type":"THORN",
                 "Level":300,
                 "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
+                    140,
+                    140,
+                    140,
+                    140
                 ],
-                "Myst":0
+                "Myst":1
             },
             "Head":{
                 "Type":"HUNT",
@@ -3205,21 +3205,21 @@
             "Aura":{
                 "Amount":7,
                 "Skill":[
-                    "FENG",
-                    "MO",
+                    "XUE",
                     "XIAO",
                     "E",
                     "SHANG",
+                    "SHEN",
                     "ZHI",
-                    "FEI"
+                    "DUNH"
                 ]
             }
         },
         "Parameter":{
-            "Turn":70,
+            "Turn":153,
             "Group":4,
             "Number":4,
-            "Weight":99,
+            "Weight":98,
             "Mark":false
         }
     },
@@ -3227,7 +3227,7 @@
         "Data":{
             "Mode":"",
             "Weight":1,
-            "Role":"YI",
+            "Role":"LIN",
             "Name":"(4,5)",
             "Growth":0,
             "Time":-1,
@@ -3275,15 +3275,15 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":1000,
-                "Agi":1713,
-                "Int":4,
-                "Vit":7,
-                "Spr":12,
-                "Mnd":267
+                "Str":6,
+                "Agi":2,
+                "Int":1494,
+                "Vit":1285,
+                "Spr":1,
+                "Mnd":215
             },
             "Weapon":{
-                "Type":"COLORFUL",
+                "Type":"SHIELD",
                 "Level":300,
                 "Percentage":[
                     140,
@@ -3294,7 +3294,7 @@
                 "Myst":1
             },
             "Hand":{
-                "Type":"GLOVES",
+                "Type":"BRACELET",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -3305,18 +3305,18 @@
                 "Myst":0
             },
             "Body":{
-                "Type":"CAPE",
+                "Type":"THORN",
                 "Level":300,
                 "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
+                    140,
+                    140,
+                    140,
+                    140
                 ],
-                "Myst":0
+                "Myst":1
             },
             "Head":{
-                "Type":"HUNT",
+                "Type":"TIARA",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -3329,21 +3329,21 @@
             "Aura":{
                 "Amount":7,
                 "Skill":[
-                    "SHI",
-                    "XIN",
-                    "BI",
+                    "MO",
+                    "XUE",
                     "SHENG",
+                    "SHANG",
                     "RE",
-                    "JU",
-                    "ZI"
+                    "ZHI",
+                    "HONG"
                 ]
             }
         },
         "Parameter":{
-            "Turn":69,
+            "Turn":114,
             "Group":4,
             "Number":5,
-            "Weight":202,
+            "Weight":200,
             "Mark":false
         }
     },
@@ -3467,7 +3467,7 @@
             "Turn":44,
             "Group":4,
             "Number":6,
-            "Weight":200,
+            "Weight":298,
             "Mark":false
         }
     },
@@ -3475,9 +3475,9 @@
         "Data":{
             "Mode":"",
             "Weight":1,
-            "Role":"YI",
+            "Role":"XIA",
             "Name":"(4,7)",
-            "Growth":0,
+            "Growth":100000,
             "Time":-1,
             "Level":900,
             "Player level":1100,
@@ -3523,15 +3523,15 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":949,
-                "Agi":1747,
-                "Int":15,
-                "Vit":3,
-                "Spr":15,
-                "Mnd":274
+                "Str":3,
+                "Agi":34,
+                "Int":792,
+                "Vit":654,
+                "Spr":2,
+                "Mnd":1518
             },
             "Weapon":{
-                "Type":"COLORFUL",
+                "Type":"LIMPIDWAND",
                 "Level":300,
                 "Percentage":[
                     140,
@@ -3542,7 +3542,7 @@
                 "Myst":1
             },
             "Hand":{
-                "Type":"GLOVES",
+                "Type":"BRACELET",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -3553,15 +3553,15 @@
                 "Myst":0
             },
             "Body":{
-                "Type":"CAPE",
+                "Type":"THORN",
                 "Level":300,
                 "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
+                    140,
+                    140,
+                    140,
+                    140
                 ],
-                "Myst":0
+                "Myst":1
             },
             "Head":{
                 "Type":"HUNT",
@@ -3577,21 +3577,21 @@
             "Aura":{
                 "Amount":7,
                 "Skill":[
-                    "SHI",
                     "XIN",
-                    "BI",
-                    "SHENG",
-                    "RE",
-                    "JU",
-                    "ZI"
+                    "FENG",
+                    "DUN",
+                    "SHANG",
+                    "SHEN",
+                    "HONG",
+                    "HOU"
                 ]
             }
         },
         "Parameter":{
-            "Turn":83,
+            "Turn":148,
             "Group":4,
             "Number":7,
-            "Weight":200,
+            "Weight":201,
             "Mark":false
         }
     },
@@ -3647,15 +3647,15 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":4,
-                "Agi":133,
-                "Int":428,
-                "Vit":2164,
+                "Str":6,
+                "Agi":5,
+                "Int":607,
+                "Vit":1845,
                 "Spr":1,
-                "Mnd":273
+                "Mnd":539
             },
             "Weapon":{
-                "Type":"SPEAR",
+                "Type":"SHIELD",
                 "Level":300,
                 "Percentage":[
                     140,
@@ -3666,7 +3666,7 @@
                 "Myst":1
             },
             "Hand":{
-                "Type":"BRACELET",
+                "Type":"DEVOUR",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -3705,17 +3705,17 @@
                     "XIN",
                     "XUE",
                     "SHANG",
-                    "CI",
-                    "ZHI",
-                    "FEI"
+                    "SHEN",
+                    "REN",
+                    "JU"
                 ]
             }
         },
         "Parameter":{
-            "Turn":0,
+            "Turn":106,
             "Group":4,
             "Number":8,
-            "Weight":302,
+            "Weight":300,
             "Mark":false
         }
     },
@@ -3839,7 +3839,7 @@
             "Turn":10,
             "Group":4,
             "Number":9,
-            "Weight":199,
+            "Weight":301,
             "Mark":false
         }
     },
@@ -3963,7 +3963,7 @@
             "Turn":49,
             "Group":4,
             "Number":10,
-            "Weight":99,
+            "Weight":199,
             "Mark":false
         }
     },
@@ -4087,7 +4087,7 @@
             "Turn":40,
             "Group":4,
             "Number":11,
-            "Weight":201,
+            "Weight":301,
             "Mark":false
         }
     },
@@ -4143,26 +4143,26 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":1554,
-                "Agi":1326,
-                "Int":6,
-                "Vit":90,
-                "Spr":26,
-                "Mnd":1
+                "Str":6,
+                "Agi":1544,
+                "Int":932,
+                "Vit":104,
+                "Spr":22,
+                "Mnd":395
             },
             "Weapon":{
-                "Type":"BLADE",
+                "Type":"DAGGER",
                 "Level":300,
                 "Percentage":[
-                    140,
-                    140,
-                    140,
-                    140
+                    150,
+                    150,
+                    150,
+                    150
                 ],
-                "Myst":1
+                "Myst":0
             },
             "Hand":{
-                "Type":"BRACELET",
+                "Type":"VULTURE",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -4176,15 +4176,15 @@
                 "Type":"THORN",
                 "Level":300,
                 "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
+                    140,
+                    140,
+                    140,
+                    140
                 ],
-                "Myst":0
+                "Myst":1
             },
             "Head":{
-                "Type":"HUNT",
+                "Type":"TIARA",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -4199,19 +4199,19 @@
                 "Skill":[
                     "SHI",
                     "XIN",
-                    "BI",
-                    "DUN",
+                    "XUE",
                     "RE",
+                    "ZHI",
                     "JU",
-                    "ZI"
+                    "HOU"
                 ]
             }
         },
         "Parameter":{
-            "Turn":76,
+            "Turn":102,
             "Group":4,
             "Number":12,
-            "Weight":202,
+            "Weight":203,
             "Mark":false
         }
     },
@@ -4219,7 +4219,7 @@
         "Data":{
             "Mode":"",
             "Weight":1,
-            "Role":"YI",
+            "Role":"MING",
             "Name":"(4,13)",
             "Growth":0,
             "Time":-1,
@@ -4267,26 +4267,26 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":298,
-                "Agi":1039,
-                "Int":32,
-                "Vit":575,
-                "Spr":3,
-                "Mnd":1056
+                "Str":23,
+                "Agi":3,
+                "Int":694,
+                "Vit":85,
+                "Spr":1,
+                "Mnd":2197
             },
             "Weapon":{
-                "Type":"BLADE",
+                "Type":"SPEAR",
                 "Level":300,
                 "Percentage":[
-                    140,
-                    140,
-                    140,
-                    140
+                    150,
+                    150,
+                    150,
+                    150
                 ],
-                "Myst":1
+                "Myst":0
             },
             "Hand":{
-                "Type":"GLOVES",
+                "Type":"DEVOUR",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -4297,7 +4297,7 @@
                 "Myst":0
             },
             "Body":{
-                "Type":"WOOD",
+                "Type":"THORN",
                 "Level":300,
                 "Percentage":[
                     140,
@@ -4321,21 +4321,21 @@
             "Aura":{
                 "Amount":7,
                 "Skill":[
-                    "SHI",
-                    "FENG",
-                    "SHENG",
-                    "RE",
-                    "WU",
-                    "HOU",
+                    "XUE",
+                    "XIAO",
+                    "E",
+                    "SHANG",
+                    "SHEN",
+                    "ZHI",
                     "DUNH"
                 ]
             }
         },
         "Parameter":{
-            "Turn":35,
+            "Turn":152,
             "Group":4,
             "Number":13,
-            "Weight":200,
+            "Weight":199,
             "Mark":false
         }
     },
@@ -4459,7 +4459,7 @@
             "Turn":61,
             "Group":4,
             "Number":14,
-            "Weight":199,
+            "Weight":298,
             "Mark":false
         }
     },
@@ -4467,7 +4467,7 @@
         "Data":{
             "Mode":"",
             "Weight":1,
-            "Role":"LIN",
+            "Role":"MING",
             "Name":"(4,15)",
             "Growth":0,
             "Time":-1,
@@ -4515,26 +4515,26 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":1,
-                "Agi":1,
-                "Int":2,
-                "Vit":973,
+                "Str":3,
+                "Agi":97,
+                "Int":925,
+                "Vit":60,
                 "Spr":2,
-                "Mnd":2024
+                "Mnd":1916
             },
             "Weapon":{
                 "Type":"SHIELD",
                 "Level":300,
                 "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
+                    140,
+                    140,
+                    140,
+                    140
                 ],
-                "Myst":0
+                "Myst":1
             },
             "Hand":{
-                "Type":"VULTURE",
+                "Type":"DEVOUR",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -4548,17 +4548,6 @@
                 "Type":"THORN",
                 "Level":300,
                 "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
-                ],
-                "Myst":0
-            },
-            "Head":{
-                "Type":"RIBBON",
-                "Level":300,
-                "Percentage":[
                     140,
                     140,
                     140,
@@ -4566,24 +4555,35 @@
                 ],
                 "Myst":1
             },
+            "Head":{
+                "Type":"RIBBON",
+                "Level":300,
+                "Percentage":[
+                    150,
+                    150,
+                    150,
+                    150
+                ],
+                "Myst":0
+            },
             "Aura":{
                 "Amount":7,
                 "Skill":[
                     "SHI",
-                    "XUE",
-                    "SHENG",
+                    "XIN",
+                    "BI",
+                    "DUN",
                     "SHANG",
-                    "RE",
                     "WU",
                     "DUNH"
                 ]
             }
         },
         "Parameter":{
-            "Turn":0,
+            "Turn":179,
             "Group":4,
             "Number":15,
-            "Weight":300,
+            "Weight":299,
             "Mark":false
         }
     },
@@ -4639,26 +4639,26 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":4,
-                "Agi":1,
-                "Int":3,
-                "Vit":925,
-                "Spr":6,
-                "Mnd":2064
+                "Str":6,
+                "Agi":4,
+                "Int":1490,
+                "Vit":825,
+                "Spr":2,
+                "Mnd":676
             },
             "Weapon":{
                 "Type":"SHIELD",
                 "Level":300,
                 "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
+                    140,
+                    140,
+                    140,
+                    140
                 ],
-                "Myst":0
+                "Myst":1
             },
             "Hand":{
-                "Type":"VULTURE",
+                "Type":"BRACELET",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -4672,17 +4672,6 @@
                 "Type":"THORN",
                 "Level":300,
                 "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
-                ],
-                "Myst":0
-            },
-            "Head":{
-                "Type":"RIBBON",
-                "Level":300,
-                "Percentage":[
                     140,
                     140,
                     140,
@@ -4690,24 +4679,35 @@
                 ],
                 "Myst":1
             },
+            "Head":{
+                "Type":"TIARA",
+                "Level":300,
+                "Percentage":[
+                    150,
+                    150,
+                    150,
+                    150
+                ],
+                "Myst":0
+            },
             "Aura":{
                 "Amount":7,
                 "Skill":[
-                    "SHI",
+                    "MO",
                     "XUE",
                     "SHENG",
                     "SHANG",
                     "RE",
-                    "WU",
-                    "DUNH"
+                    "ZHI",
+                    "HONG"
                 ]
             }
         },
         "Parameter":{
-            "Turn":0,
+            "Turn":118,
             "Group":4,
             "Number":16,
-            "Weight":301,
+            "Weight":302,
             "Mark":false
         }
     },
@@ -4715,7 +4715,7 @@
         "Data":{
             "Mode":"",
             "Weight":1,
-            "Role":"YI",
+            "Role":"LIN",
             "Name":"(4,17)",
             "Growth":0,
             "Time":-1,
@@ -4763,15 +4763,15 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":944,
-                "Agi":1774,
-                "Int":4,
-                "Vit":4,
-                "Spr":194,
-                "Mnd":83
+                "Str":7,
+                "Agi":5,
+                "Int":1490,
+                "Vit":647,
+                "Spr":3,
+                "Mnd":851
             },
             "Weapon":{
-                "Type":"COLORFUL",
+                "Type":"SHIELD",
                 "Level":300,
                 "Percentage":[
                     140,
@@ -4782,7 +4782,7 @@
                 "Myst":1
             },
             "Hand":{
-                "Type":"GLOVES",
+                "Type":"BRACELET",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -4793,18 +4793,18 @@
                 "Myst":0
             },
             "Body":{
-                "Type":"CAPE",
+                "Type":"THORN",
                 "Level":300,
                 "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
+                    140,
+                    140,
+                    140,
+                    140
                 ],
-                "Myst":0
+                "Myst":1
             },
             "Head":{
-                "Type":"HUNT",
+                "Type":"TIARA",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -4817,21 +4817,21 @@
             "Aura":{
                 "Amount":7,
                 "Skill":[
-                    "SHI",
-                    "XIN",
-                    "BI",
+                    "MO",
+                    "XUE",
                     "SHENG",
+                    "SHANG",
                     "RE",
-                    "JU",
-                    "ZI"
+                    "ZHI",
+                    "HONG"
                 ]
             }
         },
         "Parameter":{
-            "Turn":89,
+            "Turn":127,
             "Group":4,
             "Number":17,
-            "Weight":200,
+            "Weight":198,
             "Mark":false
         }
     },
@@ -4955,7 +4955,7 @@
             "Turn":39,
             "Group":4,
             "Number":18,
-            "Weight":202,
+            "Weight":303,
             "Mark":false
         }
     },
@@ -4963,7 +4963,7 @@
         "Data":{
             "Mode":"",
             "Weight":1,
-            "Role":"YI",
+            "Role":"MING",
             "Name":"(5,1)",
             "Growth":0,
             "Time":-1,
@@ -5011,37 +5011,37 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":303,
-                "Agi":1023,
-                "Int":1,
-                "Vit":168,
-                "Spr":3,
-                "Mnd":1505
+                "Str":25,
+                "Agi":250,
+                "Int":640,
+                "Vit":8,
+                "Spr":6,
+                "Mnd":2074
             },
             "Weapon":{
-                "Type":"BLADE",
+                "Type":"SPEAR",
                 "Level":300,
                 "Percentage":[
-                    140,
-                    140,
-                    140,
-                    140
+                    150,
+                    150,
+                    150,
+                    150
                 ],
-                "Myst":1
+                "Myst":0
             },
             "Hand":{
-                "Type":"VULTURE",
+                "Type":"DEVOUR",
                 "Level":300,
                 "Percentage":[
-                    140,
-                    140,
-                    140,
-                    140
+                    150,
+                    150,
+                    150,
+                    150
                 ],
-                "Myst":1
+                "Myst":0
             },
             "Body":{
-                "Type":"WOOD",
+                "Type":"THORN",
                 "Level":300,
                 "Percentage":[
                     140,
@@ -5065,18 +5065,18 @@
             "Aura":{
                 "Amount":7,
                 "Skill":[
-                    "SHI",
-                    "FENG",
-                    "MO",
-                    "SHENG",
+                    "XUE",
+                    "XIAO",
+                    "E",
+                    "SHANG",
+                    "SHEN",
                     "ZHI",
-                    "FEI",
-                    "JU"
+                    "DUNH"
                 ]
             }
         },
         "Parameter":{
-            "Turn":31,
+            "Turn":163,
             "Group":5,
             "Number":1,
             "Weight":199,
@@ -5087,9 +5087,9 @@
         "Data":{
             "Mode":"",
             "Weight":1,
-            "Role":"MING",
+            "Role":"XIA",
             "Name":"(5,2)",
-            "Growth":0,
+            "Growth":100000,
             "Time":-1,
             "Level":900,
             "Player level":1200,
@@ -5135,15 +5135,15 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":839,
-                "Agi":572,
-                "Int":10,
-                "Vit":290,
+                "Str":5,
+                "Agi":32,
+                "Int":793,
+                "Vit":662,
                 "Spr":2,
-                "Mnd":1290
+                "Mnd":1509
             },
             "Weapon":{
-                "Type":"BLADE",
+                "Type":"LIMPIDWAND",
                 "Level":300,
                 "Percentage":[
                     140,
@@ -5154,7 +5154,7 @@
                 "Myst":1
             },
             "Hand":{
-                "Type":"DEVOUR",
+                "Type":"BRACELET",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -5176,7 +5176,7 @@
                 "Myst":1
             },
             "Head":{
-                "Type":"SCARF",
+                "Type":"HUNT",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -5189,21 +5189,21 @@
             "Aura":{
                 "Amount":7,
                 "Skill":[
-                    "SHI",
                     "XIN",
-                    "XIAO",
-                    "SHENG",
+                    "FENG",
+                    "DUN",
                     "SHANG",
-                    "JU",
-                    "JUE"
+                    "SHEN",
+                    "HONG",
+                    "HOU"
                 ]
             }
         },
         "Parameter":{
-            "Turn":26,
+            "Turn":149,
             "Group":5,
             "Number":2,
-            "Weight":199,
+            "Weight":99,
             "Mark":false
         }
     },
@@ -5211,7 +5211,7 @@
         "Data":{
             "Mode":"",
             "Weight":1,
-            "Role":"WU",
+            "Role":"XIA",
             "Name":"(5,3)",
             "Growth":100000,
             "Time":-1,
@@ -5259,26 +5259,15 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":969,
-                "Agi":999,
-                "Int":1,
-                "Vit":6,
-                "Spr":1009,
-                "Mnd":19
+                "Str":2,
+                "Agi":1,
+                "Int":1501,
+                "Vit":629,
+                "Spr":3,
+                "Mnd":867
             },
             "Weapon":{
-                "Type":"BLADE",
-                "Level":300,
-                "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
-                ],
-                "Myst":0
-            },
-            "Hand":{
-                "Type":"RING",
+                "Type":"LIMPIDWAND",
                 "Level":300,
                 "Percentage":[
                     140,
@@ -5288,8 +5277,19 @@
                 ],
                 "Myst":1
             },
+            "Hand":{
+                "Type":"DEVOUR",
+                "Level":300,
+                "Percentage":[
+                    150,
+                    150,
+                    150,
+                    150
+                ],
+                "Myst":0
+            },
             "Body":{
-                "Type":"CAPE",
+                "Type":"THORN",
                 "Level":300,
                 "Percentage":[
                     140,
@@ -5300,7 +5300,7 @@
                 "Myst":1
             },
             "Head":{
-                "Type":"HUNT",
+                "Type":"SCARF",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -5313,21 +5313,21 @@
             "Aura":{
                 "Amount":7,
                 "Skill":[
+                    "SHI",
                     "XIN",
-                    "FENG",
                     "BI",
-                    "XUE",
-                    "RE",
-                    "WU",
+                    "E",
+                    "ZHI",
+                    "JUE",
                     "ZI"
                 ]
             }
         },
         "Parameter":{
-            "Turn":0,
+            "Turn":174,
             "Group":5,
             "Number":3,
-            "Weight":300,
+            "Weight":204,
             "Mark":false
         }
     },
@@ -5451,7 +5451,7 @@
             "Turn":18,
             "Group":5,
             "Number":4,
-            "Weight":201,
+            "Weight":300,
             "Mark":false
         }
     },
@@ -5575,7 +5575,7 @@
             "Turn":22,
             "Group":5,
             "Number":5,
-            "Weight":199,
+            "Weight":297,
             "Mark":false
         }
     },
@@ -5583,7 +5583,7 @@
         "Data":{
             "Mode":"",
             "Weight":1,
-            "Role":"YI",
+            "Role":"MING",
             "Name":"(5,6)",
             "Growth":0,
             "Time":-1,
@@ -5631,15 +5631,15 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":1031,
-                "Agi":1770,
-                "Int":1,
-                "Vit":2,
+                "Str":4,
+                "Agi":193,
+                "Int":434,
+                "Vit":1775,
                 "Spr":1,
-                "Mnd":198
+                "Mnd":596
             },
             "Weapon":{
-                "Type":"COLORFUL",
+                "Type":"SHIELD",
                 "Level":300,
                 "Percentage":[
                     140,
@@ -5650,7 +5650,7 @@
                 "Myst":1
             },
             "Hand":{
-                "Type":"GLOVES",
+                "Type":"DEVOUR",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -5661,15 +5661,15 @@
                 "Myst":0
             },
             "Body":{
-                "Type":"CAPE",
+                "Type":"THORN",
                 "Level":300,
                 "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
+                    140,
+                    140,
+                    140,
+                    140
                 ],
-                "Myst":0
+                "Myst":1
             },
             "Head":{
                 "Type":"HUNT",
@@ -5687,19 +5687,19 @@
                 "Skill":[
                     "SHI",
                     "XIN",
-                    "BI",
-                    "SHENG",
-                    "RE",
-                    "JU",
-                    "ZI"
+                    "XUE",
+                    "SHANG",
+                    "SHEN",
+                    "REN",
+                    "JU"
                 ]
             }
         },
         "Parameter":{
-            "Turn":87,
+            "Turn":112,
             "Group":5,
             "Number":6,
-            "Weight":200,
+            "Weight":201,
             "Mark":false
         }
     },
@@ -5755,23 +5755,23 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":836,
-                "Agi":572,
-                "Int":5,
-                "Vit":302,
-                "Spr":1,
-                "Mnd":1287
+                "Str":20,
+                "Agi":255,
+                "Int":641,
+                "Vit":3,
+                "Spr":9,
+                "Mnd":2075
             },
             "Weapon":{
-                "Type":"BLADE",
+                "Type":"SPEAR",
                 "Level":300,
                 "Percentage":[
-                    140,
-                    140,
-                    140,
-                    140
+                    150,
+                    150,
+                    150,
+                    150
                 ],
-                "Myst":1
+                "Myst":0
             },
             "Hand":{
                 "Type":"DEVOUR",
@@ -5796,7 +5796,7 @@
                 "Myst":1
             },
             "Head":{
-                "Type":"SCARF",
+                "Type":"HUNT",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -5809,21 +5809,21 @@
             "Aura":{
                 "Amount":7,
                 "Skill":[
-                    "SHI",
-                    "XIN",
+                    "XUE",
                     "XIAO",
-                    "SHENG",
+                    "E",
                     "SHANG",
-                    "JU",
-                    "JUE"
+                    "SHEN",
+                    "ZHI",
+                    "DUNH"
                 ]
             }
         },
         "Parameter":{
-            "Turn":25,
+            "Turn":157,
             "Group":5,
             "Number":7,
-            "Weight":200,
+            "Weight":198,
             "Mark":false
         }
     },
@@ -5831,7 +5831,7 @@
         "Data":{
             "Mode":"",
             "Weight":1,
-            "Role":"MING",
+            "Role":"LIN",
             "Name":"(5,8)",
             "Growth":0,
             "Time":-1,
@@ -5879,15 +5879,15 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":825,
-                "Agi":682,
-                "Int":7,
-                "Vit":769,
-                "Spr":2,
-                "Mnd":718
+                "Str":888,
+                "Agi":1079,
+                "Int":5,
+                "Vit":3,
+                "Spr":1027,
+                "Mnd":1
             },
             "Weapon":{
-                "Type":"BLADE",
+                "Type":"ASSBOW",
                 "Level":300,
                 "Percentage":[
                     140,
@@ -5909,7 +5909,7 @@
                 "Myst":0
             },
             "Body":{
-                "Type":"THORN",
+                "Type":"CLOAK",
                 "Level":300,
                 "Percentage":[
                     140,
@@ -5920,7 +5920,7 @@
                 "Myst":1
             },
             "Head":{
-                "Type":"SCARF",
+                "Type":"TIARA",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -5934,20 +5934,20 @@
                 "Amount":7,
                 "Skill":[
                     "SHI",
-                    "XIN",
+                    "FENG",
+                    "BI",
                     "XIAO",
-                    "SHENG",
-                    "SHANG",
-                    "JU",
-                    "JUE"
+                    "ZHI",
+                    "JUE",
+                    "ZI"
                 ]
             }
         },
         "Parameter":{
-            "Turn":73,
+            "Turn":198,
             "Group":5,
             "Number":8,
-            "Weight":102,
+            "Weight":101,
             "Mark":false
         }
     },
@@ -5955,9 +5955,9 @@
         "Data":{
             "Mode":"",
             "Weight":1,
-            "Role":"LIN",
+            "Role":"XIA",
             "Name":"(5,9)",
-            "Growth":0,
+            "Growth":100000,
             "Time":-1,
             "Level":900,
             "Player level":1200,
@@ -6003,139 +6003,15 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":11,
-                "Agi":4,
-                "Int":46,
-                "Vit":1068,
-                "Spr":3,
-                "Mnd":1871
+                "Str":1,
+                "Agi":28,
+                "Int":813,
+                "Vit":695,
+                "Spr":16,
+                "Mnd":1450
             },
             "Weapon":{
-                "Type":"SHIELD",
-                "Level":300,
-                "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
-                ],
-                "Myst":0
-            },
-            "Hand":{
-                "Type":"VULTURE",
-                "Level":300,
-                "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
-                ],
-                "Myst":0
-            },
-            "Body":{
-                "Type":"THORN",
-                "Level":300,
-                "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
-                ],
-                "Myst":0
-            },
-            "Head":{
-                "Type":"RIBBON",
-                "Level":300,
-                "Percentage":[
-                    140,
-                    140,
-                    140,
-                    140
-                ],
-                "Myst":1
-            },
-            "Aura":{
-                "Amount":7,
-                "Skill":[
-                    "SHI",
-                    "XUE",
-                    "SHENG",
-                    "SHANG",
-                    "RE",
-                    "WU",
-                    "DUNH"
-                ]
-            }
-        },
-        "Parameter":{
-            "Turn":0,
-            "Group":5,
-            "Number":9,
-            "Weight":299,
-            "Mark":false
-        }
-    },
-    {
-        "Data":{
-            "Mode":"",
-            "Weight":1,
-            "Role":"MIN",
-            "Name":"(5,10)",
-            "Growth":0,
-            "Time":-1,
-            "Level":900,
-            "Player level":1200,
-            "Skill slot":7,
-            "Quality":11,
-            "Wish":[
-                100,
-                100,
-                94,
-                94,
-                94,
-                200,
-                200,
-                200,
-                200,
-                50,
-                50,
-                50,
-                50,
-                50
-            ],
-            "Amulet":{
-                "STR":0,
-                "AGI":0,
-                "INT":0,
-                "VIT":0,
-                "SPR":0,
-                "MND":0,
-                "PATK":10,
-                "MATK":10,
-                "SPD":10,
-                "REC":10,
-                "HP":10,
-                "SLD":10,
-                "LCH":10,
-                "RFL":10,
-                "CRT":10,
-                "SKL":10,
-                "PDEF":10,
-                "MDEF":10,
-                "AAA":10,
-                "CRTR":3,
-                "SKLR":3
-            },
-            "Attribute":{
-                "Str":1498,
-                "Agi":1016,
-                "Int":1,
-                "Vit":376,
-                "Spr":8,
-                "Mnd":104
-            },
-            "Weapon":{
-                "Type":"BLADE",
+                "Type":"LIMPIDWAND",
                 "Level":300,
                 "Percentage":[
                     140,
@@ -6181,20 +6057,20 @@
             "Aura":{
                 "Amount":7,
                 "Skill":[
-                    "SHI",
                     "XIN",
-                    "BI",
-                    "XIAO",
+                    "FENG",
+                    "DUN",
                     "SHANG",
-                    "CI",
-                    "JUE"
+                    "SHEN",
+                    "HONG",
+                    "HOU"
                 ]
             }
         },
         "Parameter":{
-            "Turn":43,
+            "Turn":134,
             "Group":5,
-            "Number":10,
+            "Number":9,
             "Weight":199,
             "Mark":false
         }
@@ -6203,9 +6079,133 @@
         "Data":{
             "Mode":"",
             "Weight":1,
-            "Role":"YI",
-            "Name":"(5,11)",
+            "Role":"YA",
+            "Name":"(5,10)",
             "Growth":0,
+            "Time":1,
+            "Level":900,
+            "Player level":1200,
+            "Skill slot":7,
+            "Quality":11,
+            "Wish":[
+                100,
+                100,
+                94,
+                94,
+                94,
+                200,
+                200,
+                200,
+                200,
+                50,
+                50,
+                50,
+                50,
+                50
+            ],
+            "Amulet":{
+                "STR":0,
+                "AGI":0,
+                "INT":0,
+                "VIT":0,
+                "SPR":0,
+                "MND":0,
+                "PATK":10,
+                "MATK":10,
+                "SPD":10,
+                "REC":10,
+                "HP":10,
+                "SLD":10,
+                "LCH":10,
+                "RFL":10,
+                "CRT":10,
+                "SKL":10,
+                "PDEF":10,
+                "MDEF":10,
+                "AAA":10,
+                "CRTR":3,
+                "SKLR":3
+            },
+            "Attribute":{
+                "Str":627,
+                "Agi":884,
+                "Int":1,
+                "Vit":576,
+                "Spr":1,
+                "Mnd":914
+            },
+            "Weapon":{
+                "Type":"ASSBOW",
+                "Level":300,
+                "Percentage":[
+                    140,
+                    140,
+                    140,
+                    140
+                ],
+                "Myst":1
+            },
+            "Hand":{
+                "Type":"RING",
+                "Level":300,
+                "Percentage":[
+                    150,
+                    150,
+                    150,
+                    150
+                ],
+                "Myst":0
+            },
+            "Body":{
+                "Type":"WOOD",
+                "Level":300,
+                "Percentage":[
+                    150,
+                    150,
+                    150,
+                    150
+                ],
+                "Myst":0
+            },
+            "Head":{
+                "Type":"HUNT",
+                "Level":300,
+                "Percentage":[
+                    150,
+                    150,
+                    150,
+                    150
+                ],
+                "Myst":0
+            },
+            "Aura":{
+                "Amount":7,
+                "Skill":[
+                    "SHI",
+                    "XIN",
+                    "FENG",
+                    "XUE",
+                    "ZHI",
+                    "JUE",
+                    "ZI"
+                ]
+            }
+        },
+        "Parameter":{
+            "Turn":190,
+            "Group":5,
+            "Number":10,
+            "Weight":198,
+            "Mark":false
+        }
+    },
+    {
+        "Data":{
+            "Mode":"",
+            "Weight":1,
+            "Role":"XIA",
+            "Name":"(5,11)",
+            "Growth":100000,
             "Time":-1,
             "Level":900,
             "Player level":1200,
@@ -6251,15 +6251,15 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":300,
-                "Agi":992,
-                "Int":13,
-                "Vit":160,
-                "Spr":29,
-                "Mnd":1509
+                "Str":1,
+                "Agi":92,
+                "Int":1022,
+                "Vit":687,
+                "Spr":1,
+                "Mnd":1200
             },
             "Weapon":{
-                "Type":"BLADE",
+                "Type":"LIMPIDWAND",
                 "Level":300,
                 "Percentage":[
                     140,
@@ -6270,18 +6270,18 @@
                 "Myst":1
             },
             "Hand":{
-                "Type":"VULTURE",
+                "Type":"BRACELET",
                 "Level":300,
                 "Percentage":[
-                    140,
-                    140,
-                    140,
-                    140
+                    150,
+                    150,
+                    150,
+                    150
                 ],
-                "Myst":1
+                "Myst":0
             },
             "Body":{
-                "Type":"WOOD",
+                "Type":"THORN",
                 "Level":300,
                 "Percentage":[
                     140,
@@ -6305,21 +6305,21 @@
             "Aura":{
                 "Amount":7,
                 "Skill":[
-                    "SHI",
+                    "XIN",
                     "FENG",
-                    "MO",
-                    "SHENG",
-                    "ZHI",
-                    "FEI",
-                    "JU"
+                    "DUN",
+                    "SHANG",
+                    "SHEN",
+                    "HONG",
+                    "HOU"
                 ]
             }
         },
         "Parameter":{
-            "Turn":30,
+            "Turn":150,
             "Group":5,
             "Number":11,
-            "Weight":199,
+            "Weight":198,
             "Mark":false
         }
     },
@@ -6327,7 +6327,7 @@
         "Data":{
             "Mode":"",
             "Weight":1,
-            "Role":"YI",
+            "Role":"LIN",
             "Name":"(5,12)",
             "Growth":0,
             "Time":-1,
@@ -6375,15 +6375,15 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":1033,
-                "Agi":1793,
-                "Int":1,
-                "Vit":1,
-                "Spr":9,
-                "Mnd":166
+                "Str":2,
+                "Agi":22,
+                "Int":1490,
+                "Vit":743,
+                "Spr":1,
+                "Mnd":745
             },
             "Weapon":{
-                "Type":"COLORFUL",
+                "Type":"SHIELD",
                 "Level":300,
                 "Percentage":[
                     140,
@@ -6394,131 +6394,7 @@
                 "Myst":1
             },
             "Hand":{
-                "Type":"GLOVES",
-                "Level":300,
-                "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
-                ],
-                "Myst":0
-            },
-            "Body":{
-                "Type":"CAPE",
-                "Level":300,
-                "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
-                ],
-                "Myst":0
-            },
-            "Head":{
-                "Type":"HUNT",
-                "Level":300,
-                "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
-                ],
-                "Myst":0
-            },
-            "Aura":{
-                "Amount":7,
-                "Skill":[
-                    "SHI",
-                    "XIN",
-                    "BI",
-                    "SHENG",
-                    "RE",
-                    "JU",
-                    "ZI"
-                ]
-            }
-        },
-        "Parameter":{
-            "Turn":94,
-            "Group":5,
-            "Number":12,
-            "Weight":100,
-            "Mark":false
-        }
-    },
-    {
-        "Data":{
-            "Mode":"",
-            "Weight":1,
-            "Role":"LIN",
-            "Name":"(5,13)",
-            "Growth":0,
-            "Time":-1,
-            "Level":900,
-            "Player level":1200,
-            "Skill slot":7,
-            "Quality":11,
-            "Wish":[
-                100,
-                100,
-                94,
-                94,
-                94,
-                200,
-                200,
-                200,
-                200,
-                50,
-                50,
-                50,
-                50,
-                50
-            ],
-            "Amulet":{
-                "STR":0,
-                "AGI":0,
-                "INT":0,
-                "VIT":0,
-                "SPR":0,
-                "MND":0,
-                "PATK":10,
-                "MATK":10,
-                "SPD":10,
-                "REC":10,
-                "HP":10,
-                "SLD":10,
-                "LCH":10,
-                "RFL":10,
-                "CRT":10,
-                "SKL":10,
-                "PDEF":10,
-                "MDEF":10,
-                "AAA":10,
-                "CRTR":3,
-                "SKLR":3
-            },
-            "Attribute":{
-                "Str":24,
-                "Agi":13,
-                "Int":1,
-                "Vit":764,
-                "Spr":7,
-                "Mnd":2194
-            },
-            "Weapon":{
-                "Type":"SHIELD",
-                "Level":300,
-                "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
-                ],
-                "Myst":0
-            },
-            "Hand":{
-                "Type":"VULTURE",
+                "Type":"BRACELET",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -6532,17 +6408,6 @@
                 "Type":"THORN",
                 "Level":300,
                 "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
-                ],
-                "Myst":0
-            },
-            "Head":{
-                "Type":"RIBBON",
-                "Level":300,
-                "Percentage":[
                     140,
                     140,
                     140,
@@ -6550,24 +6415,35 @@
                 ],
                 "Myst":1
             },
+            "Head":{
+                "Type":"TIARA",
+                "Level":300,
+                "Percentage":[
+                    150,
+                    150,
+                    150,
+                    150
+                ],
+                "Myst":0
+            },
             "Aura":{
                 "Amount":7,
                 "Skill":[
-                    "SHI",
+                    "MO",
                     "XUE",
                     "SHENG",
                     "SHANG",
                     "RE",
-                    "WU",
-                    "DUNH"
+                    "ZHI",
+                    "HONG"
                 ]
             }
         },
         "Parameter":{
-            "Turn":3,
+            "Turn":124,
             "Group":5,
-            "Number":13,
-            "Weight":199,
+            "Number":12,
+            "Weight":98,
             "Mark":false
         }
     },
@@ -6575,8 +6451,8 @@
         "Data":{
             "Mode":"",
             "Weight":1,
-            "Role":"WU",
-            "Name":"(5,14)",
+            "Role":"XIA",
+            "Name":"(5,13)",
             "Growth":100000,
             "Time":-1,
             "Level":900,
@@ -6623,15 +6499,15 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":837,
-                "Agi":832,
-                "Int":1,
-                "Vit":500,
+                "Str":4,
+                "Agi":34,
+                "Int":799,
+                "Vit":677,
                 "Spr":1,
-                "Mnd":832
+                "Mnd":1488
             },
             "Weapon":{
-                "Type":"BLADE",
+                "Type":"LIMPIDWAND",
                 "Level":300,
                 "Percentage":[
                     140,
@@ -6642,15 +6518,15 @@
                 "Myst":1
             },
             "Hand":{
-                "Type":"RING",
+                "Type":"BRACELET",
                 "Level":300,
                 "Percentage":[
-                    140,
-                    140,
-                    140,
-                    140
+                    150,
+                    150,
+                    150,
+                    150
                 ],
-                "Myst":1
+                "Myst":0
             },
             "Body":{
                 "Type":"THORN",
@@ -6664,7 +6540,7 @@
                 "Myst":1
             },
             "Head":{
-                "Type":"SCARF",
+                "Type":"HUNT",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -6677,21 +6553,145 @@
             "Aura":{
                 "Amount":7,
                 "Skill":[
-                    "SHI",
                     "XIN",
-                    "XIAO",
-                    "SHENG",
+                    "FENG",
+                    "DUN",
                     "SHANG",
-                    "JU",
-                    "JUE"
+                    "SHEN",
+                    "HONG",
+                    "HOU"
                 ]
             }
         },
         "Parameter":{
-            "Turn":0,
+            "Turn":139,
+            "Group":5,
+            "Number":13,
+            "Weight":98,
+            "Mark":false
+        }
+    },
+    {
+        "Data":{
+            "Mode":"",
+            "Weight":1,
+            "Role":"LIN",
+            "Name":"(5,14)",
+            "Growth":0,
+            "Time":-1,
+            "Level":900,
+            "Player level":1200,
+            "Skill slot":7,
+            "Quality":11,
+            "Wish":[
+                100,
+                100,
+                94,
+                94,
+                94,
+                200,
+                200,
+                200,
+                200,
+                50,
+                50,
+                50,
+                50,
+                50
+            ],
+            "Amulet":{
+                "STR":0,
+                "AGI":0,
+                "INT":0,
+                "VIT":0,
+                "SPR":0,
+                "MND":0,
+                "PATK":10,
+                "MATK":10,
+                "SPD":10,
+                "REC":10,
+                "HP":10,
+                "SLD":10,
+                "LCH":10,
+                "RFL":10,
+                "CRT":10,
+                "SKL":10,
+                "PDEF":10,
+                "MDEF":10,
+                "AAA":10,
+                "CRTR":3,
+                "SKLR":3
+            },
+            "Attribute":{
+                "Str":4,
+                "Agi":1,
+                "Int":1497,
+                "Vit":863,
+                "Spr":4,
+                "Mnd":634
+            },
+            "Weapon":{
+                "Type":"SHIELD",
+                "Level":300,
+                "Percentage":[
+                    140,
+                    140,
+                    140,
+                    140
+                ],
+                "Myst":1
+            },
+            "Hand":{
+                "Type":"BRACELET",
+                "Level":300,
+                "Percentage":[
+                    150,
+                    150,
+                    150,
+                    150
+                ],
+                "Myst":0
+            },
+            "Body":{
+                "Type":"THORN",
+                "Level":300,
+                "Percentage":[
+                    140,
+                    140,
+                    140,
+                    140
+                ],
+                "Myst":1
+            },
+            "Head":{
+                "Type":"TIARA",
+                "Level":300,
+                "Percentage":[
+                    150,
+                    150,
+                    150,
+                    150
+                ],
+                "Myst":0
+            },
+            "Aura":{
+                "Amount":7,
+                "Skill":[
+                    "MO",
+                    "XUE",
+                    "SHENG",
+                    "SHANG",
+                    "RE",
+                    "ZHI",
+                    "HONG"
+                ]
+            }
+        },
+        "Parameter":{
+            "Turn":117,
             "Group":5,
             "Number":14,
-            "Weight":299,
+            "Weight":300,
             "Mark":false
         }
     },
@@ -6815,7 +6815,7 @@
             "Turn":58,
             "Group":5,
             "Number":15,
-            "Weight":99,
+            "Weight":199,
             "Mark":false
         }
     },
@@ -6939,7 +6939,7 @@
             "Turn":36,
             "Group":5,
             "Number":16,
-            "Weight":101,
+            "Weight":200,
             "Mark":false
         }
     },
@@ -6947,10 +6947,10 @@
         "Data":{
             "Mode":"",
             "Weight":1,
-            "Role":"YA",
+            "Role":"MING",
             "Name":"(5,17)",
             "Growth":0,
-            "Time":1,
+            "Time":-1,
             "Level":900,
             "Player level":1200,
             "Skill slot":7,
@@ -6995,15 +6995,15 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":941,
-                "Agi":991,
-                "Int":4,
-                "Vit":431,
-                "Spr":13,
-                "Mnd":623
+                "Str":16,
+                "Agi":181,
+                "Int":435,
+                "Vit":1771,
+                "Spr":2,
+                "Mnd":598
             },
             "Weapon":{
-                "Type":"BLADE",
+                "Type":"SHIELD",
                 "Level":300,
                 "Percentage":[
                     140,
@@ -7014,18 +7014,7 @@
                 "Myst":1
             },
             "Hand":{
-                "Type":"VULTURE",
-                "Level":300,
-                "Percentage":[
-                    140,
-                    140,
-                    140,
-                    140
-                ],
-                "Myst":1
-            },
-            "Body":{
-                "Type":"WOOD",
+                "Type":"DEVOUR",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -7034,6 +7023,17 @@
                     150
                 ],
                 "Myst":0
+            },
+            "Body":{
+                "Type":"THORN",
+                "Level":300,
+                "Percentage":[
+                    140,
+                    140,
+                    140,
+                    140
+                ],
+                "Myst":1
             },
             "Head":{
                 "Type":"HUNT",
@@ -7051,19 +7051,19 @@
                 "Skill":[
                     "SHI",
                     "XIN",
-                    "BI",
-                    "DUN",
                     "XUE",
-                    "CI",
-                    "JUE"
+                    "SHANG",
+                    "SHEN",
+                    "REN",
+                    "JU"
                 ]
             }
         },
         "Parameter":{
-            "Turn":66,
+            "Turn":113,
             "Group":5,
             "Number":17,
-            "Weight":199,
+            "Weight":201,
             "Mark":false
         }
     },
@@ -7187,7 +7187,7 @@
             "Turn":53,
             "Group":5,
             "Number":18,
-            "Weight":200,
+            "Weight":301,
             "Mark":false
         }
     },
@@ -7195,7 +7195,7 @@
         "Data":{
             "Mode":"",
             "Weight":1,
-            "Role":"YI",
+            "Role":"LIN",
             "Name":"(5,19)",
             "Growth":0,
             "Time":-1,
@@ -7243,15 +7243,15 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":1032,
-                "Agi":1782,
-                "Int":1,
-                "Vit":1,
-                "Spr":7,
-                "Mnd":180
+                "Str":888,
+                "Agi":1064,
+                "Int":19,
+                "Vit":3,
+                "Spr":1028,
+                "Mnd":1
             },
             "Weapon":{
-                "Type":"COLORFUL",
+                "Type":"ASSBOW",
                 "Level":300,
                 "Percentage":[
                     140,
@@ -7262,7 +7262,7 @@
                 "Myst":1
             },
             "Hand":{
-                "Type":"GLOVES",
+                "Type":"DEVOUR",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -7273,18 +7273,18 @@
                 "Myst":0
             },
             "Body":{
-                "Type":"CAPE",
+                "Type":"CLOAK",
                 "Level":300,
                 "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
+                    140,
+                    140,
+                    140,
+                    140
                 ],
-                "Myst":0
+                "Myst":1
             },
             "Head":{
-                "Type":"HUNT",
+                "Type":"TIARA",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -7298,20 +7298,20 @@
                 "Amount":7,
                 "Skill":[
                     "SHI",
-                    "XIN",
+                    "FENG",
                     "BI",
-                    "SHENG",
-                    "RE",
-                    "JU",
+                    "XIAO",
+                    "ZHI",
+                    "JUE",
                     "ZI"
                 ]
             }
         },
         "Parameter":{
-            "Turn":90,
+            "Turn":200,
             "Group":5,
             "Number":19,
-            "Weight":99,
+            "Weight":100,
             "Mark":false
         }
     },
@@ -7319,7 +7319,7 @@
         "Data":{
             "Mode":"",
             "Weight":1,
-            "Role":"LIN",
+            "Role":"MING",
             "Name":"(5,20)",
             "Growth":0,
             "Time":-1,
@@ -7367,26 +7367,26 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":3,
-                "Agi":120,
-                "Int":1,
-                "Vit":1066,
-                "Spr":6,
-                "Mnd":1807
+                "Str":2,
+                "Agi":3,
+                "Int":559,
+                "Vit":1829,
+                "Spr":7,
+                "Mnd":603
             },
             "Weapon":{
                 "Type":"SHIELD",
                 "Level":300,
                 "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
+                    140,
+                    140,
+                    140,
+                    140
                 ],
-                "Myst":0
+                "Myst":1
             },
             "Hand":{
-                "Type":"VULTURE",
+                "Type":"DEVOUR",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -7400,17 +7400,6 @@
                 "Type":"THORN",
                 "Level":300,
                 "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
-                ],
-                "Myst":0
-            },
-            "Head":{
-                "Type":"RIBBON",
-                "Level":300,
-                "Percentage":[
                     140,
                     140,
                     140,
@@ -7418,21 +7407,32 @@
                 ],
                 "Myst":1
             },
+            "Head":{
+                "Type":"HUNT",
+                "Level":300,
+                "Percentage":[
+                    150,
+                    150,
+                    150,
+                    150
+                ],
+                "Myst":0
+            },
             "Aura":{
                 "Amount":7,
                 "Skill":[
                     "SHI",
+                    "XIN",
                     "XUE",
-                    "SHENG",
                     "SHANG",
-                    "RE",
-                    "WU",
-                    "DUNH"
+                    "SHEN",
+                    "REN",
+                    "JU"
                 ]
             }
         },
         "Parameter":{
-            "Turn":14,
+            "Turn":103,
             "Group":5,
             "Number":20,
             "Weight":200,
@@ -7443,9 +7443,9 @@
         "Data":{
             "Mode":"",
             "Weight":1,
-            "Role":"MIN",
+            "Role":"XIA",
             "Name":"(6,1)",
-            "Growth":0,
+            "Growth":100000,
             "Time":-1,
             "Level":900,
             "Player level":1300,
@@ -7491,15 +7491,15 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":1539,
-                "Agi":1022,
-                "Int":1,
-                "Vit":1,
-                "Spr":192,
-                "Mnd":248
+                "Str":4,
+                "Agi":1,
+                "Int":1490,
+                "Vit":637,
+                "Spr":3,
+                "Mnd":868
             },
             "Weapon":{
-                "Type":"BLADE",
+                "Type":"LIMPIDWAND",
                 "Level":300,
                 "Percentage":[
                     140,
@@ -7510,7 +7510,7 @@
                 "Myst":1
             },
             "Hand":{
-                "Type":"BRACELET",
+                "Type":"DEVOUR",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -7532,7 +7532,7 @@
                 "Myst":1
             },
             "Head":{
-                "Type":"HUNT",
+                "Type":"SCARF",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -7548,18 +7548,18 @@
                     "SHI",
                     "XIN",
                     "BI",
-                    "XIAO",
-                    "SHANG",
-                    "CI",
-                    "JUE"
+                    "E",
+                    "ZHI",
+                    "JUE",
+                    "ZI"
                 ]
             }
         },
         "Parameter":{
-            "Turn":24,
+            "Turn":183,
             "Group":6,
             "Number":1,
-            "Weight":199,
+            "Weight":197,
             "Mark":false
         }
     },
@@ -7567,7 +7567,7 @@
         "Data":{
             "Mode":"",
             "Weight":1,
-            "Role":"YI",
+            "Role":"MING",
             "Name":"(6,2)",
             "Growth":0,
             "Time":-1,
@@ -7615,15 +7615,15 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":1056,
-                "Agi":1783,
-                "Int":3,
+                "Str":1977,
+                "Agi":10,
+                "Int":5,
                 "Vit":1,
-                "Spr":10,
-                "Mnd":150
+                "Spr":1,
+                "Mnd":1009
             },
             "Weapon":{
-                "Type":"COLORFUL",
+                "Type":"ASSBOW",
                 "Level":300,
                 "Percentage":[
                     140,
@@ -7634,29 +7634,29 @@
                 "Myst":1
             },
             "Hand":{
-                "Type":"GLOVES",
+                "Type":"DEVOUR",
                 "Level":300,
                 "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
+                    140,
+                    140,
+                    140,
+                    140
                 ],
-                "Myst":0
+                "Myst":1
             },
             "Body":{
-                "Type":"CAPE",
+                "Type":"THORN",
                 "Level":300,
                 "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
+                    140,
+                    140,
+                    140,
+                    140
                 ],
-                "Myst":0
+                "Myst":1
             },
             "Head":{
-                "Type":"HUNT",
+                "Type":"RIBBON",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -7671,16 +7671,16 @@
                 "Skill":[
                     "SHI",
                     "XIN",
-                    "BI",
-                    "SHENG",
-                    "RE",
-                    "JU",
-                    "ZI"
+                    "XUE",
+                    "REN",
+                    "ZHI",
+                    "JUE",
+                    "HOU"
                 ]
             }
         },
         "Parameter":{
-            "Turn":91,
+            "Turn":130,
             "Group":6,
             "Number":2,
             "Weight":200,
@@ -7807,7 +7807,7 @@
             "Turn":60,
             "Group":6,
             "Number":3,
-            "Weight":199,
+            "Weight":299,
             "Mark":false
         }
     },
@@ -7815,7 +7815,7 @@
         "Data":{
             "Mode":"",
             "Weight":1,
-            "Role":"AI",
+            "Role":"LIN",
             "Name":"(6,4)",
             "Growth":0,
             "Time":-1,
@@ -7864,22 +7864,22 @@
             },
             "Attribute":{
                 "Str":4,
-                "Agi":1395,
-                "Int":1370,
-                "Vit":24,
-                "Spr":16,
-                "Mnd":194
+                "Agi":1,
+                "Int":1498,
+                "Vit":795,
+                "Spr":13,
+                "Mnd":692
             },
             "Weapon":{
-                "Type":"DAGGER",
+                "Type":"SHIELD",
                 "Level":300,
                 "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
+                    140,
+                    140,
+                    140,
+                    140
                 ],
-                "Myst":0
+                "Myst":1
             },
             "Hand":{
                 "Type":"BRACELET",
@@ -7893,18 +7893,18 @@
                 "Myst":0
             },
             "Body":{
-                "Type":"WOOD",
+                "Type":"THORN",
                 "Level":300,
                 "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
+                    140,
+                    140,
+                    140,
+                    140
                 ],
-                "Myst":0
+                "Myst":1
             },
             "Head":{
-                "Type":"HUNT",
+                "Type":"TIARA",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -7917,21 +7917,21 @@
             "Aura":{
                 "Amount":7,
                 "Skill":[
-                    "SHI",
-                    "XIN",
-                    "FENG",
-                    "XIAO",
+                    "MO",
+                    "XUE",
+                    "SHENG",
+                    "SHANG",
+                    "RE",
                     "ZHI",
-                    "JU",
-                    "ZI"
+                    "HONG"
                 ]
             }
         },
         "Parameter":{
-            "Turn":79,
+            "Turn":120,
             "Group":6,
             "Number":4,
-            "Weight":202,
+            "Weight":200,
             "Mark":false
         }
     },
@@ -7939,9 +7939,9 @@
         "Data":{
             "Mode":"",
             "Weight":1,
-            "Role":"XIA",
+            "Role":"MING",
             "Name":"(6,5)",
-            "Growth":100000,
+            "Growth":0,
             "Time":-1,
             "Level":900,
             "Player level":1300,
@@ -7987,15 +7987,15 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":4,
-                "Agi":1035,
-                "Int":936,
-                "Vit":2,
-                "Spr":1024,
-                "Mnd":2
+                "Str":1526,
+                "Agi":15,
+                "Int":1,
+                "Vit":477,
+                "Spr":5,
+                "Mnd":979
             },
             "Weapon":{
-                "Type":"LIMPIDWAND",
+                "Type":"SHIELD",
                 "Level":300,
                 "Percentage":[
                     140,
@@ -8006,18 +8006,18 @@
                 "Myst":1
             },
             "Hand":{
-                "Type":"BRACELET",
+                "Type":"DEVOUR",
                 "Level":300,
                 "Percentage":[
-                    140,
-                    140,
-                    140,
-                    140
+                    150,
+                    150,
+                    150,
+                    150
                 ],
-                "Myst":1
+                "Myst":0
             },
             "Body":{
-                "Type":"CAPE",
+                "Type":"THORN",
                 "Level":300,
                 "Percentage":[
                     140,
@@ -8041,18 +8041,18 @@
             "Aura":{
                 "Amount":7,
                 "Skill":[
+                    "SHI",
                     "XIN",
-                    "DUN",
-                    "XIAO",
-                    "SHENG",
-                    "E",
-                    "BO",
+                    "XUE",
+                    "SHANG",
+                    "SHEN",
+                    "REN",
                     "JU"
                 ]
             }
         },
         "Parameter":{
-            "Turn":0,
+            "Turn":109,
             "Group":6,
             "Number":5,
             "Weight":301,
@@ -8063,7 +8063,7 @@
         "Data":{
             "Mode":"",
             "Weight":1,
-            "Role":"WEI",
+            "Role":"YI",
             "Name":"(6,6)",
             "Growth":0,
             "Time":-1,
@@ -8111,15 +8111,15 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":1794,
-                "Agi":1146,
-                "Int":9,
-                "Vit":27,
-                "Spr":18,
-                "Mnd":9
+                "Str":29,
+                "Agi":394,
+                "Int":1095,
+                "Vit":52,
+                "Spr":1,
+                "Mnd":1432
             },
             "Weapon":{
-                "Type":"BLADE",
+                "Type":"COLORFUL",
                 "Level":300,
                 "Percentage":[
                     140,
@@ -8130,7 +8130,7 @@
                 "Myst":1
             },
             "Hand":{
-                "Type":"BRACELET",
+                "Type":"VULTURE",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -8144,12 +8144,12 @@
                 "Type":"THORN",
                 "Level":300,
                 "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
+                    140,
+                    140,
+                    140,
+                    140
                 ],
-                "Myst":0
+                "Myst":1
             },
             "Head":{
                 "Type":"HUNT",
@@ -8165,21 +8165,21 @@
             "Aura":{
                 "Amount":7,
                 "Skill":[
-                    "SHI",
                     "XIN",
+                    "FENG",
                     "BI",
-                    "DUN",
-                    "RE",
-                    "JU",
+                    "MO",
+                    "SHANG",
+                    "HONG",
                     "ZI"
                 ]
             }
         },
         "Parameter":{
-            "Turn":45,
+            "Turn":196,
             "Group":6,
             "Number":6,
-            "Weight":200,
+            "Weight":100,
             "Mark":false
         }
     },
@@ -8187,7 +8187,7 @@
         "Data":{
             "Mode":"",
             "Weight":1,
-            "Role":"LIN",
+            "Role":"YI",
             "Name":"(6,7)",
             "Growth":0,
             "Time":-1,
@@ -8235,15 +8235,15 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":1564,
-                "Agi":1131,
-                "Int":111,
-                "Vit":8,
-                "Spr":1,
-                "Mnd":188
+                "Str":28,
+                "Agi":217,
+                "Int":317,
+                "Vit":759,
+                "Spr":3,
+                "Mnd":1679
             },
             "Weapon":{
-                "Type":"ASSBOW",
+                "Type":"SPEAR",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -8254,7 +8254,7 @@
                 "Myst":0
             },
             "Hand":{
-                "Type":"VULTURE",
+                "Type":"RING",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -8268,15 +8268,15 @@
                 "Type":"THORN",
                 "Level":300,
                 "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
+                    140,
+                    140,
+                    140,
+                    140
                 ],
-                "Myst":0
+                "Myst":1
             },
             "Head":{
-                "Type":"HUNT",
+                "Type":"RIBBON",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -8289,21 +8289,21 @@
             "Aura":{
                 "Amount":7,
                 "Skill":[
-                    "XIN",
+                    "SHI",
                     "FENG",
-                    "E",
+                    "DUN",
+                    "XIAO",
+                    "SHENG",
                     "REN",
-                    "RE",
-                    "BO",
-                    "ZI"
+                    "DUNH"
                 ]
             }
         },
         "Parameter":{
-            "Turn":27,
+            "Turn":168,
             "Group":6,
             "Number":7,
-            "Weight":202,
+            "Weight":204,
             "Mark":false
         }
     },
@@ -8311,9 +8311,9 @@
         "Data":{
             "Mode":"",
             "Weight":1,
-            "Role":"LIN",
+            "Role":"XIA",
             "Name":"(6,8)",
-            "Growth":0,
+            "Growth":100000,
             "Time":-1,
             "Level":900,
             "Player level":1300,
@@ -8359,26 +8359,26 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":37,
-                "Agi":26,
-                "Int":11,
-                "Vit":722,
-                "Spr":78,
-                "Mnd":2129
+                "Str":1,
+                "Agi":19,
+                "Int":1491,
+                "Vit":616,
+                "Spr":3,
+                "Mnd":873
             },
             "Weapon":{
-                "Type":"SHIELD",
+                "Type":"LIMPIDWAND",
                 "Level":300,
                 "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
+                    140,
+                    140,
+                    140,
+                    140
                 ],
-                "Myst":0
+                "Myst":1
             },
             "Hand":{
-                "Type":"VULTURE",
+                "Type":"DEVOUR",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -8392,17 +8392,6 @@
                 "Type":"THORN",
                 "Level":300,
                 "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
-                ],
-                "Myst":0
-            },
-            "Head":{
-                "Type":"RIBBON",
-                "Level":300,
-                "Percentage":[
                     140,
                     140,
                     140,
@@ -8410,24 +8399,35 @@
                 ],
                 "Myst":1
             },
+            "Head":{
+                "Type":"SCARF",
+                "Level":300,
+                "Percentage":[
+                    150,
+                    150,
+                    150,
+                    150
+                ],
+                "Myst":0
+            },
             "Aura":{
                 "Amount":7,
                 "Skill":[
                     "SHI",
-                    "XUE",
-                    "SHENG",
-                    "SHANG",
-                    "RE",
-                    "WU",
-                    "DUNH"
+                    "XIN",
+                    "BI",
+                    "E",
+                    "ZHI",
+                    "JUE",
+                    "ZI"
                 ]
             }
         },
         "Parameter":{
-            "Turn":2,
+            "Turn":177,
             "Group":6,
             "Number":8,
-            "Weight":200,
+            "Weight":99,
             "Mark":false
         }
     },
@@ -8551,7 +8551,7 @@
             "Turn":52,
             "Group":6,
             "Number":9,
-            "Weight":200,
+            "Weight":299,
             "Mark":false
         }
     },
@@ -8559,7 +8559,7 @@
         "Data":{
             "Mode":"",
             "Weight":1,
-            "Role":"WEI",
+            "Role":"MING",
             "Name":"(6,10)",
             "Growth":0,
             "Time":-1,
@@ -8607,26 +8607,26 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":1793,
-                "Agi":1188,
-                "Int":17,
-                "Vit":3,
-                "Spr":1,
-                "Mnd":1
+                "Str":10,
+                "Agi":178,
+                "Int":713,
+                "Vit":9,
+                "Spr":10,
+                "Mnd":2083
             },
             "Weapon":{
-                "Type":"BLADE",
+                "Type":"SPEAR",
                 "Level":300,
                 "Percentage":[
-                    140,
-                    140,
-                    140,
-                    140
+                    150,
+                    150,
+                    150,
+                    150
                 ],
-                "Myst":1
+                "Myst":0
             },
             "Hand":{
-                "Type":"BRACELET",
+                "Type":"DEVOUR",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -8640,12 +8640,12 @@
                 "Type":"THORN",
                 "Level":300,
                 "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
+                    140,
+                    140,
+                    140,
+                    140
                 ],
-                "Myst":0
+                "Myst":1
             },
             "Head":{
                 "Type":"HUNT",
@@ -8661,21 +8661,21 @@
             "Aura":{
                 "Amount":7,
                 "Skill":[
-                    "SHI",
-                    "XIN",
-                    "BI",
-                    "DUN",
-                    "RE",
-                    "JU",
-                    "ZI"
+                    "XUE",
+                    "XIAO",
+                    "E",
+                    "SHANG",
+                    "SHEN",
+                    "ZHI",
+                    "DUNH"
                 ]
             }
         },
         "Parameter":{
-            "Turn":57,
+            "Turn":156,
             "Group":6,
             "Number":10,
-            "Weight":199,
+            "Weight":99,
             "Mark":false
         }
     },
@@ -8799,7 +8799,7 @@
             "Turn":99,
             "Group":6,
             "Number":11,
-            "Weight":100,
+            "Weight":200,
             "Mark":false
         }
     },
@@ -8855,26 +8855,26 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":4,
-                "Agi":87,
-                "Int":66,
-                "Vit":845,
-                "Spr":17,
-                "Mnd":1984
+                "Str":3,
+                "Agi":1,
+                "Int":1490,
+                "Vit":779,
+                "Spr":3,
+                "Mnd":727
             },
             "Weapon":{
                 "Type":"SHIELD",
                 "Level":300,
                 "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
+                    140,
+                    140,
+                    140,
+                    140
                 ],
-                "Myst":0
+                "Myst":1
             },
             "Hand":{
-                "Type":"VULTURE",
+                "Type":"BRACELET",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -8888,17 +8888,6 @@
                 "Type":"THORN",
                 "Level":300,
                 "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
-                ],
-                "Myst":0
-            },
-            "Head":{
-                "Type":"RIBBON",
-                "Level":300,
-                "Percentage":[
                     140,
                     140,
                     140,
@@ -8906,24 +8895,35 @@
                 ],
                 "Myst":1
             },
+            "Head":{
+                "Type":"TIARA",
+                "Level":300,
+                "Percentage":[
+                    150,
+                    150,
+                    150,
+                    150
+                ],
+                "Myst":0
+            },
             "Aura":{
                 "Amount":7,
                 "Skill":[
-                    "SHI",
+                    "MO",
                     "XUE",
                     "SHENG",
                     "SHANG",
                     "RE",
-                    "WU",
-                    "DUNH"
+                    "ZHI",
+                    "HONG"
                 ]
             }
         },
         "Parameter":{
-            "Turn":0,
+            "Turn":121,
             "Group":6,
             "Number":12,
-            "Weight":300,
+            "Weight":200,
             "Mark":false
         }
     },
@@ -8931,9 +8931,9 @@
         "Data":{
             "Mode":"",
             "Weight":1,
-            "Role":"LIN",
+            "Role":"XIA",
             "Name":"(6,13)",
-            "Growth":0,
+            "Growth":100000,
             "Time":-1,
             "Level":900,
             "Player level":1300,
@@ -8979,26 +8979,26 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":12,
-                "Agi":43,
-                "Int":59,
-                "Vit":863,
-                "Spr":1,
-                "Mnd":2025
+                "Str":7,
+                "Agi":228,
+                "Int":923,
+                "Vit":699,
+                "Spr":2,
+                "Mnd":1144
             },
             "Weapon":{
-                "Type":"SHIELD",
+                "Type":"LIMPIDWAND",
                 "Level":300,
                 "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
+                    140,
+                    140,
+                    140,
+                    140
                 ],
-                "Myst":0
+                "Myst":1
             },
             "Hand":{
-                "Type":"VULTURE",
+                "Type":"BRACELET",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -9012,17 +9012,6 @@
                 "Type":"THORN",
                 "Level":300,
                 "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
-                ],
-                "Myst":0
-            },
-            "Head":{
-                "Type":"RIBBON",
-                "Level":300,
-                "Percentage":[
                     140,
                     140,
                     140,
@@ -9030,24 +9019,35 @@
                 ],
                 "Myst":1
             },
+            "Head":{
+                "Type":"HUNT",
+                "Level":300,
+                "Percentage":[
+                    150,
+                    150,
+                    150,
+                    150
+                ],
+                "Myst":0
+            },
             "Aura":{
                 "Amount":7,
                 "Skill":[
-                    "SHI",
-                    "XUE",
-                    "SHENG",
+                    "XIN",
+                    "FENG",
+                    "DUN",
                     "SHANG",
-                    "RE",
-                    "WU",
-                    "DUNH"
+                    "SHEN",
+                    "HONG",
+                    "HOU"
                 ]
             }
         },
         "Parameter":{
-            "Turn":7,
+            "Turn":155,
             "Group":6,
             "Number":13,
-            "Weight":200,
+            "Weight":103,
             "Mark":false
         }
     },
@@ -9171,7 +9171,7 @@
             "Turn":59,
             "Group":6,
             "Number":14,
-            "Weight":200,
+            "Weight":299,
             "Mark":false
         }
     },
@@ -9179,7 +9179,7 @@
         "Data":{
             "Mode":"",
             "Weight":1,
-            "Role":"WEI",
+            "Role":"YI",
             "Name":"(6,15)",
             "Growth":0,
             "Time":-1,
@@ -9227,15 +9227,15 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":1787,
-                "Agi":1158,
-                "Int":4,
-                "Vit":13,
-                "Spr":32,
-                "Mnd":9
+                "Str":63,
+                "Agi":394,
+                "Int":1049,
+                "Vit":96,
+                "Spr":12,
+                "Mnd":1389
             },
             "Weapon":{
-                "Type":"BLADE",
+                "Type":"COLORFUL",
                 "Level":300,
                 "Percentage":[
                     140,
@@ -9246,7 +9246,7 @@
                 "Myst":1
             },
             "Hand":{
-                "Type":"BRACELET",
+                "Type":"VULTURE",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -9260,12 +9260,12 @@
                 "Type":"THORN",
                 "Level":300,
                 "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
+                    140,
+                    140,
+                    140,
+                    140
                 ],
-                "Myst":0
+                "Myst":1
             },
             "Head":{
                 "Type":"HUNT",
@@ -9281,18 +9281,18 @@
             "Aura":{
                 "Amount":7,
                 "Skill":[
-                    "SHI",
                     "XIN",
+                    "FENG",
                     "BI",
-                    "DUN",
-                    "RE",
-                    "JU",
+                    "MO",
+                    "SHANG",
+                    "HONG",
                     "ZI"
                 ]
             }
         },
         "Parameter":{
-            "Turn":47,
+            "Turn":197,
             "Group":6,
             "Number":15,
             "Weight":199,
@@ -9303,7 +9303,7 @@
         "Data":{
             "Mode":"",
             "Weight":1,
-            "Role":"MIN",
+            "Role":"MING",
             "Name":"(6,16)",
             "Growth":0,
             "Time":-1,
@@ -9351,26 +9351,26 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":1577,
-                "Agi":1022,
-                "Int":1,
-                "Vit":13,
-                "Spr":340,
-                "Mnd":50
+                "Str":4,
+                "Agi":84,
+                "Int":893,
+                "Vit":1,
+                "Spr":3,
+                "Mnd":2018
             },
             "Weapon":{
-                "Type":"BLADE",
+                "Type":"LIMPIDWAND",
                 "Level":300,
                 "Percentage":[
-                    140,
-                    140,
-                    140,
-                    140
+                    150,
+                    150,
+                    150,
+                    150
                 ],
-                "Myst":1
+                "Myst":0
             },
             "Hand":{
-                "Type":"BRACELET",
+                "Type":"DEVOUR",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -9393,6 +9393,130 @@
             },
             "Head":{
                 "Type":"HUNT",
+                "Level":300,
+                "Percentage":[
+                    150,
+                    150,
+                    150,
+                    150
+                ],
+                "Myst":0
+            },
+            "Aura":{
+                "Amount":7,
+                "Skill":[
+                    "XIN",
+                    "MO",
+                    "XIAO",
+                    "SHANG",
+                    "RE",
+                    "ZHI",
+                    "JU"
+                ]
+            }
+        },
+        "Parameter":{
+            "Turn":161,
+            "Group":6,
+            "Number":16,
+            "Weight":198,
+            "Mark":false
+        }
+    },
+    {
+        "Data":{
+            "Mode":"",
+            "Weight":1,
+            "Role":"XIA",
+            "Name":"(6,17)",
+            "Growth":100000,
+            "Time":-1,
+            "Level":900,
+            "Player level":1300,
+            "Skill slot":7,
+            "Quality":11,
+            "Wish":[
+                100,
+                100,
+                94,
+                94,
+                94,
+                200,
+                200,
+                200,
+                200,
+                50,
+                50,
+                50,
+                50,
+                50
+            ],
+            "Amulet":{
+                "STR":0,
+                "AGI":0,
+                "INT":0,
+                "VIT":0,
+                "SPR":0,
+                "MND":0,
+                "PATK":10,
+                "MATK":10,
+                "SPD":10,
+                "REC":10,
+                "HP":10,
+                "SLD":10,
+                "LCH":10,
+                "RFL":10,
+                "CRT":10,
+                "SKL":10,
+                "PDEF":10,
+                "MDEF":10,
+                "AAA":10,
+                "CRTR":3,
+                "SKLR":3
+            },
+            "Attribute":{
+                "Str":1,
+                "Agi":26,
+                "Int":1491,
+                "Vit":617,
+                "Spr":3,
+                "Mnd":865
+            },
+            "Weapon":{
+                "Type":"LIMPIDWAND",
+                "Level":300,
+                "Percentage":[
+                    140,
+                    140,
+                    140,
+                    140
+                ],
+                "Myst":1
+            },
+            "Hand":{
+                "Type":"DEVOUR",
+                "Level":300,
+                "Percentage":[
+                    150,
+                    150,
+                    150,
+                    150
+                ],
+                "Myst":0
+            },
+            "Body":{
+                "Type":"THORN",
+                "Level":300,
+                "Percentage":[
+                    140,
+                    140,
+                    140,
+                    140
+                ],
+                "Myst":1
+            },
+            "Head":{
+                "Type":"SCARF",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -9408,142 +9532,18 @@
                     "SHI",
                     "XIN",
                     "BI",
-                    "XIAO",
-                    "SHANG",
-                    "CI",
-                    "JUE"
-                ]
-            }
-        },
-        "Parameter":{
-            "Turn":42,
-            "Group":6,
-            "Number":16,
-            "Weight":199,
-            "Mark":false
-        }
-    },
-    {
-        "Data":{
-            "Mode":"",
-            "Weight":1,
-            "Role":"LIN",
-            "Name":"(6,17)",
-            "Growth":0,
-            "Time":-1,
-            "Level":900,
-            "Player level":1300,
-            "Skill slot":7,
-            "Quality":11,
-            "Wish":[
-                100,
-                100,
-                94,
-                94,
-                94,
-                200,
-                200,
-                200,
-                200,
-                50,
-                50,
-                50,
-                50,
-                50
-            ],
-            "Amulet":{
-                "STR":0,
-                "AGI":0,
-                "INT":0,
-                "VIT":0,
-                "SPR":0,
-                "MND":0,
-                "PATK":10,
-                "MATK":10,
-                "SPD":10,
-                "REC":10,
-                "HP":10,
-                "SLD":10,
-                "LCH":10,
-                "RFL":10,
-                "CRT":10,
-                "SKL":10,
-                "PDEF":10,
-                "MDEF":10,
-                "AAA":10,
-                "CRTR":3,
-                "SKLR":3
-            },
-            "Attribute":{
-                "Str":1567,
-                "Agi":1125,
-                "Int":109,
-                "Vit":1,
-                "Spr":25,
-                "Mnd":176
-            },
-            "Weapon":{
-                "Type":"ASSBOW",
-                "Level":300,
-                "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
-                ],
-                "Myst":0
-            },
-            "Hand":{
-                "Type":"VULTURE",
-                "Level":300,
-                "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
-                ],
-                "Myst":0
-            },
-            "Body":{
-                "Type":"THORN",
-                "Level":300,
-                "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
-                ],
-                "Myst":0
-            },
-            "Head":{
-                "Type":"HUNT",
-                "Level":300,
-                "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
-                ],
-                "Myst":0
-            },
-            "Aura":{
-                "Amount":7,
-                "Skill":[
-                    "XIN",
-                    "FENG",
                     "E",
-                    "REN",
-                    "RE",
-                    "BO",
+                    "ZHI",
+                    "JUE",
                     "ZI"
                 ]
             }
         },
         "Parameter":{
-            "Turn":28,
+            "Turn":181,
             "Group":6,
             "Number":17,
-            "Weight":201,
+            "Weight":101,
             "Mark":false
         }
     },
@@ -9551,9 +9551,9 @@
         "Data":{
             "Mode":"",
             "Weight":1,
-            "Role":"LIN",
+            "Role":"XIA",
             "Name":"(6,18)",
-            "Growth":0,
+            "Growth":100000,
             "Time":-1,
             "Level":900,
             "Player level":1300,
@@ -9599,26 +9599,26 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":1577,
-                "Agi":1125,
-                "Int":44,
-                "Vit":23,
-                "Spr":226,
-                "Mnd":8
+                "Str":2,
+                "Agi":16,
+                "Int":1490,
+                "Vit":615,
+                "Spr":4,
+                "Mnd":876
             },
             "Weapon":{
-                "Type":"ASSBOW",
+                "Type":"LIMPIDWAND",
                 "Level":300,
                 "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
+                    140,
+                    140,
+                    140,
+                    140
                 ],
-                "Myst":0
+                "Myst":1
             },
             "Hand":{
-                "Type":"VULTURE",
+                "Type":"DEVOUR",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -9632,15 +9632,15 @@
                 "Type":"THORN",
                 "Level":300,
                 "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
+                    140,
+                    140,
+                    140,
+                    140
                 ],
-                "Myst":0
+                "Myst":1
             },
             "Head":{
-                "Type":"HUNT",
+                "Type":"SCARF",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -9653,21 +9653,21 @@
             "Aura":{
                 "Amount":7,
                 "Skill":[
+                    "SHI",
                     "XIN",
-                    "FENG",
+                    "BI",
                     "E",
-                    "REN",
-                    "RE",
-                    "BO",
+                    "ZHI",
+                    "JUE",
                     "ZI"
                 ]
             }
         },
         "Parameter":{
-            "Turn":32,
+            "Turn":186,
             "Group":6,
             "Number":18,
-            "Weight":199,
+            "Weight":198,
             "Mark":false
         }
     },
@@ -9791,7 +9791,7 @@
             "Turn":84,
             "Group":7,
             "Number":1,
-            "Weight":101,
+            "Weight":199,
             "Mark":false
         }
     },
@@ -9847,12 +9847,12 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":3,
-                "Agi":1,
-                "Int":1612,
-                "Vit":4,
-                "Spr":1370,
-                "Mnd":13
+                "Str":1,
+                "Agi":3,
+                "Int":1544,
+                "Vit":2,
+                "Spr":1452,
+                "Mnd":1
             },
             "Weapon":{
                 "Type":"SHIELD",
@@ -9869,15 +9869,15 @@
                 "Type":"BRACELET",
                 "Level":300,
                 "Percentage":[
-                    140,
-                    140,
-                    140,
-                    140
+                    150,
+                    150,
+                    150,
+                    150
                 ],
-                "Myst":1
+                "Myst":0
             },
             "Body":{
-                "Type":"CLOAK",
+                "Type":"CAPE",
                 "Level":300,
                 "Percentage":[
                     140,
@@ -9901,21 +9901,21 @@
             "Aura":{
                 "Amount":7,
                 "Skill":[
-                    "XIN",
-                    "BI",
+                    "FENG",
                     "DUN",
-                    "SHANG",
+                    "XIAO",
                     "SHEN",
                     "CI",
-                    "RE"
+                    "SHAN",
+                    "HONG"
                 ]
             }
         },
         "Parameter":{
-            "Turn":97,
+            "Turn":132,
             "Group":7,
             "Number":2,
-            "Weight":199,
+            "Weight":198,
             "Mark":false
         }
     },
@@ -9971,12 +9971,12 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":4,
+                "Str":19,
                 "Agi":1,
-                "Int":2496,
-                "Vit":88,
-                "Spr":99,
-                "Mnd":315
+                "Int":2476,
+                "Vit":6,
+                "Spr":490,
+                "Mnd":11
             },
             "Weapon":{
                 "Type":"LIMPIDWAND",
@@ -9990,18 +9990,18 @@
                 "Myst":0
             },
             "Hand":{
-                "Type":"VULTURE",
+                "Type":"BRACELET",
                 "Level":300,
                 "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
+                    140,
+                    140,
+                    140,
+                    140
                 ],
-                "Myst":0
+                "Myst":1
             },
             "Body":{
-                "Type":"THORN",
+                "Type":"CAPE",
                 "Level":300,
                 "Percentage":[
                     140,
@@ -10025,21 +10025,21 @@
             "Aura":{
                 "Amount":7,
                 "Skill":[
+                    "SHI",
                     "XIN",
-                    "BI",
-                    "DUN",
-                    "XUE",
-                    "WU",
+                    "XIAO",
+                    "CI",
+                    "RE",
                     "ZHI",
                     "HONG"
                 ]
             }
         },
         "Parameter":{
-            "Turn":0,
+            "Turn":146,
             "Group":7,
             "Number":3,
-            "Weight":299,
+            "Weight":199,
             "Mark":false
         }
     },
@@ -10047,7 +10047,7 @@
         "Data":{
             "Mode":"",
             "Weight":1,
-            "Role":"MIN",
+            "Role":"MO",
             "Name":"(7,4)",
             "Growth":0,
             "Time":-1,
@@ -10095,26 +10095,15 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":1583,
-                "Agi":1023,
-                "Int":2,
-                "Vit":6,
-                "Spr":194,
-                "Mnd":195
+                "Str":4,
+                "Agi":3,
+                "Int":2774,
+                "Vit":4,
+                "Spr":217,
+                "Mnd":1
             },
             "Weapon":{
-                "Type":"BLADE",
-                "Level":300,
-                "Percentage":[
-                    140,
-                    140,
-                    140,
-                    140
-                ],
-                "Myst":1
-            },
-            "Hand":{
-                "Type":"BRACELET",
+                "Type":"LIMPIDWAND",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -10124,8 +10113,19 @@
                 ],
                 "Myst":0
             },
+            "Hand":{
+                "Type":"BRACELET",
+                "Level":300,
+                "Percentage":[
+                    140,
+                    140,
+                    140,
+                    140
+                ],
+                "Myst":1
+            },
             "Body":{
-                "Type":"THORN",
+                "Type":"CAPE",
                 "Level":300,
                 "Percentage":[
                     140,
@@ -10136,7 +10136,7 @@
                 "Myst":1
             },
             "Head":{
-                "Type":"HUNT",
+                "Type":"TIARA",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -10151,19 +10151,19 @@
                 "Skill":[
                     "SHI",
                     "XIN",
-                    "BI",
                     "XIAO",
-                    "SHANG",
                     "CI",
-                    "JUE"
+                    "RE",
+                    "ZHI",
+                    "HONG"
                 ]
             }
         },
         "Parameter":{
-            "Turn":19,
+            "Turn":193,
             "Group":7,
             "Number":4,
-            "Weight":199,
+            "Weight":198,
             "Mark":false
         }
     },
@@ -10171,7 +10171,7 @@
         "Data":{
             "Mode":"",
             "Weight":1,
-            "Role":"WEI",
+            "Role":"MO",
             "Name":"(7,5)",
             "Growth":0,
             "Time":-1,
@@ -10219,15 +10219,26 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":1771,
-                "Agi":1164,
-                "Int":1,
-                "Vit":35,
-                "Spr":21,
-                "Mnd":11
+                "Str":7,
+                "Agi":1,
+                "Int":2499,
+                "Vit":3,
+                "Spr":490,
+                "Mnd":3
             },
             "Weapon":{
-                "Type":"BLADE",
+                "Type":"LIMPIDWAND",
+                "Level":300,
+                "Percentage":[
+                    150,
+                    150,
+                    150,
+                    150
+                ],
+                "Myst":0
+            },
+            "Hand":{
+                "Type":"BRACELET",
                 "Level":300,
                 "Percentage":[
                     140,
@@ -10237,30 +10248,19 @@
                 ],
                 "Myst":1
             },
-            "Hand":{
-                "Type":"BRACELET",
-                "Level":300,
-                "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
-                ],
-                "Myst":0
-            },
             "Body":{
-                "Type":"THORN",
+                "Type":"CAPE",
                 "Level":300,
                 "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
+                    140,
+                    140,
+                    140,
+                    140
                 ],
-                "Myst":0
+                "Myst":1
             },
             "Head":{
-                "Type":"HUNT",
+                "Type":"TIARA",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -10275,19 +10275,19 @@
                 "Skill":[
                     "SHI",
                     "XIN",
-                    "BI",
-                    "DUN",
+                    "XIAO",
+                    "CI",
                     "RE",
-                    "JU",
-                    "ZI"
+                    "ZHI",
+                    "HONG"
                 ]
             }
         },
         "Parameter":{
-            "Turn":48,
+            "Turn":162,
             "Group":7,
             "Number":5,
-            "Weight":199,
+            "Weight":197,
             "Mark":false
         }
     },
@@ -10343,23 +10343,23 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":1553,
-                "Agi":328,
-                "Int":12,
-                "Vit":30,
-                "Spr":5,
-                "Mnd":1075
+                "Str":1574,
+                "Agi":16,
+                "Int":1,
+                "Vit":451,
+                "Spr":40,
+                "Mnd":921
             },
             "Weapon":{
-                "Type":"SPEAR",
+                "Type":"SHIELD",
                 "Level":300,
                 "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
+                    140,
+                    140,
+                    140,
+                    140
                 ],
-                "Myst":0
+                "Myst":1
             },
             "Hand":{
                 "Type":"DEVOUR",
@@ -10373,15 +10373,15 @@
                 "Myst":0
             },
             "Body":{
-                "Type":"WOOD",
+                "Type":"THORN",
                 "Level":300,
                 "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
+                    140,
+                    140,
+                    140,
+                    140
                 ],
-                "Myst":0
+                "Myst":1
             },
             "Head":{
                 "Type":"HUNT",
@@ -10397,21 +10397,21 @@
             "Aura":{
                 "Amount":7,
                 "Skill":[
+                    "SHI",
                     "XIN",
-                    "FENG",
-                    "BI",
+                    "XUE",
                     "SHANG",
+                    "SHEN",
                     "REN",
-                    "FEI",
-                    "DUNH"
+                    "JU"
                 ]
             }
         },
         "Parameter":{
-            "Turn":74,
+            "Turn":104,
             "Group":7,
             "Number":6,
-            "Weight":199,
+            "Weight":198,
             "Mark":false
         }
     },
@@ -10419,7 +10419,7 @@
         "Data":{
             "Mode":"",
             "Weight":1,
-            "Role":"AI",
+            "Role":"MO",
             "Name":"(7,7)",
             "Growth":0,
             "Time":-1,
@@ -10468,14 +10468,14 @@
             },
             "Attribute":{
                 "Str":4,
-                "Agi":1507,
-                "Int":1269,
+                "Agi":4,
+                "Int":2708,
                 "Vit":1,
-                "Spr":11,
-                "Mnd":211
+                "Spr":266,
+                "Mnd":20
             },
             "Weapon":{
-                "Type":"DAGGER",
+                "Type":"LIMPIDWAND",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -10489,26 +10489,26 @@
                 "Type":"BRACELET",
                 "Level":300,
                 "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
+                    140,
+                    140,
+                    140,
+                    140
                 ],
-                "Myst":0
+                "Myst":1
             },
             "Body":{
-                "Type":"WOOD",
+                "Type":"CAPE",
                 "Level":300,
                 "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
+                    140,
+                    140,
+                    140,
+                    140
                 ],
-                "Myst":0
+                "Myst":1
             },
             "Head":{
-                "Type":"HUNT",
+                "Type":"TIARA",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -10523,19 +10523,19 @@
                 "Skill":[
                     "SHI",
                     "XIN",
-                    "FENG",
                     "XIAO",
+                    "CI",
+                    "RE",
                     "ZHI",
-                    "JU",
-                    "ZI"
+                    "HONG"
                 ]
             }
         },
         "Parameter":{
-            "Turn":82,
+            "Turn":169,
             "Group":7,
             "Number":7,
-            "Weight":199,
+            "Weight":101,
             "Mark":false
         }
     },
@@ -10659,7 +10659,7 @@
             "Turn":68,
             "Group":7,
             "Number":8,
-            "Weight":202,
+            "Weight":303,
             "Mark":false
         }
     },
@@ -10667,7 +10667,7 @@
         "Data":{
             "Mode":"",
             "Weight":1,
-            "Role":"LIN",
+            "Role":"MO",
             "Name":"(7,9)",
             "Growth":0,
             "Time":-1,
@@ -10715,15 +10715,15 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":574,
+                "Str":1,
                 "Agi":1,
-                "Int":13,
-                "Vit":645,
-                "Spr":6,
-                "Mnd":1764
+                "Int":2494,
+                "Vit":2,
+                "Spr":493,
+                "Mnd":12
             },
             "Weapon":{
-                "Type":"SHIELD",
+                "Type":"LIMPIDWAND",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -10734,29 +10734,7 @@
                 "Myst":0
             },
             "Hand":{
-                "Type":"VULTURE",
-                "Level":300,
-                "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
-                ],
-                "Myst":0
-            },
-            "Body":{
-                "Type":"THORN",
-                "Level":300,
-                "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
-                ],
-                "Myst":0
-            },
-            "Head":{
-                "Type":"RIBBON",
+                "Type":"BRACELET",
                 "Level":300,
                 "Percentage":[
                     140,
@@ -10766,24 +10744,46 @@
                 ],
                 "Myst":1
             },
+            "Body":{
+                "Type":"CAPE",
+                "Level":300,
+                "Percentage":[
+                    140,
+                    140,
+                    140,
+                    140
+                ],
+                "Myst":1
+            },
+            "Head":{
+                "Type":"TIARA",
+                "Level":300,
+                "Percentage":[
+                    150,
+                    150,
+                    150,
+                    150
+                ],
+                "Myst":0
+            },
             "Aura":{
                 "Amount":7,
                 "Skill":[
                     "SHI",
-                    "XUE",
-                    "SHENG",
-                    "SHANG",
+                    "XIN",
+                    "XIAO",
+                    "CI",
                     "RE",
-                    "WU",
-                    "DUNH"
+                    "ZHI",
+                    "HONG"
                 ]
             }
         },
         "Parameter":{
-            "Turn":0,
+            "Turn":158,
             "Group":7,
             "Number":9,
-            "Weight":301,
+            "Weight":201,
             "Mark":false
         }
     },
@@ -10839,23 +10839,23 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":6,
-                "Agi":7,
-                "Int":1532,
-                "Vit":6,
-                "Spr":1446,
-                "Mnd":6
+                "Str":9,
+                "Agi":1,
+                "Int":2479,
+                "Vit":1,
+                "Spr":492,
+                "Mnd":21
             },
             "Weapon":{
-                "Type":"SHIELD",
+                "Type":"LIMPIDWAND",
                 "Level":300,
                 "Percentage":[
-                    140,
-                    140,
-                    140,
-                    140
+                    150,
+                    150,
+                    150,
+                    150
                 ],
-                "Myst":1
+                "Myst":0
             },
             "Hand":{
                 "Type":"BRACELET",
@@ -10869,7 +10869,7 @@
                 "Myst":1
             },
             "Body":{
-                "Type":"CLOAK",
+                "Type":"CAPE",
                 "Level":300,
                 "Percentage":[
                     140,
@@ -10893,21 +10893,21 @@
             "Aura":{
                 "Amount":7,
                 "Skill":[
+                    "SHI",
                     "XIN",
-                    "BI",
-                    "DUN",
-                    "SHANG",
-                    "SHEN",
+                    "XIAO",
                     "CI",
-                    "RE"
+                    "RE",
+                    "ZHI",
+                    "HONG"
                 ]
             }
         },
         "Parameter":{
-            "Turn":93,
+            "Turn":151,
             "Group":7,
             "Number":10,
-            "Weight":199,
+            "Weight":200,
             "Mark":false
         }
     },
@@ -11031,7 +11031,7 @@
             "Turn":85,
             "Group":7,
             "Number":11,
-            "Weight":99,
+            "Weight":199,
             "Mark":false
         }
     },
@@ -11155,7 +11155,7 @@
             "Turn":51,
             "Group":7,
             "Number":12,
-            "Weight":203,
+            "Weight":303,
             "Mark":false
         }
     },
@@ -11211,15 +11211,15 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":250,
-                "Agi":1108,
-                "Int":1,
-                "Vit":384,
-                "Spr":5,
-                "Mnd":1255
+                "Str":4,
+                "Agi":1,
+                "Int":1491,
+                "Vit":171,
+                "Spr":2,
+                "Mnd":1334
             },
             "Weapon":{
-                "Type":"BLADE",
+                "Type":"SHIELD",
                 "Level":300,
                 "Percentage":[
                     140,
@@ -11233,26 +11233,26 @@
                 "Type":"VULTURE",
                 "Level":300,
                 "Percentage":[
-                    140,
-                    140,
-                    140,
-                    140
+                    150,
+                    150,
+                    150,
+                    150
                 ],
-                "Myst":1
+                "Myst":0
             },
             "Body":{
                 "Type":"THORN",
                 "Level":300,
                 "Percentage":[
-                    140,
-                    140,
-                    140,
-                    140
+                    150,
+                    150,
+                    150,
+                    150
                 ],
-                "Myst":1
+                "Myst":0
             },
             "Head":{
-                "Type":"RIBBON",
+                "Type":"HUNT",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -11265,21 +11265,21 @@
             "Aura":{
                 "Amount":7,
                 "Skill":[
-                    "SHI",
-                    "FENG",
-                    "BI",
-                    "DIAN",
-                    "WU",
-                    "JU",
+                    "XIN",
+                    "MO",
+                    "E",
+                    "SHANG",
+                    "CI",
+                    "REN",
                     "DUNH"
                 ]
             }
         },
         "Parameter":{
-            "Turn":29,
+            "Turn":188,
             "Group":8,
             "Number":1,
-            "Weight":204,
+            "Weight":103,
             "Mark":false
         }
     },
@@ -11335,26 +11335,15 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":194,
-                "Agi":21,
-                "Int":196,
-                "Vit":196,
-                "Spr":35,
-                "Mnd":2361
+                "Str":2470,
+                "Agi":493,
+                "Int":2,
+                "Vit":33,
+                "Spr":3,
+                "Mnd":2
             },
             "Weapon":{
-                "Type":"SPEAR",
-                "Level":300,
-                "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
-                ],
-                "Myst":0
-            },
-            "Hand":{
-                "Type":"VULTURE",
+                "Type":"ASSBOW",
                 "Level":300,
                 "Percentage":[
                     140,
@@ -11363,6 +11352,17 @@
                     140
                 ],
                 "Myst":1
+            },
+            "Hand":{
+                "Type":"VULTURE",
+                "Level":300,
+                "Percentage":[
+                    150,
+                    150,
+                    150,
+                    150
+                ],
+                "Myst":0
             },
             "Body":{
                 "Type":"THORN",
@@ -11391,19 +11391,19 @@
                 "Skill":[
                     "SHI",
                     "XIN",
-                    "SHEN",
-                    "CI",
-                    "RE",
+                    "SHENG",
+                    "E",
+                    "SHANG",
                     "ZHI",
                     "JUE"
                 ]
             }
         },
         "Parameter":{
-            "Turn":0,
+            "Turn":192,
             "Group":8,
             "Number":2,
-            "Weight":299,
+            "Weight":202,
             "Mark":false
         }
     },
@@ -11459,12 +11459,12 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":4,
+                "Str":7,
                 "Agi":1,
-                "Int":2481,
-                "Vit":25,
-                "Spr":490,
-                "Mnd":2
+                "Int":1565,
+                "Vit":5,
+                "Spr":1413,
+                "Mnd":12
             },
             "Weapon":{
                 "Type":"SHIELD",
@@ -11489,7 +11489,7 @@
                 "Myst":0
             },
             "Body":{
-                "Type":"CAPE",
+                "Type":"CLOAK",
                 "Level":300,
                 "Percentage":[
                     140,
@@ -11513,18 +11513,18 @@
             "Aura":{
                 "Amount":7,
                 "Skill":[
-                    "BI",
-                    "MO",
                     "XIAO",
+                    "SHEN",
                     "CI",
+                    "RE",
                     "ZHI",
                     "SHAN",
-                    "JUE"
+                    "HOU"
                 ]
             }
         },
         "Parameter":{
-            "Turn":92,
+            "Turn":131,
             "Group":8,
             "Number":3,
             "Weight":200,
@@ -11535,7 +11535,7 @@
         "Data":{
             "Mode":"",
             "Weight":1,
-            "Role":"YI",
+            "Role":"MING",
             "Name":"(8,4)",
             "Growth":0,
             "Time":-1,
@@ -11583,15 +11583,15 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":244,
-                "Agi":1096,
-                "Int":8,
-                "Vit":395,
+                "Str":2549,
+                "Agi":442,
+                "Int":6,
+                "Vit":2,
                 "Spr":1,
-                "Mnd":1259
+                "Mnd":3
             },
             "Weapon":{
-                "Type":"BLADE",
+                "Type":"ASSBOW",
                 "Level":300,
                 "Percentage":[
                     140,
@@ -11605,26 +11605,26 @@
                 "Type":"VULTURE",
                 "Level":300,
                 "Percentage":[
-                    140,
-                    140,
-                    140,
-                    140
+                    150,
+                    150,
+                    150,
+                    150
                 ],
-                "Myst":1
+                "Myst":0
             },
             "Body":{
                 "Type":"THORN",
                 "Level":300,
                 "Percentage":[
-                    140,
-                    140,
-                    140,
-                    140
+                    150,
+                    150,
+                    150,
+                    150
                 ],
-                "Myst":1
+                "Myst":0
             },
             "Head":{
-                "Type":"RIBBON",
+                "Type":"HUNT",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -11638,20 +11638,20 @@
                 "Amount":7,
                 "Skill":[
                     "SHI",
-                    "FENG",
-                    "BI",
-                    "DIAN",
-                    "WU",
-                    "JU",
-                    "DUNH"
+                    "XIN",
+                    "SHENG",
+                    "E",
+                    "SHANG",
+                    "ZHI",
+                    "JUE"
                 ]
             }
         },
         "Parameter":{
-            "Turn":33,
+            "Turn":180,
             "Group":8,
             "Number":4,
-            "Weight":200,
+            "Weight":98,
             "Mark":false
         }
     },
@@ -11775,7 +11775,7 @@
             "Turn":0,
             "Group":8,
             "Number":5,
-            "Weight":302,
+            "Weight":404,
             "Mark":false
         }
     },
@@ -11899,7 +11899,7 @@
             "Turn":0,
             "Group":8,
             "Number":6,
-            "Weight":300,
+            "Weight":401,
             "Mark":false
         }
     },
@@ -11907,9 +11907,9 @@
         "Data":{
             "Mode":"",
             "Weight":1,
-            "Role":"XI",
+            "Role":"YI",
             "Name":"(8,7)",
-            "Growth":100000,
+            "Growth":0,
             "Time":-1,
             "Level":900,
             "Player level":1500,
@@ -11956,25 +11956,25 @@
             },
             "Attribute":{
                 "Str":1,
-                "Agi":1021,
-                "Int":1,
-                "Vit":589,
+                "Agi":1,
+                "Int":1490,
+                "Vit":170,
                 "Spr":6,
-                "Mnd":1385
+                "Mnd":1335
             },
             "Weapon":{
-                "Type":"BLADE",
+                "Type":"SHIELD",
                 "Level":300,
                 "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
+                    140,
+                    140,
+                    140,
+                    140
                 ],
-                "Myst":0
+                "Myst":1
             },
             "Hand":{
-                "Type":"DEVOUR",
+                "Type":"VULTURE",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -11988,15 +11988,15 @@
                 "Type":"THORN",
                 "Level":300,
                 "Percentage":[
-                    140,
-                    140,
-                    140,
-                    140
+                    150,
+                    150,
+                    150,
+                    150
                 ],
-                "Myst":1
+                "Myst":0
             },
             "Head":{
-                "Type":"RIBBON",
+                "Type":"HUNT",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -12009,18 +12009,18 @@
             "Aura":{
                 "Amount":7,
                 "Skill":[
-                    "SHI",
-                    "DUN",
-                    "XIAO",
+                    "XIN",
+                    "MO",
                     "E",
-                    "RE",
-                    "JU",
+                    "SHANG",
+                    "CI",
+                    "REN",
                     "DUNH"
                 ]
             }
         },
         "Parameter":{
-            "Turn":21,
+            "Turn":185,
             "Group":8,
             "Number":7,
             "Weight":199,
@@ -12031,7 +12031,7 @@
         "Data":{
             "Mode":"",
             "Weight":1,
-            "Role":"WEI",
+            "Role":"MING",
             "Name":"(8,8)",
             "Growth":0,
             "Time":-1,
@@ -12079,26 +12079,26 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":22,
-                "Agi":1338,
-                "Int":528,
-                "Vit":3,
-                "Spr":1111,
-                "Mnd":1
+                "Str":2468,
+                "Agi":505,
+                "Int":3,
+                "Vit":1,
+                "Spr":6,
+                "Mnd":20
             },
             "Weapon":{
-                "Type":"LIMPIDWAND",
+                "Type":"ASSBOW",
                 "Level":300,
                 "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
+                    140,
+                    140,
+                    140,
+                    140
                 ],
-                "Myst":0
+                "Myst":1
             },
             "Hand":{
-                "Type":"RING",
+                "Type":"VULTURE",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -12109,45 +12109,45 @@
                 "Myst":0
             },
             "Body":{
-                "Type":"CLOAK",
+                "Type":"THORN",
                 "Level":300,
                 "Percentage":[
-                    140,
-                    140,
-                    140,
-                    140
+                    150,
+                    150,
+                    150,
+                    150
                 ],
-                "Myst":1
+                "Myst":0
             },
             "Head":{
                 "Type":"HUNT",
                 "Level":300,
                 "Percentage":[
-                    140,
-                    140,
-                    140,
-                    140
+                    150,
+                    150,
+                    150,
+                    150
                 ],
-                "Myst":1
+                "Myst":0
             },
             "Aura":{
                 "Amount":7,
                 "Skill":[
                     "SHI",
                     "XIN",
-                    "MO",
+                    "SHENG",
+                    "E",
                     "SHANG",
-                    "RE",
-                    "JU",
-                    "DUNH"
+                    "ZHI",
+                    "JUE"
                 ]
             }
         },
         "Parameter":{
-            "Turn":72,
+            "Turn":159,
             "Group":8,
             "Number":8,
-            "Weight":199,
+            "Weight":97,
             "Mark":false
         }
     },
@@ -12155,7 +12155,7 @@
         "Data":{
             "Mode":"",
             "Weight":1,
-            "Role":"WEI",
+            "Role":"YI",
             "Name":"(8,9)",
             "Growth":0,
             "Time":-1,
@@ -12203,26 +12203,26 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":39,
-                "Agi":1356,
-                "Int":495,
-                "Vit":1,
-                "Spr":1111,
-                "Mnd":1
+                "Str":1,
+                "Agi":16,
+                "Int":894,
+                "Vit":697,
+                "Spr":1,
+                "Mnd":1394
             },
             "Weapon":{
-                "Type":"LIMPIDWAND",
+                "Type":"SHIELD",
                 "Level":300,
                 "Percentage":[
-                    150,
-                    150,
-                    150,
-                    150
+                    140,
+                    140,
+                    140,
+                    140
                 ],
-                "Myst":0
+                "Myst":1
             },
             "Hand":{
-                "Type":"RING",
+                "Type":"VULTURE",
                 "Level":300,
                 "Percentage":[
                     150,
@@ -12233,45 +12233,45 @@
                 "Myst":0
             },
             "Body":{
-                "Type":"CLOAK",
+                "Type":"THORN",
                 "Level":300,
                 "Percentage":[
-                    140,
-                    140,
-                    140,
-                    140
+                    150,
+                    150,
+                    150,
+                    150
                 ],
-                "Myst":1
+                "Myst":0
             },
             "Head":{
                 "Type":"HUNT",
                 "Level":300,
                 "Percentage":[
-                    140,
-                    140,
-                    140,
-                    140
+                    150,
+                    150,
+                    150,
+                    150
                 ],
-                "Myst":1
+                "Myst":0
             },
             "Aura":{
                 "Amount":7,
                 "Skill":[
-                    "SHI",
                     "XIN",
                     "MO",
+                    "E",
                     "SHANG",
-                    "RE",
-                    "JU",
+                    "CI",
+                    "REN",
                     "DUNH"
                 ]
             }
         },
         "Parameter":{
-            "Turn":71,
+            "Turn":194,
             "Group":8,
             "Number":9,
-            "Weight":99,
+            "Weight":7,
             "Mark":false
         }
     },
@@ -12279,7 +12279,7 @@
         "Data":{
             "Mode":"",
             "Weight":1,
-            "Role":"LIN",
+            "Role":"MING",
             "Name":"(8,10)",
             "Growth":0,
             "Time":-1,
@@ -12327,15 +12327,15 @@
                 "SKLR":3
             },
             "Attribute":{
-                "Str":1629,
-                "Agi":624,
-                "Int":2,
-                "Vit":282,
-                "Spr":2,
-                "Mnd":464
+                "Str":2479,
+                "Agi":500,
+                "Int":9,
+                "Vit":1,
+                "Spr":1,
+                "Mnd":13
             },
             "Weapon":{
-                "Type":"BLADE",
+                "Type":"ASSBOW",
                 "Level":300,
                 "Percentage":[
                     140,
@@ -12349,23 +12349,23 @@
                 "Type":"VULTURE",
                 "Level":300,
                 "Percentage":[
-                    140,
-                    140,
-                    140,
-                    140
+                    150,
+                    150,
+                    150,
+                    150
                 ],
-                "Myst":1
+                "Myst":0
             },
             "Body":{
-                "Type":"WOOD",
+                "Type":"THORN",
                 "Level":300,
                 "Percentage":[
-                    140,
-                    140,
-                    140,
-                    140
+                    150,
+                    150,
+                    150,
+                    150
                 ],
-                "Myst":1
+                "Myst":0
             },
             "Head":{
                 "Type":"HUNT",
@@ -12381,21 +12381,21 @@
             "Aura":{
                 "Amount":7,
                 "Skill":[
+                    "SHI",
                     "XIN",
-                    "FENG",
-                    "BI",
-                    "MO",
+                    "SHENG",
+                    "E",
                     "SHANG",
                     "ZHI",
-                    "HONG"
+                    "JUE"
                 ]
             }
         },
         "Parameter":{
-            "Turn":41,
+            "Turn":175,
             "Group":8,
             "Number":10,
-            "Weight":199,
+            "Weight":99,
             "Mark":false
         }
     }

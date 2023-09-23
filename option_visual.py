@@ -89,7 +89,7 @@ option={
     'Iteration':{
         'Turns':300,
         'Threads':12,
-        'Seedmax':10000,
+        'Seedmax':15000,
         'Tests_apc':10, #citest=0时test才生效
         'Citest_apc':20,
         'Tests_vb':10000,
