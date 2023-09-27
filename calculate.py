@@ -1,5 +1,6 @@
 import option_visual
 import pc_form
+import limit
 
 import json
 import copy
@@ -10,46 +11,37 @@ import os
 lib=option_visual.lib
 option=option_visual.option
 
-Unlimited=True
-
-def get_gear_list(role):
+def no_limit(role):
     '''
-    获取role所使用的装备列表，返回形如(item,0/1)组成的列表
+    无限制：获取迭代所使用的参数(gear_list,aura_list,attr_range)
     '''
-    gear_list=[]
+    gear_list=limit.get_gear_list_no_limit(role)
+    aura_list=limit.get_aura_list_no_limit(role)
+    attr_range=limit.get_attr_range_no_limit(role)
 
-    for item in lib['Gear']:
-        gear_list.append((item,0))
-        if(lib['Gear'][item]['Myst']==True or lib['Gear'][item]['Myst']==role):
-            gear_list.append((item,1))
-    
-    return gear_list
+    param_limit=(gear_list,aura_list,attr_range)
 
-def get_gear_list_limited(role):
+    return param_limit
+
+def weak_limit(role):
     '''
-    之后再写
+    弱限制：获取迭代所使用的参数(gear_list,aura_list,attr_range)
     '''
-    gear_list=[]
+    gear_list=limit.get_gear_list_limit(role)
+    aura_list=limit.get_aura_list_limit(role)
+    attr_range=limit.get_attr_range_weak_limit(role)
 
-    return gear_list
+    param_limit=(gear_list,aura_list,attr_range)
 
-def get_aura_list_limited(role):
-    '''
-    之后再写
-    '''
-    aura_list=[]
-    
-    return aura_list
+    return param_limit
 
-def get_maxattr_limited(role):
-    '''
-    之后再写
-    '''
-    maxattr=[0,0,0,0,0,0]
+def medium_limit(role):
+    pass
 
-    return maxattr
+def strong_limit(role):
+    pass
 
-def generate_newkf_in_for_apc(group,number,role,time=-1):
+def generate_newkf_in_for_apc(group,number,role,time=-1,limit=no_limit):
     '''
     为计算apc，对于第group组第number号位的role和time，生成对应newkf.in
     '''
@@ -73,25 +65,13 @@ def generate_newkf_in_for_apc(group,number,role,time=-1):
     for item in g['Gear']:
         gear[item]=g['Gear'][item]
     
-    #获取gear_list
-    if Unlimited:
-        gear_list=get_gear_list(role)
-    else:
-        gear_list=get_gear_list_limited(role)
-
-    #获取aura_list
-    if Unlimited:
-        aura_list=[]
-        for item in lib['Aura']:
-            aura_list.append(item)
-    else:
-        aura_list=get_aura_list_limited(role)
-    
-    #获取maxattr
-    if Unlimited:
-        maxattr=[0,0,0,0,0,0]
-    else:
-        maxattr=get_maxattr_limited(role)
+    #获取gear_list,aura_list,minattr,maxattr
+    param_limit=limit(role)
+    gear_list=param_limit[0]
+    aura_list=param_limit[1]
+    attr_range=param_limit[2]
+    minattr=attr_range[0]
+    maxattr=attr_range[1]
     
     #获取算点参数
     option_visual.iteration_load() #更新iteration信息，方便修改调试
@@ -171,8 +151,8 @@ def generate_newkf_in_for_apc(group,number,role,time=-1):
         
         newkf_in_list.append('ENDAMULET\n')
     
-    #第6行
-    newkf_in_list.append('1 1 1 1 1 1 \n')
+    #第6行：minattr
+    newkf_in_list.append(' '.join(map(str,minattr))+' \n')
     
     #第7-12行
     newkf_in_list.append('NONE\n'*4+'0\n\n')
@@ -279,7 +259,7 @@ def apc_result():
     
     return (result,win_rate)
 
-def apc_all(group,number):
+def apc_all(group,number,limit=no_limit):
     '''
     对第group组第number号位，以其他pc为对手进行apc，取所有role胜率最高的，返回最终算点结果（字典）
     '''
@@ -288,16 +268,16 @@ def apc_all(group,number):
         if(lib['Role'][role]['Time']):
             #等计算器作者把雅的问题修了就加上这段
             '''
-            generate_newkf_in_for_apc(group,number,role,time=0)
+            generate_newkf_in_for_apc(group,number,role,time=0,limit=limit)
             apc()
             result_win_rate_list.append(apc_result())
             '''
 
-            generate_newkf_in_for_apc(group,number,role,time=1)
+            generate_newkf_in_for_apc(group,number,role,time=1,limit=limit)
             apc()
             result_win_rate_list.append(apc_result())
         else:
-            generate_newkf_in_for_apc(group,number,role,time=-1)
+            generate_newkf_in_for_apc(group,number,role,time=-1,limit=limit)
             apc()
             result_win_rate_list.append(apc_result())
         

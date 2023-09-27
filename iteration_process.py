@@ -124,9 +124,9 @@ def average_win_rate(pc_tuple:tuple):
     else: #全平场
         return 0.5
 
-def iterate_simple():
+def iterate_main(limit=calculate.no_limit):
     '''
-    低精度迭代：根据权重随机选取一个号位，检查其胜率，若不超过所在组平均胜率的则更新其data，然后保存相关信息
+    迭代流程主干：根据权重随机选取一个号位，检查其胜率，若不超过所在组平均胜率的则更新其data，然后保存相关信息
     '''
     #根据权重随机index
     index_list=list(range(option_visual.sum_size))
@@ -159,8 +159,7 @@ def iterate_simple():
             pc_chosen['Parameter']['Mark']=True
 
     #更新data
-    calculate.Unlimited=True
-    new_data=calculate.apc_all(group,number)
+    new_data=calculate.apc_all(group,number,limit=limit)
     pc_chosen['Data']=new_data
 
     #更新parameter
@@ -204,6 +203,7 @@ def iterate_simple():
         win_rate_table[item]=win_rate
         win_rate_new[item]=win_rate
     
+    #保存到json
     win_rate_table_save()
     pc_list_save()
 

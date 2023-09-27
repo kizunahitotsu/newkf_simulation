@@ -1,8 +1,10 @@
 import option_visual
 import pc_form
+import calculate
 import initialize
 import reset
 import iteration_process
+import limit
 
 import json
 import os
@@ -69,9 +71,8 @@ def iterate():
         info_save()
     
     if(info['Step']==3):
-        #第3步：低精度迭代
+        #第3步：无限制迭代
         #初始化
-        
         if(info['Turn']==0):
             iteration_process.set_weight()
             iteration_process.generate_win_rate_table()
@@ -82,14 +83,41 @@ def iterate():
                 break
 
             start_time=time.time()
-            iteration_process.iterate_simple()
+            iteration_process.iterate_main(limit=calculate.no_limit)
             end_time=time.time()
 
             info['Turn']+=1
             info_save()
             print(f"已完成Step 3 Turn {info['Turn']}，用时{end_time-start_time} s！")
+    
+        info['Step']+=1
+        info_save()
+    
+    if(info['Step']==4):
+        #第4步：统计，弱限制
+        limit.generate_weak_limit()
+
+        info['Step']+=1
+        info_save()
+    
+    if(info['Step']==5):
+        #第5步：弱限制迭代
+        while True:
+            if(info['Turn']>=option_visual.option['Iteration']['Turns']*2):
+                break
+
+            start_time=time.time()
+            iteration_process.iterate_main(limit=calculate.weak_limit)
+            end_time=time.time()
+
+            info['Turn']+=1
+            info_save()
+            print(f"已完成Step 3 Turn {info['Turn']}，用时{end_time-start_time} s！")
+    
+        info['Step']+=1
+        info_save()
 
 if __name__=='__main__':
-    #iterate()
+    iterate()
     input()
 
