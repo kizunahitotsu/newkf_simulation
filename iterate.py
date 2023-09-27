@@ -38,6 +38,7 @@ def info_save():
     with open('info.json',mode='w+',encoding='UTF-8') as f:
         json.dump(info,f,separators=(',',':'),indent=4)
 
+turns=option_visual.option['Iteration']['Turns']
 
 def iterate():
     '''
@@ -79,7 +80,7 @@ def iterate():
             iteration_process.record_turn0()
         
         while True:
-            if(info['Turn']>=option_visual.option['Iteration']['Turns']):
+            if(info['Turn']>=turns):
                 break
 
             start_time=time.time()
@@ -95,7 +96,7 @@ def iterate():
     
     if(info['Step']==4):
         #第4步：统计，弱限制
-        limit.generate_weak_limit()
+        limit.generate_stats(1,turns)
 
         info['Step']+=1
         info_save()
@@ -103,7 +104,7 @@ def iterate():
     if(info['Step']==5):
         #第5步：弱限制迭代
         while True:
-            if(info['Turn']>=option_visual.option['Iteration']['Turns']*2):
+            if(info['Turn']>=turns*2):
                 break
 
             start_time=time.time()

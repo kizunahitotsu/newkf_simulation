@@ -27,8 +27,8 @@ def weak_limit(role):
     '''
     弱限制：获取迭代所使用的参数(gear_list,aura_list,attr_range)
     '''
-    gear_list=limit.get_gear_list_limit(role)
-    aura_list=limit.get_aura_list_limit(role)
+    gear_list=limit.get_gear_list_weak_limit(role)
+    aura_list=limit.get_aura_list_weak_limit(role)
     attr_range=limit.get_attr_range_weak_limit(role)
 
     param_limit=(gear_list,aura_list,attr_range)
