@@ -90,7 +90,7 @@ option={
     'Iteration':{
         'Turns':300,
         'Threads':12,
-        'Seedmax':20000,
+        'Seedmax':30000,
         'Tests_apc':10, #citest=0时test才生效
         'Citest_apc':20,
         'Tests_vb':10000,
@@ -98,7 +98,7 @@ option={
         'Verbose':0, #verbose=1用于调试，平时=0
     },
     'Global variable':{
-        'Card':{ #为计算最大属性点，即使使用分组变量，这里Level和Quality也不应为空，且应为分组中最大值
+        'Card':{
             'Mode':'',
             'Level':900, #护符的苹果部分归入等级
             'Growth':100000,

@@ -266,12 +266,9 @@ def apc_all(group,number,limit=no_limit):
     result_win_rate_list=[]
     for role in lib['Role']:
         if(lib['Role'][role]['Time']):
-            #等计算器作者把雅的问题修了就加上这段
-            '''
             generate_newkf_in_for_apc(group,number,role,time=0,limit=limit)
             apc()
             result_win_rate_list.append(apc_result())
-            '''
 
             generate_newkf_in_for_apc(group,number,role,time=1,limit=limit)
             apc()
@@ -285,9 +282,6 @@ def apc_all(group,number,limit=no_limit):
     result_dict=pc_form.data_str_to_dict(result_win_rate_list[0][0])
     result_dict['Name']=f"({group},{number})" #计算结果不包含Name，补上
 
-    #等计算器作者把雅的问题修了就删掉这段
-    if(result_dict['Role']=='YA'):
-        result_dict['Time']=1
     return result_dict
 
 def generate_newkf_in_for_vb():
