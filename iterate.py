@@ -113,7 +113,7 @@ def iterate():
 
             info['Turn']+=1
             info_save()
-            print(f"已完成Step 3 Turn {info['Turn']}，用时{end_time-start_time} s！")
+            print(f"已完成Step 5 Turn {info['Turn']}，用时{end_time-start_time} s！")
     
         info['Step']+=1
         info_save()

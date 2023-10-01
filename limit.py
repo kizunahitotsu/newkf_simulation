@@ -97,9 +97,10 @@ def get_gear_list_weak_limit(role):
     if(total):
         for item in stats[role]['Gear']:
             f=stats[role]['Gear'][item]
-            p=f/total+2/3
-            if(p>1):
+            if(f):
                 p=1
+            else:
+                p=0.5
             
             x=random.random()
             if(x<=p):
@@ -124,9 +125,10 @@ def get_aura_list_weak_limit(role):
     if(total):
         for item in stats[role]['Aura']:
             f=stats[role]['Aura'][item]
-            p=f/total+2/3
-            if(p>1):
+            if(f):
                 p=1
+            else:
+                p=0.5
             
             x=random.random()
             if(x<=p):
@@ -142,29 +144,44 @@ def get_attr_range_weak_limit(role):
     弱限制：获取role所受的minattr和maxattr限制列表（返回元组）
     '''
     stats=stats_load()
-    
-    #获取最大点数
-    level=option['Global variable']['Card']['Level']
-    quality=option['Global variable']['Card']['Quality']
-    point=int((3*level+6)*(1+0.01*quality))
 
     minattr=[]
     maxattr=[]
     for item in stats[role]['Attr']:
-        attr=stats[role]['Attr'][item]
+        attr_min=stats[role]['Attr'][item][0]
+        attr_max=stats[role]['Attr'][item][1]
+        #人为分为500，1000，1500三段
+        if(attr_min<490):
+            attr_min=1
+        elif(attr_min<990):
+            attr_min=490
+        elif(attr_min<1490):
+            attr_min=990
+        else:
+            attr_min=1490
+        
+        if(attr_max>=1500):
+            attr_max=0
+        elif(attr_max>=1000):
+            attr_max=1500
+        elif(attr_max>=500):
+            attr_max=1000
+        else:
+            attr_max=500
+
         x=random.random()
-        if(x<=1/3): #1/3概率
-            minattr.append(int((1+attr[0])/2))
+        if(x<=0.5): #0.5概率
+            minattr.append(attr_min)
         else:
             minattr.append(1)
         
         y=random.random()
-        if(y<=1/3): #1/3概率
-            maxattr.append(int((point+attr[1])/2))
+        if(y<=0.5): #0.5概率
+            maxattr.append(attr_max)
         else:
             maxattr.append(0)
 
-        del attr
+        del attr_min,attr_max
     
     attr_range=(minattr,maxattr)
     return attr_range
