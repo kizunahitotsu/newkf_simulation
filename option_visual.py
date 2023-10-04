@@ -34,6 +34,7 @@ lib={
         'VULTURE':{'Position':'Hand','Myst':True},
         'RING':{'Position':'Hand','Myst':'WU'},
         'DEVOUR':{'Position':'Hand','Myst':'MING'},
+        'REFRACT':{'Position':'Hand','Myst':'MIN'},
 
         #'PLATE':{'Position':'Body','Myst':False},
         #'LEATHER':{'Position':'Body','Myst':False},
@@ -48,6 +49,7 @@ lib={
         'TIARA':{'Position':'Head','Myst':'MENG'},
         'RIBBON':{'Position':'Head','Myst':'LIN'},
         'HUNT':{'Position':'Head','Myst':'WEI'},
+        'FIERCE':{'Position':'Head','Myst':'YA'},
     },
     'Aura':{
         'SHI':0,
@@ -90,7 +92,7 @@ option={
     'Iteration':{
         'Turns':300,
         'Threads':12,
-        'Seedmax':30000,
+        'Seedmax':10000,
         'Tests_apc':10, #citest=0时test才生效
         'Citest_apc':20,
         'Tests_vb':10000,
