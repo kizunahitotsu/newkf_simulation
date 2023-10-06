@@ -86,6 +86,39 @@ def stats_load():
     
     return stats
 
+def get_gear_list_no_limit(role):
+    '''
+    无限制：获取role所使用的装备列表，返回形如(item,0/1)组成的列表
+    '''
+    gear_list=[]
+
+    for item in lib['Gear']:
+        gear_list.append((item,0))
+        if(lib['Gear'][item]['Myst']==True or lib['Gear'][item]['Myst']==role):
+            gear_list.append((item,1))
+
+    return gear_list
+
+def get_aura_list_no_limit(role):
+    '''
+    无限制：获取role所使用的光环列表
+    '''
+    aura_list=[]
+    for item in lib['Aura']:
+        aura_list.append(item)
+
+    return aura_list
+
+def get_attr_range_no_limit(role):
+    '''
+    无限制：获取role所受的minattr和maxattr限制列表（返回元组）
+    '''
+    minattr=[1,1,1,1,1,1]
+    maxattr=[0,0,0,0,0,0]
+    attr_range=(minattr,maxattr)
+
+    return attr_range
+
 def get_gear_list_weak_limit(role):
     '''
     弱限制：获取role所使用的装备列表，返回形如(item,0/1)组成的列表
@@ -170,13 +203,13 @@ def get_attr_range_weak_limit(role):
             attr_max=500
 
         x=random.random()
-        if(x<=0.5): #0.5概率
+        if(x<=0.3): #0.5概率
             minattr.append(attr_min)
         else:
             minattr.append(1)
         
         y=random.random()
-        if(y<=0.5): #0.5概率
+        if(y<=0.3): #0.5概率
             maxattr.append(attr_max)
         else:
             maxattr.append(0)

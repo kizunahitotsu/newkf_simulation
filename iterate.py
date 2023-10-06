@@ -76,6 +76,7 @@ def iterate():
         #初始化
         if(info['Turn']==0):
             iteration_process.set_weight()
+            calculate.generate_newkf_in_for_vb()
             iteration_process.generate_win_rate_table()
             iteration_process.record_turn0()
         

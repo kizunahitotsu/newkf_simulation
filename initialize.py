@@ -125,9 +125,9 @@ def generate_data(group:int):
         data['Weapon']['Percentage']=gear['Percentage']
     
     hand=random.choice(hand_list)
-    data['Head']['Type']=hand[0]
-    data['Head']['Level']=gear['Level']
-    data['Head']['Myst']=hand[1]
+    data['Hand']['Type']=hand[0]
+    data['Hand']['Level']=gear['Level']
+    data['Hand']['Myst']=hand[1]
     if(hand[1]):
         data['Head']['Percentage']=gear['Myst percentage']
     else:

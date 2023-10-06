@@ -35,9 +35,9 @@ def set_weight():
     '''
     设定pc在迭代中选择的权重
     '''
-    #暂定权重=pc数量*2=200
+    #暂定权重=pc数量=100
     for pc in pc_list:
-        pc['Parameter']['Weight']=option_visual.sum_size*2
+        pc['Parameter']['Weight']=option_visual.sum_size
     
     pc_list_save()
 

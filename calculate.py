@@ -266,10 +266,9 @@ def apc_all(group,number,limit=no_limit):
     result_win_rate_list=[]
     for role in lib['Role']:
         if(lib['Role'][role]['Time']):
-            '''暂时不算白天雅
             generate_newkf_in_for_apc(group,number,role,time=0,limit=limit)
             apc()
-            result_win_rate_list.append(apc_result())'''
+            result_win_rate_list.append(apc_result())
 
             generate_newkf_in_for_apc(group,number,role,time=1,limit=limit)
             apc()
