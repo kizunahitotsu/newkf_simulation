@@ -91,8 +91,8 @@ lib={
 option={
     'Iteration':{
         'Turns':300,
-        'Threads':12,
-        'Seedmax':15000,
+        'Threads':8,
+        'Seedmax':30000,
         'Tests_apc':10, #citest=0时test才生效
         'Citest_apc':20,
         'Tests_vb':10000,
